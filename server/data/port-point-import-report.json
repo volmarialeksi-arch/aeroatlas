@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T22:44:15.327Z",
+  "generatedAt": "2026-08-16T22:45:18.636Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -275,16 +275,15 @@
     },
     "JFK": {
       "iata": "JFK",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
-      "attempts": 8,
-      "lastAttempt": "2026-08-16T22:42:13.879Z",
+      "status": "SUCCESS",
+      "pointsFound": 297,
+      "attempts": 5,
+      "lastAttempt": "2026-08-16T22:44:16.508Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 40.6413,
         "lon": -73.7781
-      },
-      "error": "All 8 attempts failed for JFK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "LAX": {
       "iata": "LAX",
