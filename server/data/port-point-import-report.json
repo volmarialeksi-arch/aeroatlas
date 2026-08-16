@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T21:01:10.273Z",
+  "generatedAt": "2026-08-16T21:03:13.403Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -266,7 +266,7 @@
       "status": "RATE_LIMITED",
       "pointsFound": 0,
       "attempts": 8,
-      "lastAttempt": "2026-08-16T20:59:07.978Z",
+      "lastAttempt": "2026-08-16T21:01:11.348Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 28.4312,
