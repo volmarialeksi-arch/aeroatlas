@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T21:41:04.271Z",
+  "generatedAt": "2026-08-16T21:43:29.287Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -263,16 +263,15 @@
   "airports": {
     "MCO": {
       "iata": "MCO",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
+      "status": "SUCCESS",
+      "pointsFound": 311,
       "attempts": 8,
-      "lastAttempt": "2026-08-16T21:38:59.771Z",
+      "lastAttempt": "2026-08-16T21:41:05.338Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 28.4312,
         "lon": -81.3081
-      },
-      "error": "All 8 attempts failed for MCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "JFK": {
       "iata": "JFK",
