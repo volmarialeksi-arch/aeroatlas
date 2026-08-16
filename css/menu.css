@@ -1,0 +1,183 @@
+  /* ---------- Brand panel: optional airline logo chip ---------- */
+  .brand-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+  }
+  .brand-logo svg { display: block; }
+
+  /* ---------- Main menu overlay ---------- */
+  .main-menu-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:
+      radial-gradient(ellipse at top, rgba(242,179,61,0.08), transparent 60%),
+      linear-gradient(180deg, #0a111d 0%, #060a12 100%);
+  }
+  .main-menu-overlay.visible { display: flex; }
+
+  .main-menu-panel {
+    width: 340px;
+    max-width: calc(100vw - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .main-menu-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+  }
+  .main-menu-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+    margin-top: 8px;
+  }
+  .main-menu-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber-dim);
+  }
+
+  .main-menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .main-menu-btn {
+    width: 100%;
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: 1px solid var(--navy-line);
+    background: rgba(255,255,255,0.03);
+    color: var(--ink);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    cursor: pointer;
+    transition: filter 0.15s ease, background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  }
+  .main-menu-btn:hover:not(:disabled) {
+    background: rgba(242,179,61,0.08);
+    border-color: var(--amber-dim);
+  }
+  .main-menu-btn:active:not(:disabled) { transform: translateY(1px); }
+  .main-menu-btn.primary {
+    background: var(--amber);
+    color: #23180a;
+    border-color: transparent;
+  }
+  .main-menu-btn.primary:hover:not(:disabled) { filter: brightness(1.08); background: var(--amber); }
+  .main-menu-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  /* Both modals can be opened from on top of the main menu (z-index 3000),
+     so they need to sit above it rather than the shop-overlay default. */
+  #wizardOverlay, #howToOverlay { z-index: 3100; }
+
+  /* ---------- New-game wizard ---------- */
+  .wizard-modal { width: 400px; }
+  .wizard-label {
+    display: block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .wizard-optional {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--ink-dim);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .wizard-input {
+    width: 100%;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    color: var(--ink);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+  .wizard-input:focus {
+    outline: none;
+    border-color: var(--amber-dim);
+  }
+  .wizard-hint {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-dim);
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+  .wizard-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .logo-swatch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    background: rgba(255,255,255,0.03);
+    border: 1.5px solid var(--navy-line);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+    padding: 0;
+  }
+  .logo-swatch:hover { border-color: var(--amber-dim); }
+  .logo-swatch.selected { border-color: var(--amber); background: rgba(242,179,61,0.08); }
+  .logo-swatch.logo-none {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    color: var(--ink-dim);
+    letter-spacing: 0.03em;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* ---------- How to Play ---------- */
+  .how-to-body p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--ink-dim);
+    margin: 0 0 12px;
+  }
+  .how-to-body p:last-child { margin-bottom: 0; }
+  .how-to-body b { color: var(--ink); }
+
+  @media (max-width: 480px) {
+    .main-menu-panel { width: 100%; }
+    .wizard-modal { width: 100%; }
+  }

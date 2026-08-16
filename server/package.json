@@ -1,0 +1,14 @@
+{
+  "name": "aeroatlas-server",
+  "version": "1.0.0",
+  "description": "Minimal persistent backend for AeroAtlas global port points (GET/POST/DELETE + Socket.IO broadcast). Also serves the game's static files.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}

@@ -1,0 +1,316 @@
+  /* ---------- Marker (Google-pin shape w/ plane) ---------- */
+  .pin-wrap {
+    /* Fill whatever size the divIcon container is given (set from
+       airportMarkerScale in makeIcon()) instead of a fixed 34x46px — a
+       fixed size here meant the marker size slider only resized the
+       (invisible) icon container while the visible pin stayed constant,
+       which showed up as the pin drifting up/down rather than actually
+       growing or shrinking. */
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform-origin: 50% 100%;
+    transition: transform 0.15s ease;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5));
+  }
+  .pin-marker:hover .pin-wrap { transform: scale(1.15) translateY(-2px); }
+  .pin-marker.active .pin-wrap { transform: scale(1.22) translateY(-3px); }
+  .pin-marker.owned .pin-wrap .pin-body { fill: #4caf6d; }
+
+  .buy-section {
+    border-top: 1px dashed var(--navy-line);
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+  .buy-price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .buy-price-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .buy-price-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--amber);
+  }
+  .buy-btn {
+    width: 100%;
+    background: var(--amber);
+    color: #23180a;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: filter 0.15s ease, transform 0.1s ease;
+  }
+  .buy-btn:hover { filter: brightness(1.08); }
+  .buy-btn:active { transform: translateY(1px); }
+  .buy-btn:disabled {
+    background: var(--navy-line);
+    color: var(--ink-dim);
+    cursor: not-allowed;
+  }
+  .owned-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(76, 175, 109, 0.14);
+    border: 1px solid rgba(76, 175, 109, 0.4);
+    color: #4caf6d;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .buy-error {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--alert);
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .shop-error {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--alert);
+    text-align: center;
+    padding: 0 20px;
+    display: none;
+  }
+  .shop-error.visible { display: block; margin-top: 10px; }
+
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 4px 8px;
+    background: rgba(242, 179, 61, 0.12);
+    border: 1px solid var(--amber-dim);
+    color: var(--amber);
+  }
+  .tier-info-row {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+  .tier-info-row b { color: var(--ink); }
+
+
+  /* Route drawing toolbar */
+  .route-toolbar {
+    position: absolute;
+    left: 50%;
+    bottom: 92px;
+    transform: translateX(-50%);
+    z-index: 1500;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: rgba(var(--panel-bg-rgb), 0.92);
+    border: 1px solid var(--navy-line);
+    border-radius: 12px;
+    padding: 12px 16px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    min-width: 280px;
+  }
+  .route-toolbar.visible { display: flex; }
+  .route-toolbar-hint {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+    text-align: center;
+  }
+  .route-toolbar-row { display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 10px; }
+  .route-taxiway-status {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-align: center;
+    color: var(--ink-dim);
+    letter-spacing: 0.02em;
+  }
+  .route-taxiway-status.loading { color: var(--ink-dim); }
+  .route-taxiway-status.success { color: #4caf6d; }
+  .route-taxiway-status.failed { color: var(--alert); }
+  .route-distance {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--amber);
+  }
+  .route-distance.over { color: var(--alert); }
+  .route-toolbar-btns { display: flex; gap: 8px; width: 100%; }
+  .route-toolbar-btn {
+    flex: 1;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 7px;
+    border: 1px solid var(--navy-line);
+    background: rgba(255,255,255,0.04);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .route-toolbar-btn:hover { background: rgba(255,255,255,0.08); }
+  .route-toolbar-btn.primary { border-color: var(--amber-dim); color: var(--amber); }
+  .route-toolbar-btn.primary:hover { background: rgba(242,179,61,0.12); }
+  .route-toolbar-btn.danger { border-color: rgba(228,87,46,0.5); color: var(--alert); }
+  .route-toolbar-btn.danger:hover { background: rgba(228,87,46,0.12); }
+  .route-toolbar-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* Route creation: departure-time picker step */
+  .route-time-panel {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    width: 100%;
+  }
+  .route-time-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .route-time-field-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+  }
+  .route-time-input {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--navy-line);
+    border-radius: 6px;
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+  .route-time-estimate {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--amber);
+    text-align: center;
+  }
+  .route-time-error {
+    display: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--alert);
+    text-align: center;
+  }
+
+  /* Draggable route-adjustment handles */
+  .route-vertex-handle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--amber);
+    border: 2px solid #0a111d;
+    box-shadow: 0 0 0 2px rgba(242,179,61,0.35);
+    cursor: grab;
+  }
+  .route-vertex-handle:active { cursor: grabbing; }
+  .route-mid-handle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(242,179,61,0.55);
+    border: 2px solid #0a111d;
+    cursor: grab;
+  }
+  .route-mid-handle:hover { background: var(--amber); }
+  .route-mid-handle:active { cursor: grabbing; }
+
+  .plane-marker-icon { cursor: pointer; }
+  .plane-route-popup .leaflet-popup-content-wrapper {
+    background: linear-gradient(180deg, #0d1728 0%, #0a1220 100%);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    color: var(--ink);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  }
+  .plane-route-popup .leaflet-popup-tip { background: #0a1220; }
+  .plane-route-popup .leaflet-popup-content { margin: 10px 12px; }
+  .plane-route-popup a.leaflet-popup-close-button { color: var(--ink-dim); }
+  .plane-info-row { display: flex; justify-content: space-between; gap: 10px; }
+  .plane-info-row + .plane-info-row { margin-top: 3px; }
+  .plane-follow-btn {
+    margin-top: 8px;
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--navy-line);
+    background: rgba(255,255,255,0.04);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .plane-follow-btn:hover { background: rgba(255,255,255,0.08); }
+  .plane-follow-btn.active { border-color: var(--amber-dim); color: var(--amber); background: rgba(242,179,61,0.12); }
+  /* Short, cheap transition — real smoothness now comes from updating the
+     marker every animation frame (see updateFleetFlights). A short
+     transition just irons out any leftover per-frame jitter without
+     introducing visible lag behind the aircraft's real position. */
+  .plane-rot { transition: transform 0.1s linear; transform-origin: 50% 50%; }
+
+
+  /* ---------- Day/night terminator overlay ---------- */
+  .leaflet-pane.night-pane {
+    pointer-events: none;
+  }
+
+  /* ---------- Runway/gate DEBUG visualization (real data — see
+     js/data/airport-ground-data.js / js/data/runways.js) ---------- */
+  .runway-debug-tooltip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(10,17,29,0.88);
+    color: var(--ink);
+    box-shadow: none;
+    white-space: nowrap;
+  }
+  .runway-debug-tooltip::before { display: none; }
+  .runway-debug-tooltip-gate { color: #7ea8ff; border-color: rgba(126,168,255,0.5); }
+  .runway-debug-tooltip-selected {
+    font-size: 11px;
+    color: #0a111d;
+    background: #ffffff;
+    border-color: #ffffff;
+  }

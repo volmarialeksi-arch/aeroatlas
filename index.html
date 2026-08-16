@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AeroAtlas — World Airport Map</title>
+
+<link rel="stylesheet" href="css/vendor/leaflet.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/map.css">
+<link rel="stylesheet" href="css/panels.css">
+<link rel="stylesheet" href="css/modals.css">
+<link rel="stylesheet" href="css/ui.css">
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- ================= Main menu ================= -->
+<div class="main-menu-overlay" id="mainMenuOverlay">
+  <div class="main-menu-panel">
+    <div class="main-menu-brand">
+      <svg width="52" height="52" viewBox="0 0 30 30" fill="none">
+        <circle cx="15" cy="15" r="14" stroke="#f2b33d" stroke-width="1.4" opacity="0.5"/>
+        <path d="M15 4 L15 26 M4 15 L26 15" stroke="#3a4b63" stroke-width="1"/>
+        <path d="M15 6L16.8 13.2L23 15L16.8 16.8L15 24L13.2 16.8L7 15L13.2 13.2Z" fill="#f2b33d"/>
+      </svg>
+      <div class="main-menu-title">AeroAtlas</div>
+      <div class="main-menu-sub" id="mainMenuSub">World Airport Map</div>
+    </div>
+    <div class="main-menu-buttons">
+      <button type="button" class="main-menu-btn primary" id="menuPlayBtn" disabled title="Start a new game first">Play</button>
+      <button type="button" class="main-menu-btn" id="menuNewGameBtn">Start New Game</button>
+      <button type="button" class="main-menu-btn" id="menuSettingsBtn">Settings</button>
+      <button type="button" class="main-menu-btn" id="menuShopBtn" disabled title="Start a new game first">Shop</button>
+      <button type="button" class="main-menu-btn" id="menuEditPortsBtn" disabled title="Start a new game first">Edit Port Points</button>
+      <button type="button" class="main-menu-btn" id="menuHowToBtn">How to Play</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= New-game wizard: airline name + logo ================= -->
+<div class="shop-overlay" id="wizardOverlay">
+  <div class="shop-modal wizard-modal">
+    <div class="shop-header">
+      <div>
+        <div class="shop-title">Start New Game</div>
+        <div class="shop-sub" id="wizardSub">Step 1 of 2 — Airline name</div>
+      </div>
+      <button class="shop-close" id="wizardClose">✕</button>
+    </div>
+    <div class="shop-body">
+      <div class="wizard-step" id="wizardStepName">
+        <label class="wizard-label" for="airlineNameInput">Airline name</label>
+        <input type="text" id="airlineNameInput" class="wizard-input" placeholder="e.g. Finnair" maxlength="40" autocomplete="off">
+        <div class="wizard-hint">This is the name shown on your routes and tickets — for example, "Finnair — Helsinki → Malaga".</div>
+        <div class="wizard-actions">
+          <button class="route-toolbar-btn primary" id="wizardNameContinue" disabled>Continue</button>
+        </div>
+      </div>
+      <div class="wizard-step" id="wizardStepLogo" style="display:none;">
+        <div class="wizard-label">Choose a logo <span class="wizard-optional">(optional)</span></div>
+        <div class="logo-grid" id="logoGrid"></div>
+        <div class="wizard-hint">You can skip this and add a logo later.</div>
+        <div class="wizard-actions">
+          <button class="route-toolbar-btn" id="wizardLogoBack">Back</button>
+          <button class="route-toolbar-btn primary" id="wizardLogoContinue">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= How to Play ================= -->
+<div class="shop-overlay" id="howToOverlay">
+  <div class="shop-modal">
+    <div class="shop-header">
+      <div><div class="shop-title">How to Play</div></div>
+      <button class="shop-close" id="howToClose">✕</button>
+    </div>
+    <div class="shop-body how-to-body">
+      <p><b>1. Start a new game.</b> Name your airline, optionally pick a logo, then buy your first airport — that's your home base.</p>
+      <p><b>2. Buy aircraft.</b> Open your home airport's Fleet Shop to add planes suited to the routes you want to fly.</p>
+      <p><b>3. Create routes.</b> From an aircraft in storage, pick a destination airport, shape the flight path, then set fares and a daily departure schedule.</p>
+      <p><b>4. Watch it run.</b> Flights operate in real time, even while you're away — progress picks up right where it left off when you return.</p>
+      <p><b>5. Grow your airline.</b> Reinvest profits into more aircraft, new airports, and airport upgrades. Keep an eye on reputation — fair pricing keeps passengers happy.</p>
+    </div>
+  </div>
+</div>
+
+<div class="brand">
+  <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+    <circle cx="15" cy="15" r="14" stroke="#f2b33d" stroke-width="1.4" opacity="0.5"/>
+    <path d="M15 4 L15 26 M4 15 L26 15" stroke="#3a4b63" stroke-width="1"/>
+    <path d="M15 6L16.8 13.2L23 15L16.8 16.8L15 24L13.2 16.8L7 15L13.2 13.2Z" fill="#f2b33d"/>
+  </svg>
+  <div class="brand-text">
+    <div class="brand-title">AeroAtlas</div>
+    <div class="brand-sub" id="brandSub">World Airport Map</div>
+  </div>
+  <span class="brand-logo" id="brandLogo"></span>
+</div>
+
+<div class="money-display">
+  <div class="money-row">
+    <span class="money-icon">$</span>
+    <span class="money-value" id="moneyValue">$100.0M</span>
+  </div>
+  <div class="reputation-row" id="reputationRow" title="Airline reputation — driven by how you price tickets">
+    <span class="reputation-icon">★</span>
+    <span class="reputation-value" id="reputationValue">70</span>
+    <span class="reputation-label" id="reputationLabel">Good</span>
+  </div>
+</div>
+
+<button class="fullscreen-btn" id="fullscreenBtn" type="button" title="Toggle fullscreen" aria-label="Toggle fullscreen">
+  <svg class="icon-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 3H5a2 2 0 0 0-2 2v3"/>
+    <path d="M21 8V5a2 2 0 0 0-2-2h-3"/>
+    <path d="M3 16v3a2 2 0 0 0 2 2h3"/>
+    <path d="M16 21h3a2 2 0 0 0 2-2v-3"/>
+  </svg>
+  <svg class="icon-compress" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 3v3a2 2 0 0 1-2 2H3"/>
+    <path d="M21 8h-3a2 2 0 0 1-2-2V3"/>
+    <path d="M3 16h3a2 2 0 0 1 2 2v3"/>
+    <path d="M16 21v-3a2 2 0 0 1 2-2h3"/>
+  </svg>
+</button>
+
+<button class="settings-btn" id="settingsBtn" type="button" title="Settings" aria-label="Settings">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3"/>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/>
+  </svg>
+</button>
+
+<div class="settings-overlay" id="settingsOverlay">
+  <div class="settings-panel">
+    <div class="settings-head">
+      <span class="settings-title">Settings</span>
+      <button class="shop-close" id="settingsClose">✕</button>
+    </div>
+    <div class="settings-body">
+      <div class="settings-row">
+        <span class="settings-label">Theme</span>
+        <div class="theme-toggle" id="themeToggle">
+          <button type="button" class="theme-toggle-btn" data-theme="dark">Dark</button>
+          <button type="button" class="theme-toggle-btn" data-theme="light">Light</button>
+        </div>
+      </div>
+      <div class="settings-row settings-row-slider">
+        <div class="settings-row-head">
+          <span class="settings-label">Airport marker size</span>
+          <span class="settings-value" id="markerSizeValue">100%</span>
+        </div>
+        <input type="range" class="settings-slider" id="markerSizeSlider" min="50" max="180" step="5" value="100">
+      </div>
+      <div class="settings-row settings-row-slider">
+        <div class="settings-row-head">
+          <span class="settings-label">Airplane size</span>
+          <span class="settings-value" id="planeSizeValue">100%</span>
+        </div>
+        <input type="range" class="settings-slider" id="planeSizeSlider" min="50" max="180" step="5" value="100">
+      </div>
+      <div class="settings-row">
+        <span class="settings-label">Show runways (debug)</span>
+        <label class="settings-checkbox-toggle">
+          <input type="checkbox" id="runwayDebugToggle">
+          <span class="settings-checkbox-slider"></span>
+        </label>
+      </div>
+      <div class="ticket-hint" style="padding:0 2px;">Draws every airport's real runway centerlines/thresholds/IDs, plus taxiways/taxilanes/parking positions/gates/runway exits where real OSM data exists (js/data/airport-ground-data.js). None of that ground data exists yet for any airport — run the OSM importer to populate it.</div>
+    </div>
+  </div>
+</div>
+
+<div class="my-airport-panel" id="myAirportPanel">
+  <span class="my-airport-label">My Airport</span>
+  <div class="my-airport-row">
+    <span class="my-airport-code" id="myAirportCode">—</span>
+  </div>
+  <div class="my-airport-city" id="myAirportCity"></div>
+  <div class="my-airport-time-row">
+    <span id="myAirportTime">--:--</span>
+    <span id="myAirportZone"></span>
+  </div>
+  <button class="my-airport-btn" id="myAirportShowBtn">Show Airport</button>
+</div>
+
+<button class="buy-new-airport-btn" id="buyNewAirportBtn" type="button">✈ Buy New Airport</button>
+
+<div class="buy-panel" id="buyPanel">
+  <div class="search-wrap">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search airport, city or code…" autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <div class="budget-wrap">
+    <div class="budget-head">
+      <span class="budget-label">Budget filter</span>
+      <span class="budget-value" id="budgetValue">$2.00B</span>
+    </div>
+    <input type="range" class="budget-slider" id="budgetSlider" min="0" max="2000000000" step="1000000" value="2000000000">
+    <div class="budget-scale">
+      <span>$0</span>
+      <span>$1B</span>
+      <span>$2B</span>
+    </div>
+  </div>
+</div>
+
+<div class="hint"><b>Tap a pin</b> to see airport details · <b>tap a plane</b> to see its route</div>
+
+<div class="time-hud" id="timeHud">
+  <button class="pause-btn" id="pauseBtn" title="Pause">&#10073;&#10073;</button>
+  <div class="clock-row">
+    <button class="speed-btn" id="speed1Btn" title="1x speed">1x</button>
+    <div class="clock-display">
+      <div class="clock-time" id="clockTime">--:--</div>
+      <div class="clock-phase" id="clockPhase">—</div>
+    </div>
+    <button class="speed-btn" id="speed2Btn" title="2x speed">2x</button>
+  </div>
+</div>
+
+<div class="info-panel" id="infoPanel">
+  <div class="info-head">
+    <span class="info-head-label">Airport Info</span>
+    <button class="info-close" id="infoClose">✕</button>
+  </div>
+  <div class="info-body" id="infoBody"></div>
+</div>
+
+<div class="shop-overlay" id="shopOverlay">
+  <div class="shop-modal">
+    <div class="shop-header">
+      <div>
+        <div class="shop-title">Fleet Shop</div>
+        <div class="shop-sub" id="shopSub">—</div>
+      </div>
+      <button class="shop-close" id="shopClose">✕</button>
+    </div>
+    <div class="shop-error" id="shopError"></div>
+    <div class="shop-body" id="shopBody"></div>
+  </div>
+</div>
+
+<div class="shop-overlay" id="upgradeOverlay">
+  <div class="shop-modal">
+    <div class="shop-header">
+      <div>
+        <div class="shop-title">Upgrade Airport</div>
+        <div class="shop-sub" id="upgradeSub">—</div>
+      </div>
+      <button class="shop-close" id="upgradeClose">✕</button>
+    </div>
+    <div class="shop-body" id="upgradeBody"></div>
+  </div>
+</div>
+
+<div class="route-toolbar" id="editPortToolbar">
+  <div class="route-toolbar-hint" id="editPortToolbarHint">Click an airport to edit its port points.</div>
+  <div class="route-taxiway-status" id="editPortTaxiwayStatus" style="display:none;"></div>
+  <div class="route-toolbar-btns" id="editPortToolbarBtns">
+    <button class="route-toolbar-btn" id="editPortDebugBtn" style="display:none;">Show taxi graph debug</button>
+    <button class="route-toolbar-btn" id="editPortImportRealBtn">Import Real Airport Stands</button>
+    <button class="route-toolbar-btn" id="editPortCopyAllBtn">Copy All</button>
+    <button class="route-toolbar-btn" id="editPortChangeAirportBtn">Change airport</button>
+    <button class="route-toolbar-btn danger" id="editPortDoneBtn">Exit editing</button>
+  </div>
+</div>
+
+<div class="route-toolbar" id="routeToolbar">
+  <div class="route-toolbar-hint" id="routeToolbarHint">Click the airport you want to fly to.</div>
+  <div class="route-taxiway-status" id="routeTaxiwayStatus" style="display:none;"></div>
+  <div class="route-toolbar-row" id="routeDistanceRow">
+    <span class="route-toolbar-hint" style="text-align:left;">Distance</span>
+    <span class="route-distance" id="routeDistance">0 NM</span>
+  </div>
+  <div class="route-toolbar-btns" id="routeToolbarBtns">
+    <button class="route-toolbar-btn" id="routeUndoBtn">Undo point</button>
+    <button class="route-toolbar-btn danger" id="routeCancelBtn">Cancel</button>
+    <button class="route-toolbar-btn primary" id="routeDoneBtn">Done</button>
+  </div>
+  <div class="route-time-panel" id="routeTimePanel">
+    <label class="route-time-field">
+      <span class="route-time-field-label" id="routeTimeLabel">Departure time</span>
+      <input type="time" id="routeTimeInput" class="route-time-input" value="08:00">
+    </label>
+    <div class="route-time-estimate" id="routeTimeEstimate">—</div>
+    <div class="route-time-error" id="routeTimeError"></div>
+  </div>
+  <div class="route-toolbar-btns" id="routeTimeBtns">
+    <button class="route-toolbar-btn" id="routeTimeBackBtn">Back</button>
+    <button class="route-toolbar-btn danger" id="routeTimeCancelBtn">Cancel</button>
+    <button class="route-toolbar-btn primary" id="routeTimeNextBtn">Next</button>
+  </div>
+</div>
+
+<div class="ticket-overlay" id="ticketOverlay">
+  <div class="ticket-modal">
+    <div class="ticket-modal-head">
+      <div>
+        <div class="ticket-modal-title">Tickets, Runways &amp; Gates</div>
+        <div class="ticket-modal-sub" id="ticketModalSub">—</div>
+      </div>
+      <button class="shop-close" id="ticketClose">✕</button>
+    </div>
+    <div class="ticket-modal-body" id="ticketModalBody"></div>
+    <div class="ticket-modal-actions">
+      <button class="route-toolbar-btn danger" id="ticketCancelBtn">Discard route</button>
+      <button class="route-toolbar-btn primary" id="ticketSaveBtn">Publish Route</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     Scripts — classic (non-module) <script> tags sharing one global
+     scope, loaded in dependency order (same approach the original
+     single-file game used, just split across files). See js/main.js
+     for the two spots where load order actually matters. ================================================================ -->
+
+<!-- Vendor -->
+<script src="js/vendor/leaflet.js"></script>
+
+<!-- Static data (no dependencies) -->
+<script src="js/data/aircraft-images.js"></script>
+<script src="js/data/airports.js"></script>
+<script src="js/data/airport-ground-data.js"></script>
+<script src="js/data/runways.js"></script>
+<script src="js/data/taxi-graph.js"></script>
+<script src="js/data/osm-taxiway-fetch.js"></script>
+<script src="js/data/aircraft-catalog.js"></script>
+<script src="js/data/aircraft-performance.js"></script>
+<script src="js/data/upgrades-catalog.js"></script>
+<script src="js/data/airline-logos.js"></script>
+
+<!-- Core math / model helpers (no DOM dependencies) -->
+<script src="js/core/geo.js"></script>
+<script src="js/core/speed-model.js"></script>
+<script src="js/core/tiers.js"></script>
+<script src="js/core/economy.js"></script>
+
+<!-- Map + player state -->
+<script src="js/map/map-init.js"></script>
+<script src="js/map/markers.js"></script>
+<script src="js/state.js"></script>
+
+<!-- UI chrome -->
+<script src="js/ui/fullscreen.js"></script>
+
+<!-- Fleet / aircraft systems -->
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script src="js/systems/fleet.js"></script>
+<script src="js/systems/planes.js"></script>
+<script src="js/systems/routes.js"></script>
+<script src="js/systems/runway-debug.js"></script>
+<script src="js/systems/tickets.js"></script>
+<script src="js/systems/port-points-sync.js"></script>
+<script src="js/systems/port-editor.js"></script>
+<script src="js/systems/shop.js"></script>
+<script src="js/systems/upgrade-shop.js"></script>
+<script src="js/systems/airport-panel.js"></script>
+<script src="js/systems/fleet-tick.js"></script>
+<script src="js/systems/day-night-clock.js"></script>
+
+<!-- Save / load -->
+<script src="js/save.js"></script>
+
+<!-- Remaining UI chrome -->
+<script src="js/ui/buy-panel.js"></script>
+<script src="js/ui/search.js"></script>
+<script src="js/ui/settings-panel.js"></script>
+<script src="js/ui/main-menu.js"></script>
+
+<!-- Bootstrap (must load last — see js/main.js) -->
+<script src="js/main.js"></script>
+</body>
+</html>

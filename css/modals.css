@@ -1,0 +1,329 @@
+  /* Shop modal */
+  .shop-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background: rgba(5,9,16,0.68);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+  }
+  .shop-overlay.visible { display: flex; }
+  .shop-modal {
+    width: 380px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    background: linear-gradient(180deg, #0d1728 0%, #0a1220 100%);
+    border: 1px solid var(--navy-line);
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+  }
+  .shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: var(--navy-panel);
+    border-bottom: 1px solid var(--navy-line);
+    position: sticky;
+    top: 0;
+  }
+  .shop-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .shop-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--amber-dim);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .shop-close {
+    background: none;
+    border: none;
+    color: var(--ink-dim);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
+  .shop-close:hover { color: var(--ink); background: rgba(255,255,255,0.06); }
+  .shop-body { padding: 16px; }
+  .aircraft-card {
+    display: flex;
+    gap: 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .aircraft-thumb {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(242,179,61,0.06);
+    border-radius: 8px;
+  }
+  .aircraft-thumb svg { width: 52px; height: 52px; }
+  .aircraft-details { flex: 1; min-width: 0; }
+  .aircraft-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--ink);
+    margin-bottom: 3px;
+  }
+  .aircraft-specs {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-dim);
+    line-height: 1.55;
+    margin-bottom: 8px;
+  }
+  .aircraft-price {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--amber);
+    margin-bottom: 8px;
+  }
+  .aircraft-buy-btn {
+    width: 100%;
+    background: var(--amber);
+    color: #23180a;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  .aircraft-buy-btn:hover { filter: brightness(1.08); }
+  .aircraft-buy-btn:disabled { background: var(--navy-line); color: var(--ink-dim); cursor: not-allowed; }
+
+
+  /* Ticket / schedule modal */
+  .ticket-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2100;
+    background: rgba(5,9,16,0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+  }
+  .ticket-overlay.visible { display: flex; }
+  .ticket-modal {
+    width: 420px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    background: linear-gradient(180deg, #0d1728 0%, #0a1220 100%);
+    border: 1px solid var(--navy-line);
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+  }
+  .ticket-modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: var(--navy-panel);
+    border-bottom: 1px solid var(--navy-line);
+    position: sticky;
+    top: 0;
+  }
+  .ticket-modal-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .ticket-modal-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--amber-dim);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .ticket-modal-body { padding: 16px; }
+  .ticket-section {
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    background: rgba(255,255,255,0.03);
+  }
+  .ticket-section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .ticket-fare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .ticket-fare-grid label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-dim);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .ticket-fare-grid input,
+  .ticket-fare-grid select,
+  .ticket-schedule-row input[type="time"] {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--navy-line);
+    border-radius: 6px;
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 6px 8px;
+    width: 100%;
+  }
+  .ticket-fare-grid select:disabled {
+    opacity: 0.65;
+  }
+  .ticket-schedule-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+  }
+  .ticket-schedule-row label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .ticket-hint {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-dim);
+    margin-top: 4px;
+  }
+  .demand-estimate {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.03em;
+    color: var(--ink-dim);
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--navy-line);
+  }
+  .demand-estimate .demand-bar {
+    flex: 1 1 auto;
+    height: 6px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.08);
+    overflow: hidden;
+  }
+  .demand-estimate .demand-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: #45c76b;
+    transition: width 0.15s ease, background 0.15s ease;
+  }
+  .demand-estimate.demand-warn .demand-bar-fill { background: var(--amber); }
+  .demand-estimate.demand-bad .demand-bar-fill { background: var(--alert); }
+  .demand-estimate .demand-text { flex-shrink: 0; white-space: nowrap; }
+  .ticket-modal-actions {
+    display: flex;
+    gap: 8px;
+    padding: 14px 16px;
+    border-top: 1px solid var(--navy-line);
+    position: sticky;
+    bottom: 0;
+    background: var(--navy-panel);
+  }
+
+  .money-display {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 9px 14px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  }
+  .money-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    pointer-events: none;
+  }
+  .reputation-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 7px;
+    border-top: 1px solid var(--navy-line);
+    pointer-events: none;
+  }
+  .reputation-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.06);
+  }
+  .reputation-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  .reputation-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .reputation-row.rep-great .reputation-value,
+  .reputation-row.rep-great .reputation-icon { color: #45c76b; }
+  .reputation-row.rep-good .reputation-value,
+  .reputation-row.rep-good .reputation-icon { color: var(--amber); }
+  .reputation-row.rep-fair .reputation-value,
+  .reputation-row.rep-fair .reputation-icon { color: #d9a441; }
+  .reputation-row.rep-poor .reputation-value,
+  .reputation-row.rep-poor .reputation-icon { color: #e08a3d; }
+  .reputation-row.rep-bad .reputation-value,
+  .reputation-row.rep-bad .reputation-icon { color: var(--alert); }
+

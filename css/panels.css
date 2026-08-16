@@ -1,0 +1,583 @@
+  /* ---------- Shop / storage / route-drawing (new) ---------- */
+  .shop-open-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--amber-dim);
+    color: var(--amber);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 9px 12px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    margin-top: 4px;
+  }
+  .shop-open-btn:hover { background: rgba(242,179,61,0.12); }
+  .shop-open-btn.upgrade-btn { border-color: rgba(76,175,109,0.5); color: #4caf6d; }
+  .shop-open-btn.upgrade-btn:hover { background: rgba(76,175,109,0.12); }
+
+  .comfort-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .comfort-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .comfort-pct {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4caf6d;
+  }
+  .comfort-bar {
+    height: 7px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.08);
+    overflow: hidden;
+  }
+  .comfort-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #2f8f52, #4caf6d);
+    transition: width 0.3s ease;
+  }
+
+  .storage-section {
+    border-top: 1px dashed var(--navy-line);
+    margin-top: 14px;
+    padding-top: 12px;
+  }
+  .storage-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .storage-empty {
+    font-size: 12px;
+    color: var(--ink-dim);
+    padding: 6px 0 2px;
+  }
+  .storage-item {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    padding: 9px 10px;
+    margin-bottom: 8px;
+  }
+  .storage-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  .storage-item-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .storage-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .storage-badge.parked { background: rgba(143,160,184,0.14); color: var(--ink-dim); border: 1px solid var(--navy-line); }
+  .storage-badge.flying { background: rgba(76,175,109,0.14); color: #4caf6d; border: 1px solid rgba(76,175,109,0.4); }
+  .storage-badge.grounded { background: rgba(228,87,46,0.14); color: var(--alert); border: 1px solid rgba(228,87,46,0.4); }
+  .storage-route-info {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+  .storage-route-info b { color: var(--amber); font-weight: 700; }
+  .storage-actions { display: flex; gap: 6px; }
+  .route-btn {
+    flex: 1;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 7px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--amber-dim);
+    background: transparent;
+    color: var(--amber);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .route-btn:hover { background: rgba(242,179,61,0.12); }
+  .route-btn.danger { border-color: rgba(228,87,46,0.5); color: var(--alert); }
+  .route-btn.danger:hover { background: rgba(228,87,46,0.12); }
+  .service-warn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--alert);
+    margin-bottom: 6px;
+  }
+
+
+  /* ---------- My Airport panel (top-right, under money) ---------- */
+  .my-airport-panel {
+    position: absolute;
+    top: 100px;
+    right: 18px;
+    z-index: 1050;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    width: 176px;
+    background: rgba(var(--panel-bg-rgb), 0.88);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 10px 12px 11px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  }
+  .my-airport-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--amber-dim);
+    text-transform: uppercase;
+  }
+  .my-airport-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .my-airport-code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--amber);
+  }
+  .my-airport-city {
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px;
+    color: var(--ink-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .my-airport-time-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .my-airport-time-row #myAirportTime {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .my-airport-time-row #myAirportZone {
+    font-size: 10px;
+    color: var(--ink-dim);
+    letter-spacing: 0.06em;
+  }
+  .my-airport-btn {
+    margin-top: 2px;
+    width: 100%;
+    border: 1px solid var(--amber-dim);
+    background: transparent;
+    color: var(--amber);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .my-airport-btn:hover {
+    background: var(--amber);
+    color: #241a04;
+  }
+  .money-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #ffd97a, #f2b33d 60%, #b9862a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 11px;
+    color: #3a2a06;
+    flex-shrink: 0;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+  }
+  .money-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--amber);
+  }
+
+  /* ---------- Budget slider ---------- */
+  .budget-wrap {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 320px;
+    max-width: calc(100vw - 36px);
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 10px 14px 12px;
+    backdrop-filter: blur(6px);
+  }
+  .budget-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .budget-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .budget-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--amber);
+  }
+  .budget-slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--amber) 0%, var(--amber) var(--fill, 100%), var(--navy-line) var(--fill, 100%), var(--navy-line) 100%);
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+  }
+  .budget-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--amber);
+    border: 2px solid #0a111d;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgba(242,179,61,0.4);
+  }
+  .budget-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--amber);
+    border: 2px solid #0a111d;
+    cursor: pointer;
+  }
+  .budget-scale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    color: var(--ink-dim);
+    letter-spacing: 0.04em;
+  }
+
+  .leaflet-marker-icon.price-hidden {
+    display: none !important;
+  }
+
+  /* ---------- Buy New Airport button (main map) ---------- */
+  .buy-new-airport-btn {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: var(--amber);
+    color: #23180a;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    padding: 11px 18px;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    transition: filter 0.15s ease, transform 0.15s ease;
+  }
+  .buy-new-airport-btn:hover { filter: brightness(1.08); }
+  .buy-new-airport-btn:active { transform: translateX(-50%) translateY(1px); }
+
+  /* ---------- Buy New Airport panel (floating on the main map) ---------- */
+  .buy-panel {
+    display: none;
+  }
+  .buy-panel.visible {
+    display: block;
+  }
+
+  @media (max-width: 560px) {
+    .buy-new-airport-btn { font-size: 12px; padding: 9px 14px; }
+  }
+
+  /* ---------- Departure-board info panel ---------- */
+  .info-panel {
+    position: absolute;
+    z-index: 1100;
+    top: 78px;
+    right: 18px;
+    width: 300px;
+    max-width: calc(100vw - 36px);
+    /* Cap the panel's height to the viewport and let its body scroll —
+       owned airports can grow a long fleet/storage list underneath the
+       normal airport details, which used to just overflow off-screen. */
+    max-height: calc(100vh - 96px);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #0d1728 0%, #0a1220 100%);
+    border: 1px solid var(--navy-line);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.55), 0 0 0 1px rgba(242,179,61,0.04);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+  }
+  .info-panel.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .info-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    background: var(--navy-panel);
+    border-bottom: 1px solid var(--navy-line);
+    flex-shrink: 0;
+  }
+  .info-head-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    color: var(--amber-dim);
+    text-transform: uppercase;
+  }
+  .info-close {
+    background: none;
+    border: none;
+    color: var(--ink-dim);
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
+  .info-close:hover { color: var(--ink); background: rgba(255,255,255,0.06); }
+
+  .info-body { padding: 16px 16px 18px; overflow-y: auto; overflow-x: hidden; }
+
+  .code-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .code-chip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    color: var(--amber);
+    background: #1a2740;
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    padding: 6px 12px;
+    flex: 1;
+    text-align: center;
+  }
+  .code-chip.icao { font-size: 16px; color: var(--ink); }
+  .code-chip .code-tag {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.14em;
+    color: var(--ink-dim);
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .airport-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--ink);
+    margin: 0 0 4px;
+    line-height: 1.25;
+  }
+  .airport-loc {
+    font-size: 13px;
+    color: var(--ink-dim);
+    margin-bottom: 14px;
+  }
+
+  .local-time-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(242, 179, 61, 0.06);
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+  }
+  .local-time-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .local-time-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--amber);
+  }
+  .local-time-zone {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--ink-dim);
+    letter-spacing: 0.04em;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 12px;
+    border-top: 1px dashed var(--navy-line);
+    padding-top: 12px;
+  }
+  .info-field-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .info-field-value {
+    font-size: 13px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* ---------- Search ---------- */
+  .search-wrap {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 260px;
+    max-width: calc(100vw - 36px);
+  }
+  .search-input {
+    width: 100%;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding: 11px 14px;
+    outline: none;
+    backdrop-filter: blur(6px);
+  }
+  .search-input::placeholder { color: var(--ink-dim); }
+  .search-input:focus { border-color: var(--amber-dim); }
+
+  .search-results {
+    margin-top: 6px;
+    background: rgba(var(--panel-bg-rgb), 0.92);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    max-height: 220px;
+    overflow-y: auto;
+    display: none;
+  }
+  .search-results.show { display: block; }
+  .search-result-item {
+    padding: 8px 14px;
+    font-size: 12px;
+    color: var(--ink-dim);
+    cursor: pointer;
+    border-bottom: 1px solid var(--navy-line);
+    display: flex;
+    justify-content: space-between;
+  }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: rgba(242,179,61,0.08); color: var(--ink); }
+  .search-result-item .sr-code {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  .leaflet-control-zoom { border: none !important; margin-top: 90px !important; }
+  .leaflet-control-zoom a {
+    background: rgba(var(--panel-bg-rgb), 0.85) !important;
+    color: var(--ink) !important;
+    border: 1px solid var(--navy-line) !important;
+  }
+  .leaflet-control-zoom a:hover { background: rgba(242,179,61,0.12) !important; }
+  .leaflet-control-attribution {
+    background: rgba(var(--panel-bg-rgb), 0.7) !important;
+    color: var(--ink-dim) !important;
+  }
+  .leaflet-control-attribution a { color: var(--amber-dim) !important; }
+
+  @media (max-width: 560px) {
+    .info-panel { top: auto; bottom: 16px; right: 12px; left: 12px; width: auto; }
+    .search-wrap { width: calc(100vw - 36px); }
+    .brand-title { font-size: 15px; }
+    .money-display { padding: 7px 11px; }
+    .money-value { font-size: 13px; }
+    .budget-wrap { width: calc(100vw - 36px); top: 180px; }
+    .my-airport-panel { top: 92px; width: 148px; padding: 8px 10px 9px; }
+    .reputation-value { font-size: 13px; }
+    .fullscreen-btn { bottom: 14px; right: 14px; width: 34px; height: 34px; }
+    .settings-btn { bottom: 60px; right: 14px; width: 34px; height: 34px; }
+  }
+

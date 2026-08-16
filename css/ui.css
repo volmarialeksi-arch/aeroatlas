@@ -1,0 +1,288 @@
+  /* ---------- Fullscreen toggle ---------- */
+  .fullscreen-btn {
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    z-index: 1050;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    cursor: pointer;
+    color: var(--ink);
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .fullscreen-btn:hover {
+    background: rgba(242,179,61,0.12);
+    border-color: var(--amber-dim);
+  }
+  .fullscreen-btn svg { width: 18px; height: 18px; }
+  .fullscreen-btn .icon-compress { display: none; }
+  .fullscreen-btn.is-fullscreen .icon-expand { display: none; }
+  .fullscreen-btn.is-fullscreen .icon-compress { display: block; }
+
+
+  /* ---------- Settings button + panel ---------- */
+  .settings-btn {
+    position: absolute;
+    bottom: 64px;
+    right: 18px;
+    z-index: 1050;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .settings-btn svg { width: 18px; height: 18px; }
+  .settings-btn:hover { border-color: var(--amber-dim); color: var(--amber); }
+
+  .settings-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(3px);
+  }
+  .settings-overlay.visible { display: flex; }
+  .settings-panel {
+    width: 340px;
+    max-width: calc(100vw - 32px);
+    background: linear-gradient(180deg, #0d1728 0%, #0a1220 100%);
+    border: 1px solid var(--navy-line);
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+  }
+  html.light-theme .settings-panel {
+    background: linear-gradient(180deg, #ffffff 0%, #f2f5f9 100%);
+  }
+  .settings-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--navy-line);
+  }
+  .settings-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .settings-body {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .settings-row { display: flex; flex-direction: column; gap: 8px; }
+  .settings-label {
+    font-size: 13px;
+    color: var(--ink-dim);
+    font-weight: 600;
+  }
+  .settings-row-head { display: flex; align-items: center; justify-content: space-between; }
+  .settings-value {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--amber);
+  }
+  .settings-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--navy-line);
+    outline: none;
+  }
+  .settings-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--amber);
+    cursor: pointer;
+    border: 2px solid var(--navy-deep);
+  }
+  .settings-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--amber);
+    cursor: pointer;
+    border: 2px solid var(--navy-deep);
+  }
+  .theme-toggle {
+    display: flex;
+    gap: 8px;
+  }
+  .theme-toggle-btn {
+    flex: 1;
+    padding: 9px 0;
+    border-radius: 8px;
+    border: 1px solid var(--navy-line);
+    background: transparent;
+    color: var(--ink-dim);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .theme-toggle-btn:hover { border-color: var(--amber-dim); }
+  .theme-toggle-btn.active {
+    border-color: var(--amber-dim);
+    color: var(--amber);
+    background: rgba(242,179,61,0.10);
+  }
+  .settings-checkbox-toggle {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+  }
+  .settings-checkbox-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .settings-checkbox-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: var(--navy-line);
+    border-radius: 999px;
+    transition: background 0.15s ease;
+  }
+  .settings-checkbox-slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    top: 3px;
+    background: var(--ink-dim);
+    border-radius: 50%;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .settings-checkbox-toggle input:checked + .settings-checkbox-slider {
+    background: rgba(242,179,61,0.35);
+  }
+  .settings-checkbox-toggle input:checked + .settings-checkbox-slider::before {
+    transform: translateX(18px);
+    background: var(--amber);
+  }
+
+
+  /* ---------- Time HUD (clock + pause + speed) ---------- */
+  .time-hud {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .pause-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    backdrop-filter: blur(6px);
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .pause-btn:hover { border-color: var(--amber-dim); background: rgba(242,179,61,0.10); }
+  .pause-btn.is-paused { color: var(--amber); border-color: var(--amber-dim); }
+
+  .clock-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .clock-display {
+    min-width: 108px;
+    text-align: center;
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 9px 16px;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+  }
+  .clock-time {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+  }
+  .clock-phase {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--amber-dim);
+    margin-top: 2px;
+  }
+  .time-hud.is-paused .clock-time { color: var(--ink-dim); }
+  .time-hud.is-paused .clock-phase { color: var(--ink-dim); }
+
+  .speed-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--ink-dim);
+    background: rgba(var(--panel-bg-rgb), 0.85);
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    padding: 8px 11px;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  }
+  .speed-btn:hover { border-color: var(--amber-dim); color: var(--ink); }
+  .speed-btn.active {
+    color: var(--navy-deep);
+    background: var(--amber);
+    border-color: var(--amber);
+  }
+
+  @media (max-width: 560px) {
+    .time-hud { bottom: 12px; }
+    .clock-display { min-width: 92px; padding: 7px 12px; }
+    .clock-time { font-size: 15px; }
+    .speed-btn { padding: 7px 9px; font-size: 11px; }
+  }

@@ -1,0 +1,136 @@
+  :root{
+    --navy-deep: #0a111d;
+    --navy-panel: #101c30;
+    --navy-line: #26374f;
+    --amber: #f2b33d;
+    --amber-dim: #9c7627;
+    --ink: #e9edf4;
+    --ink-dim: #8fa0b8;
+    --alert: #e4572e;
+    --panel-bg-rgb: 10, 17, 29;
+  }
+
+  html.light-theme {
+    --navy-deep: #eef1f6;
+    --navy-panel: #ffffff;
+    --navy-line: #d3dae5;
+    --amber: #b5790f;
+    --amber-dim: #8a5c08;
+    --ink: #1b2430;
+    --ink-dim: #57667c;
+    --alert: #c23b1d;
+    --panel-bg-rgb: 255, 255, 255;
+  }
+
+  html.light-theme .leaflet-tile-pane {
+    filter: none;
+  }
+
+  html.light-theme .leaflet-container {
+    background: #dbe2ea !important;
+  }
+
+  html.light-theme .pin-body { stroke: #eef1f6 !important; }
+  html.light-theme .my-airport-panel,
+  html.light-theme .money-display,
+  html.light-theme .buy-panel,
+  html.light-theme .info-panel,
+  html.light-theme .shop-modal,
+  html.light-theme .ticket-modal,
+  html.light-theme .route-toolbar,
+  html.light-theme .settings-panel {
+    box-shadow: 0 4px 22px rgba(20, 30, 50, 0.12);
+  }
+  html.light-theme .shop-modal,
+  html.light-theme .ticket-modal,
+  html.light-theme .info-panel,
+  html.light-theme .plane-route-popup .leaflet-popup-content-wrapper {
+    background: linear-gradient(180deg, #ffffff 0%, #f2f5f9 100%) !important;
+  }
+  html.light-theme .plane-route-popup .leaflet-popup-tip {
+    background: #f2f5f9 !important;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--navy-deep);
+    font-family: 'Inter', sans-serif;
+    color: var(--ink);
+    overflow: hidden;
+  }
+
+  #map {
+    position: absolute;
+    inset: 0;
+    background: var(--navy-deep);
+  }
+
+  /* Dark tile theme via filter */
+  .leaflet-tile-pane {
+    filter: brightness(0.62) contrast(1.08) saturate(0.35) invert(0.92) hue-rotate(180deg);
+  }
+
+  .leaflet-container {
+    background: var(--navy-deep) !important;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* ---------- Header ---------- */
+  .brand {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(var(--panel-bg-rgb), 0.82);
+    border: 1px solid var(--navy-line);
+    border-radius: 10px;
+    padding: 10px 16px 10px 12px;
+    backdrop-filter: blur(6px);
+    pointer-events: none;
+  }
+  .brand svg { flex-shrink: 0; }
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+  .brand-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+  }
+  .brand-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: var(--amber-dim);
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .hint {
+    position: absolute;
+    bottom: 16px;
+    left: 18px;
+    z-index: 1000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--ink-dim);
+    background: rgba(var(--panel-bg-rgb), 0.7);
+    border: 1px solid var(--navy-line);
+    border-radius: 8px;
+    padding: 7px 12px;
+    pointer-events: none;
+  }
+  .hint b { color: var(--amber); }
+
