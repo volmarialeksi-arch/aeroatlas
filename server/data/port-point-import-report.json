@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T23:10:06.208Z",
+  "generatedAt": "2026-08-16T23:10:12.865Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -287,16 +287,15 @@
     },
     "LAX": {
       "iata": "LAX",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
-      "attempts": 8,
-      "lastAttempt": "2026-08-16T23:08:04.670Z",
+      "status": "SUCCESS",
+      "pointsFound": 348,
+      "attempts": 2,
+      "lastAttempt": "2026-08-16T23:10:07.225Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 33.9416,
         "lon": -118.4085
-      },
-      "error": "All 8 attempts failed for LAX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "ORD": {
       "iata": "ORD",
