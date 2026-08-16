@@ -1,0 +1,218 @@
+name: Import Real Port Points
+
+# Runs scripts/import-real-port-points.js in the cloud so real OpenStreetMap
+# aircraft parking positions get imported into server/data/port-points.json
+# without your own computer needing to be on. See scripts/import-real-port-points.js
+# for what the importer itself actually does; this file is just the
+# scheduling/commit-back wrapper around it.
+#
+# No secrets are needed. Overpass (OpenStreetMap) has no authentication, and
+# pushing the updated files back to this repo uses the automatic, built-in
+# GITHUB_TOKEN that Actions provides to every workflow run — nothing to add
+# under Settings > Secrets.
+
+on:
+  # Runs automatically every 20 minutes, processing one small batch of
+  # airports per run, until every airport in js/data/airports.js has a
+  # result. Once that happens, the job disables this schedule itself (see
+  # the last step below) so it stops running unnecessary jobs afterward.
+  schedule:
+    - cron: '*/20 * * * *'
+
+  # Lets you trigger a run by hand from the Actions tab (Actions ->
+  # "Import Real Port Points" -> "Run workflow"), with a few options.
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'batch = next unresolved airports, retry-failed = only previously-failed ones, force = re-query regardless of status, single-airport = one specific airport'
+        type: choice
+        options:
+          - batch
+          - retry-failed
+          - force
+          - single-airport
+        default: batch
+      limit:
+        description: 'How many airports to process this run (ignored for single-airport)'
+        type: string
+        default: '8'
+      airport:
+        description: 'IATA code — only used when mode is single-airport, e.g. MCO'
+        type: string
+        default: ''
+
+# contents: write  -> needed to commit/push the updated data files back
+# actions: write   -> needed for the final step to disable this workflow's
+#                      own schedule once all 254 airports are resolved
+permissions:
+  contents: write
+  actions: write
+
+# Only one import run at a time. cancel-in-progress is deliberately false:
+# if the schedule fires while a manual run is still going, the new run
+# waits and runs afterward instead of being cancelled or running
+# concurrently and racing over the same state/points files.
+concurrency:
+  group: import-port-points
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    # Generous but bounded — normal batches finish in a few minutes; this
+    # just stops a truly stuck run from burning Actions minutes forever.
+    # Because progress commits after EVERY airport (not just at the end),
+    # hitting this timeout never loses data — the next scheduled run
+    # picks up exactly where this one was cut off.
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "aeroatlas-import-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Import port points
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+          INPUT_AIRPORT: ${{ inputs.airport }}
+        run: |
+          set -e
+
+          # Commits + pushes server/data/port-points.json,
+          # port-point-import-state.json, and port-point-import-report.json
+          # if (and only if) any of them actually changed. Safe to call
+          # after every single airport: a no-op when nothing changed, and
+          # this is exactly what lets an interrupted run's progress
+          # survive — it's already in the repo by the time anything could
+          # go wrong with a LATER airport in the same run.
+          commit_and_push() {
+            git add server/data/port-points.json server/data/port-point-import-state.json server/data/port-point-import-report.json
+            if git diff --cached --quiet; then
+              return 0
+            fi
+            git commit -m "Import real port points (automated)" --quiet
+            for attempt in 1 2 3; do
+              if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                return 0
+              fi
+              echo "Push attempt $attempt failed — pulling latest and retrying..."
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+            done
+            echo "::error::Could not push updated port-point data after 3 attempts."
+            return 1
+          }
+
+          remaining_count() {
+            node -e "console.log(require('./server/data/port-point-import-report.json').remaining)"
+          }
+
+          MODE="${INPUT_MODE:-batch}"
+          if [ "$EVENT_NAME" != "workflow_dispatch" ]; then
+            MODE="batch"
+          fi
+
+          LIMIT="${INPUT_LIMIT:-8}"
+          if ! [[ "$LIMIT" =~ ^[0-9]+$ ]] || [ "$LIMIT" -lt 1 ]; then
+            LIMIT=8
+          fi
+
+          echo "Mode: $MODE   Batch size: $LIMIT"
+
+          case "$MODE" in
+            single-airport)
+              if [ -z "$INPUT_AIRPORT" ]; then
+                echo "::error::mode=single-airport needs the 'airport' input set to an IATA code."
+                exit 1
+              fi
+              node scripts/import-real-port-points.js --airport "$INPUT_AIRPORT"
+              commit_and_push
+              ;;
+
+            force)
+              # A deliberate, manual-only refresh of up to $LIMIT airports,
+              # ignoring their current status. Runs as ONE call rather than
+              # the per-airport loop below: --force ignores prior state
+              # entirely, so looping it with --limit 1 would just
+              # reprocess the very first airport in the list every single
+              # iteration instead of moving through different airports.
+              node scripts/import-real-port-points.js --force --limit "$LIMIT"
+              commit_and_push
+              ;;
+
+            retry-failed|batch)
+              EXTRA_ARGS=()
+              [ "$MODE" = "retry-failed" ] && EXTRA_ARGS+=(--retry-failed)
+
+              for i in $(seq 1 "$LIMIT"); do
+                echo "::group::Airport $i of $LIMIT this run"
+                node scripts/import-real-port-points.js --limit 1 "${EXTRA_ARGS[@]}"
+                echo "::endgroup::"
+
+                # Commit after EVERY single airport, not just at the end
+                # of the batch — see requirement "if the cloud job stops
+                # unexpectedly, the next run must continue from the saved
+                # state." A run that gets killed between airport 3 and 4
+                # of an 8-airport batch still has airports 1-3 safely
+                # committed; nothing is redone and nothing is lost.
+                commit_and_push
+
+                if [ "$(remaining_count)" = "0" ]; then
+                  echo "All airports resolved — stopping this run early."
+                  break
+                fi
+              done
+              ;;
+
+            *)
+              echo "::error::Unknown mode: $MODE"
+              exit 1
+              ;;
+          esac
+
+      - name: Print progress summary
+        if: always()
+        run: |
+          if [ ! -f server/data/port-point-import-report.json ]; then
+            echo "No report file found yet — nothing has been imported this run."
+            exit 0
+          fi
+          node -e "
+            const r = require('./server/data/port-point-import-report.json');
+            console.log('Total airports:', r.totalAirports);
+            console.log('Successful:', r.successful);
+            console.log('No OSM data (genuine, confirmed by a successful zero-result query):', r.noOsmData);
+            console.log('Rate limited:', r.rateLimited);
+            console.log('Timeouts:', r.timeout);
+            console.log('Server errors:', r.serverError);
+            console.log('Network errors:', r.networkError);
+            console.log('Remaining unresolved:', r.remaining);
+            console.log('Total real OSM parking positions imported:', r.totalImportedPoints);
+            console.log('All airports resolved:', r.complete);
+          "
+
+      - name: Disable schedule once every airport is resolved
+        if: always()
+        run: |
+          if [ ! -f server/data/port-point-import-report.json ]; then
+            exit 0
+          fi
+          REMAINING=$(node -e "console.log(require('./server/data/port-point-import-report.json').remaining)")
+          if [ "$REMAINING" = "0" ]; then
+            echo "All airports resolved — disabling this workflow's schedule so it stops running automatically."
+            gh workflow disable "import-port-points.yml" --repo "${{ github.repository }}" || \
+              echo "::warning::Could not auto-disable the workflow. Nothing is broken — scheduled runs will just be quick no-ops from now on — but you can disable it manually from the Actions tab if you'd rather it stop running entirely."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
