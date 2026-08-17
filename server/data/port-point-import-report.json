@@ -1,387 +1,1545 @@
 {
-  "generatedAt": "2026-08-17T05:35:52.383Z",
+  "generatedAt": "2026-08-17T05:56:39.156Z",
+  "importerVersion": "2026-08-16.state-file-v1",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
-  "requestedAirports": [
-    "MCO",
-    "JFK",
-    "LAX",
-    "ORD",
-    "ATL",
-    "DFW",
-    "SFO",
-    "SEA",
-    "MIA",
-    "IAH",
-    "DEN",
-    "LAS",
-    "RSW",
-    "IAD",
-    "MCI",
-    "PIT",
-    "SLC",
-    "DTW",
-    "PHL",
-    "CLT",
-    "MSP",
-    "PHX",
-    "DCA",
-    "BOS",
-    "EWR",
-    "TPA",
-    "PDX",
-    "SMF",
-    "RDU",
-    "BNA",
-    "AUS",
-    "IND",
-    "SDF",
-    "CVG",
-    "MEM",
-    "MSY",
-    "BWI",
-    "CLE",
-    "CMH",
-    "STL",
-    "DAL",
-    "SAT",
-    "FLL",
-    "HNL",
-    "ANC",
-    "JAX",
-    "OKC",
-    "ABQ",
-    "TUS",
-    "YYZ",
-    "YVR",
-    "YYC",
-    "YUL",
-    "MEX",
-    "GRU",
-    "EZE",
-    "BOG",
-    "LIM",
-    "CGH",
-    "VCP",
-    "MDE",
-    "AEP",
-    "BSB",
-    "REC",
-    "CNF",
-    "SSA",
-    "CTG",
-    "CLO",
-    "UIO",
-    "GYE",
-    "POA",
-    "CWB",
-    "FOR",
-    "BEL",
-    "VVI",
-    "CCS",
-    "FLN",
-    "MAO",
-    "ASU",
-    "COR",
-    "MDZ",
-    "MVD",
-    "CGB",
-    "VIX",
-    "GYN",
-    "NAT",
-    "MCZ",
-    "BPS",
-    "IGU",
-    "SLZ",
-    "JPA",
-    "AJU",
-    "SLA",
-    "BRC",
-    "USH",
-    "AQP",
-    "CUZ",
-    "ANF",
-    "CCP",
-    "CJC",
-    "PMC",
-    "LPB",
-    "GIG",
-    "SCL",
-    "LHR",
-    "CDG",
-    "FRA",
-    "AMS",
-    "MAD",
-    "FCO",
-    "IST",
-    "SVO",
-    "ZRH",
-    "CPH",
-    "OSL",
-    "HEL",
-    "REK",
-    "DME",
-    "VIE",
-    "WAW",
-    "ATH",
-    "BCN",
-    "MUC",
-    "LGW",
-    "DUB",
-    "LIS",
-    "ORY",
-    "PMI",
-    "MAN",
-    "MXP",
-    "STN",
-    "AGP",
-    "BER",
-    "BRU",
-    "ARN",
-    "DUS",
-    "LED",
-    "ALC",
-    "BUD",
-    "GVA",
-    "PRG",
-    "LTN",
-    "OTP",
-    "EDI",
-    "OPO",
-    "BGY",
-    "VKO",
-    "NCE",
-    "HAM",
-    "BHX",
-    "NAP",
-    "KRK",
-    "CTA",
-    "VCE",
-    "VLC",
-    "JNB",
-    "CAI",
-    "LOS",
-    "NBO",
-    "ADD",
-    "CMN",
-    "HRG",
-    "CPT",
-    "RAK",
-    "ALG",
-    "SSH",
-    "TUN",
-    "ABV",
-    "DUR",
-    "ACC",
-    "AGA",
-    "DAR",
-    "DSS",
-    "RMF",
-    "TNG",
-    "ZNZ",
-    "EBB",
-    "ABJ",
-    "ORN",
-    "DJE",
-    "RBA",
-    "DXB",
-    "DOH",
-    "JED",
-    "RUH",
-    "AUH",
-    "MCT",
-    "DEL",
-    "BOM",
-    "BKK",
-    "KUL",
-    "CGK",
-    "MNL",
-    "BLR",
-    "SGN",
-    "HAN",
-    "DPS",
-    "DAC",
-    "KTM",
-    "HYD",
-    "DMK",
-    "PEK",
-    "PVG",
-    "HKG",
-    "NRT",
-    "HND",
-    "ICN",
-    "SIN",
-    "CAN",
-    "SZX",
-    "TFU",
-    "PKX",
-    "KMG",
-    "CKG",
-    "XIY",
-    "SHA",
-    "HGH",
-    "CGO",
-    "WUH",
-    "TAO",
-    "KIX",
-    "CTU",
-    "NKG",
-    "FUK",
-    "CTS",
-    "CJU",
-    "GMP",
-    "PUS",
-    "TPE",
-    "SYD",
-    "MEL",
-    "AKL",
-    "BNE",
-    "PER",
-    "ADL",
-    "CHC",
-    "OOL",
-    "WLG",
-    "CNS",
-    "CBR",
-    "HBA",
-    "ZQN",
-    "DRW",
-    "MCY",
-    "TSV",
-    "AVV",
-    "NTL",
-    "NSN",
-    "DUD",
-    "MKY",
-    "NPE",
-    "CFS",
-    "PMR",
-    "ROK"
-  ],
-  "lastRunMode": "default",
+  "totalAirports": 254,
+  "successful": 8,
+  "noOsmData": 0,
+  "rateLimited": 2,
+  "networkFailures": 1,
+  "timeout": 0,
+  "networkError": 0,
+  "serverError": 1,
+  "remaining": 246,
+  "totalImportedPoints": 2805,
+  "totalPointsOnFile": 2805,
+  "complete": false,
   "airports": {
     "MCO": {
-      "iata": "MCO",
-      "status": "SUCCESS",
-      "pointsFound": 311,
+      "status": "success",
+      "points": 311,
       "attempts": 8,
-      "lastAttempt": "2026-08-16T21:41:05.338Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 28.4312,
-        "lon": -81.3081
-      }
+      "lastAttempt": "2026-08-16T21:41:05.338Z"
     },
     "JFK": {
-      "iata": "JFK",
-      "status": "SUCCESS",
-      "pointsFound": 297,
+      "status": "success",
+      "points": 297,
       "attempts": 5,
-      "lastAttempt": "2026-08-16T22:44:16.508Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 40.6413,
-        "lon": -73.7781
-      }
+      "lastAttempt": "2026-08-16T22:44:16.508Z"
     },
     "LAX": {
-      "iata": "LAX",
-      "status": "SUCCESS",
-      "pointsFound": 348,
+      "status": "success",
+      "points": 348,
       "attempts": 2,
-      "lastAttempt": "2026-08-16T23:10:07.225Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 33.9416,
-        "lon": -118.4085
-      }
+      "lastAttempt": "2026-08-16T23:10:07.225Z"
     },
     "ORD": {
-      "iata": "ORD",
-      "status": "SUCCESS",
-      "pointsFound": 366,
+      "status": "success",
+      "points": 366,
       "attempts": 8,
-      "lastAttempt": "2026-08-17T02:21:45.269Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 41.9742,
-        "lon": -87.9073
-      }
+      "lastAttempt": "2026-08-17T02:21:45.269Z"
     },
     "ATL": {
-      "iata": "ATL",
-      "status": "SUCCESS",
-      "pointsFound": 574,
+      "status": "success",
+      "points": 574,
       "attempts": 3,
-      "lastAttempt": "2026-08-17T02:26:25.345Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 33.6407,
-        "lon": -84.4277
-      }
+      "lastAttempt": "2026-08-17T02:26:25.345Z"
     },
     "DFW": {
-      "iata": "DFW",
-      "status": "SUCCESS",
-      "pointsFound": 365,
+      "status": "success",
+      "points": 365,
       "attempts": 5,
-      "lastAttempt": "2026-08-17T02:33:15.481Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 32.8998,
-        "lon": -97.0403
-      }
+      "lastAttempt": "2026-08-17T02:33:15.481Z"
     },
     "SFO": {
-      "iata": "SFO",
-      "status": "SUCCESS",
-      "pointsFound": 294,
+      "status": "success",
+      "points": 294,
       "attempts": 5,
-      "lastAttempt": "2026-08-17T04:31:09.670Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 37.6213,
-        "lon": -122.379
-      }
+      "lastAttempt": "2026-08-17T04:31:09.670Z"
     },
     "SEA": {
-      "iata": "SEA",
-      "status": "SUCCESS",
-      "pointsFound": 250,
+      "status": "success",
+      "points": 250,
       "attempts": 8,
-      "lastAttempt": "2026-08-17T05:31:28.247Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 47.4502,
-        "lon": -122.3088
-      }
+      "lastAttempt": "2026-08-17T05:31:28.247Z"
     },
     "MIA": {
-      "iata": "MIA",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
+      "status": "rate_limited",
+      "points": 0,
       "attempts": 8,
-      "lastAttempt": "2026-08-17T05:33:50.852Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 25.7959,
-        "lon": -80.287
-      },
-      "error": "All 8 attempts failed for MIA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      "lastAttempt": "2026-08-17T05:33:50.852Z"
     },
     "IAH": {
-      "iata": "IAH",
-      "status": "SERVER_ERROR",
-      "pointsFound": 0,
+      "status": "server_error",
+      "points": 0,
       "attempts": 8,
-      "lastAttempt": "2026-08-16T19:51:07.058Z",
-      "source": "OpenStreetMap / Overpass",
-      "center": {
-        "lat": 29.9902,
-        "lon": -95.3368
-      },
-      "error": "All 8 attempts failed for IAH. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
+      "lastAttempt": "2026-08-16T19:51:07.058Z"
+    },
+    "DEN": {
+      "status": "rate_limited",
+      "points": 0,
+      "attempts": 8,
+      "lastAttempt": "2026-08-17T05:54:36.586Z"
+    },
+    "LAS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RSW": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "IAD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MCI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PIT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SLC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DTW": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PHL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CLT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MSP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PHX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DCA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BOS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "EWR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TPA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PDX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SMF": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RDU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BNA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AUS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "IND": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SDF": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CVG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MEM": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MSY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BWI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CLE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CMH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "STL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DAL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SAT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FLL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HNL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ANC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "JAX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "OKC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ABQ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TUS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "YYZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "YVR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "YYC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "YUL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MEX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GRU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "EZE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BOG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LIM": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CGH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VCP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MDE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AEP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BSB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "REC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CNF": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SSA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CTG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CLO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "UIO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GYE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "POA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CWB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FOR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BEL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VVI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CCS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FLN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MAO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ASU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "COR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MDZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MVD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CGB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VIX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GYN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NAT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MCZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BPS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "IGU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SLZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "JPA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AJU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SLA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BRC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "USH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AQP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CUZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ANF": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CCP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CJC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PMC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LPB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GIG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SCL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LHR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CDG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FRA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AMS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MAD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FCO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "IST": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SVO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ZRH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CPH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "OSL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HEL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "REK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DME": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VIE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "WAW": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ATH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BCN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MUC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LGW": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DUB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LIS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ORY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PMI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MAN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MXP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "STN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AGP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BER": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BRU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ARN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DUS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LED": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ALC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BUD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GVA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PRG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LTN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "OTP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "EDI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "OPO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BGY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VKO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NCE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HAM": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BHX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NAP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "KRK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CTA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VCE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "VLC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "JNB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CAI": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "LOS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NBO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ADD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CMN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HRG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CPT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RAK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ALG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SSH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TUN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ABV": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DUR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ACC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AGA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DAR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DSS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RMF": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TNG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ZNZ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "EBB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ABJ": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ORN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DJE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RBA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DXB": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DOH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "JED": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "RUH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AUH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MCT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DEL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BOM": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BKK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "KUL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CGK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MNL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BLR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SGN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HAN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DPS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DAC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "KTM": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HYD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DMK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PEK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PVG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HKG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NRT": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HND": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ICN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SIN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CAN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SZX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TFU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PKX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "KMG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CKG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "XIY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SHA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HGH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CGO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "WUH": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TAO": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "KIX": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CTU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NKG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "FUK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CTS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CJU": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "GMP": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PUS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TPE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "SYD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MEL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AKL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "BNE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PER": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ADL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CHC": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "OOL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "WLG": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CNS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CBR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "HBA": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ZQN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DRW": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MCY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "TSV": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "AVV": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NTL": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NSN": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "DUD": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "MKY": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "NPE": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "CFS": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "PMR": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
+    },
+    "ROK": {
+      "status": "pending",
+      "points": 0,
+      "attempts": null,
+      "lastAttempt": null
     }
   }
 }
