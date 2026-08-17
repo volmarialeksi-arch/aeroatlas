@@ -1513,10 +1513,11 @@
     "error": "All 8 attempts failed for CGO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "WUH": {
-    "status": "pending",
+    "status": "timeout",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T16:55:55.786Z",
+    "error": "All 8 attempts failed for WUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TAO": {
     "status": "pending",
