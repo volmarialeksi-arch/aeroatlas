@@ -1730,10 +1730,11 @@
     "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "MKY": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T18:30:22.174Z",
+    "error": "All 8 attempts failed for MKY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "NPE": {
     "status": "pending",
