@@ -203,15 +203,43 @@ jobs:
               ;;
           esac
 
-      - name: Print progress summary
+      - name: Verify importer actually ran and produced valid output
         if: always()
         run: |
-          if [ ! -f server/data/port-point-import-report.json ]; then
-            echo "No report file found yet — nothing has been imported this run."
-            exit 0
+          FAIL=0
+
+          # scripts/import-real-port-points.js is expected to create this
+          # file, unconditionally, before it does anything else — on
+          # EVERY invocation, even one that ends up processing zero
+          # airports. If it's missing here, the script deployed in this
+          # repo does not match what this workflow expects (most likely:
+          # an outdated copy of scripts/import-real-port-points.js was
+          # never updated alongside this workflow file). That is a real
+          # failure, not something to silently continue past.
+          if [ ! -f server/data/port-point-import-state.json ]; then
+            echo "::error::server/data/port-point-import-state.json does not exist after the import step ran. The importer script in this repository (scripts/import-real-port-points.js) is missing or out of date — the current version always creates this file first, before making any Overpass request. Redeploy the current scripts/import-real-port-points.js to this repo and try again."
+            FAIL=1
           fi
+
+          if [ ! -f server/data/port-point-import-report.json ]; then
+            echo "::error::server/data/port-point-import-report.json does not exist after the import step ran. Same likely cause as above — scripts/import-real-port-points.js in this repo is out of date."
+            FAIL=1
+          fi
+
+          if [ "$FAIL" = "1" ]; then
+            exit 1
+          fi
+
           node -e "
             const r = require('./server/data/port-point-import-report.json');
+            const required = ['importerVersion','totalAirports','successful','noOsmData','rateLimited','timeout','serverError','networkError','remaining','totalImportedPoints','complete'];
+            const missing = required.filter(k => r[k] === undefined);
+            if (missing.length) {
+              console.error('::error::server/data/port-point-import-report.json is missing expected field(s): ' + missing.join(', ') + '. This means scripts/import-real-port-points.js in this repo is an older version than this workflow expects. Redeploy the current scripts/import-real-port-points.js.');
+              process.exit(1);
+            }
+            console.log('Importer script version:', r.importerVersion);
+            console.log('');
             console.log('Total airports:', r.totalAirports);
             console.log('Successful:', r.successful);
             console.log('No OSM data (genuine, confirmed by a successful zero-result query):', r.noOsmData);
@@ -225,7 +253,6 @@ jobs:
           "
 
       - name: Disable schedule once every airport is resolved
-        if: always()
         run: |
           if [ ! -f server/data/port-point-import-report.json ]; then
             exit 0
