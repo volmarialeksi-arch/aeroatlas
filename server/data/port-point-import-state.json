@@ -54,10 +54,11 @@
     "lastAttempt": "2026-08-17T05:33:50.852Z"
   },
   "IAH": {
-    "status": "server_error",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-16T19:51:07.058Z"
+    "lastAttempt": "2026-08-17T18:55:43.756Z",
+    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DEN": {
     "status": "rate_limited",
