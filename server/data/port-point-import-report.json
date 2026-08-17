@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T04:31:08.564Z",
+  "generatedAt": "2026-08-17T04:32:14.678Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -335,16 +335,15 @@
     },
     "SFO": {
       "iata": "SFO",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
-      "attempts": 8,
-      "lastAttempt": "2026-08-17T04:29:06.956Z",
+      "status": "SUCCESS",
+      "pointsFound": 294,
+      "attempts": 5,
+      "lastAttempt": "2026-08-17T04:31:09.670Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 37.6213,
         "lon": -122.379
-      },
-      "error": "All 8 attempts failed for SFO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "SEA": {
       "iata": "SEA",
