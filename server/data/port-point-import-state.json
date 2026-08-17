@@ -821,10 +821,11 @@
     "error": "All 8 attempts failed for VIE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "WAW": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T12:05:53.616Z",
+    "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ATH": {
     "status": "pending",
