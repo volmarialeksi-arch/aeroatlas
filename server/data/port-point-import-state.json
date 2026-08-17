@@ -912,10 +912,11 @@
     "error": "All 8 attempts failed for AGP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BER": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T12:39:46.388Z",
+    "error": "All 8 attempts failed for BER. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BRU": {
     "status": "pending",
