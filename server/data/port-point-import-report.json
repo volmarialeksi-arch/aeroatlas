@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T02:33:14.342Z",
+  "generatedAt": "2026-08-17T02:34:18.010Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -323,16 +323,15 @@
     },
     "DFW": {
       "iata": "DFW",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
-      "attempts": 8,
-      "lastAttempt": "2026-08-17T02:31:12.235Z",
+      "status": "SUCCESS",
+      "pointsFound": 365,
+      "attempts": 5,
+      "lastAttempt": "2026-08-17T02:33:15.481Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 32.8998,
         "lon": -97.0403
-      },
-      "error": "All 8 attempts failed for DFW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "SFO": {
       "iata": "SFO",
