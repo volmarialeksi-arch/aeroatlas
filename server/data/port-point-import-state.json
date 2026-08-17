@@ -193,10 +193,11 @@
     "error": "All 8 attempts failed for RDU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BNA": {
-    "status": "pending",
+    "status": "timeout",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T06:46:38.684Z",
+    "error": "All 8 attempts failed for BNA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "AUS": {
     "status": "pending",
