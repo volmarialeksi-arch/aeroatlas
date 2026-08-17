@@ -577,11 +577,11 @@
     "error": "All 8 attempts failed for VIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "GYN": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T10:12:18.739Z",
-    "error": "All 8 attempts failed for GYN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-17T22:43:40.054Z",
+    "error": "All 8 attempts failed for GYN. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
   },
   "NAT": {
     "status": "success",
