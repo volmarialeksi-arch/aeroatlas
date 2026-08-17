@@ -793,10 +793,11 @@
     "error": "All 8 attempts failed for OSL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "HEL": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T11:57:42.498Z",
+    "error": "All 8 attempts failed for HEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "REK": {
     "status": "pending",
