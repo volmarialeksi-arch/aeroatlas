@@ -54,7 +54,7 @@ permissions:
 # concurrently and racing over the same state/points files.
 concurrency:
   group: import-port-points
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   import:
