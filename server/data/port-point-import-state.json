@@ -212,7 +212,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T06:51:17.518Z",
+    "lastAttempt": "2026-08-17T20:05:14.238Z",
     "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SDF": {
