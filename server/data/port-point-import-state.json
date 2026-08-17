@@ -1527,10 +1527,11 @@
     "error": "All 8 attempts failed for TAO. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
   },
   "KIX": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T17:02:42.584Z",
+    "error": "All 8 attempts failed for KIX. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CTU": {
     "status": "pending",
