@@ -1037,10 +1037,11 @@
     "error": "All 8 attempts failed for BHX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "NAP": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T13:32:23.665Z",
+    "error": "All 8 attempts failed for NAP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "KRK": {
     "status": "pending",
