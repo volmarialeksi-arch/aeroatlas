@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:31:27.188Z",
+  "generatedAt": "2026-08-17T05:33:49.811Z",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
   "searchRadiusMeters": 8000,
@@ -347,16 +347,15 @@
     },
     "SEA": {
       "iata": "SEA",
-      "status": "RATE_LIMITED",
-      "pointsFound": 0,
+      "status": "SUCCESS",
+      "pointsFound": 250,
       "attempts": 8,
-      "lastAttempt": "2026-08-17T05:29:25.693Z",
+      "lastAttempt": "2026-08-17T05:31:28.247Z",
       "source": "OpenStreetMap / Overpass",
       "center": {
         "lat": 47.4502,
         "lon": -122.3088
-      },
-      "error": "All 8 attempts failed for SEA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+      }
     },
     "MIA": {
       "iata": "MIA",
