@@ -361,10 +361,11 @@
     "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "MEX": {
-    "status": "pending",
+    "status": "rate_limited",
     "points": 0,
-    "attempts": null,
-    "lastAttempt": null
+    "attempts": 8,
+    "lastAttempt": "2026-08-17T07:59:03.952Z",
+    "error": "All 8 attempts failed for MEX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "GRU": {
     "status": "pending",
