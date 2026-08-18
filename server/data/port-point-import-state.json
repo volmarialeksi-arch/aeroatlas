@@ -1271,7 +1271,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T15:31:02.982Z",
+    "lastAttempt": "2026-08-18T05:51:37.564Z",
     "error": "All 8 attempts failed for RUH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "AUH": {
