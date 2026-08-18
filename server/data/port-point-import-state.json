@@ -1729,7 +1729,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T10:02:03.378Z",
+    "lastAttempt": "2026-08-18T22:55:07.114Z",
     "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PMR": {
