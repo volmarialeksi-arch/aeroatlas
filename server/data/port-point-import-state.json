@@ -125,11 +125,10 @@
     "error": "All 8 attempts failed for PHL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CLT": {
-    "status": "rate_limited",
-    "points": 0,
+    "status": "success",
+    "points": 252,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T19:36:34.556Z",
-    "error": "All 8 attempts failed for CLT. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-18T10:59:59.738Z"
   },
   "MSP": {
     "status": "rate_limited",
