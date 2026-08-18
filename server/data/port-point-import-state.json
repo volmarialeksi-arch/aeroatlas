@@ -1633,7 +1633,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T09:05:54.647Z",
+    "lastAttempt": "2026-08-18T22:20:14.536Z",
     "error": "All 8 attempts failed for WLG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CNS": {
