@@ -1146,7 +1146,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T14:18:44.318Z",
+    "lastAttempt": "2026-08-18T04:56:38.070Z",
     "error": "All 8 attempts failed for TUN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ABV": {
