@@ -1351,7 +1351,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T06:21:37.176Z",
+    "lastAttempt": "2026-08-18T20:04:25.474Z",
     "error": "All 8 attempts failed for DPS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DAC": {
