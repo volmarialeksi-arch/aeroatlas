@@ -1063,7 +1063,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-17T13:53:17.495Z",
+    "lastAttempt": "2026-08-18T03:22:50.208Z",
     "error": "All 8 attempts failed for VLC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "JNB": {
