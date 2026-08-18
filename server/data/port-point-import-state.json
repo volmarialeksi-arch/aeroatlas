@@ -76,11 +76,11 @@
     "error": "All 8 attempts failed for LAS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "RSW": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T10:16:28.260Z",
-    "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-18T23:20:05.225Z",
+    "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "IAD": {
     "status": "rate_limited",
