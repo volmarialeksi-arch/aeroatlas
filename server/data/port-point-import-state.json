@@ -624,11 +624,11 @@
     "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SLA": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T04:58:47.356Z",
-    "error": "All 8 attempts failed for SLA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T18:18:40.882Z",
+    "error": "All 8 attempts failed for SLA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BRC": {
     "status": "rate_limited",
