@@ -1078,11 +1078,11 @@
     "error": "All 8 attempts failed for NBO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ADD": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T07:52:32.267Z",
-    "error": "All 8 attempts failed for ADD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T22:35:30.724Z",
+    "error": "All 8 attempts failed for ADD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CMN": {
     "status": "success",
