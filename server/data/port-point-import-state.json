@@ -817,11 +817,11 @@
     "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ATH": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T06:10:46.828Z",
-    "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T20:31:11.545Z",
+    "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BCN": {
     "status": "rate_limited",
