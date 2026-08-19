@@ -755,11 +755,11 @@
     "error": "All 8 attempts failed for IST. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SVO": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T05:53:02.531Z",
-    "error": "All 8 attempts failed for SVO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T19:55:43.106Z",
+    "error": "All 8 attempts failed for SVO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ZRH": {
     "status": "rate_limited",
