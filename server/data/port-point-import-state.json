@@ -1174,11 +1174,11 @@
     "error": "All 8 attempts failed for DSS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RMF": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T08:31:34.452Z",
-    "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T23:23:34.747Z",
+    "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TNG": {
     "status": "rate_limited",
