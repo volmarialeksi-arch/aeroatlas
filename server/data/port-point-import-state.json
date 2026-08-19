@@ -577,7 +577,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T14:16:22.086Z",
+    "lastAttempt": "2026-08-19T04:39:16.443Z",
     "error": "All 8 attempts failed for GYN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "NAT": {
