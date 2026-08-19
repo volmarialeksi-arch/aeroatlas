@@ -168,7 +168,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T23:47:50.779Z",
+    "lastAttempt": "2026-08-19T14:31:16.546Z",
     "error": "All 8 attempts failed for TPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PDX": {
