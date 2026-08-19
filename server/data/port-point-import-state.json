@@ -1064,11 +1064,11 @@
     "lastAttempt": "2026-08-19T07:47:14.626Z"
   },
   "LOS": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T07:48:25.069Z",
-    "error": "All 8 attempts failed for LOS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T22:29:12.886Z",
+    "error": "All 8 attempts failed for LOS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "NBO": {
     "status": "rate_limited",
