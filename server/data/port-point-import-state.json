@@ -1104,11 +1104,11 @@
     "lastAttempt": "2026-08-19T22:42:35.515Z"
   },
   "RAK": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T08:08:09.828Z",
-    "error": "All 8 attempts failed for RAK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T22:44:35.006Z",
+    "error": "All 8 attempts failed for RAK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALG": {
     "status": "rate_limited",
