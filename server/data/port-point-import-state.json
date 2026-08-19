@@ -878,11 +878,11 @@
     "lastAttempt": "2026-08-18T01:03:36.014Z"
   },
   "MXP": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T06:28:34.251Z",
-    "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T21:05:48.978Z",
+    "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "STN": {
     "status": "rate_limited",
