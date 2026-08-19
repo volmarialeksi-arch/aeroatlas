@@ -536,11 +536,11 @@
     "error": "All 8 attempts failed for ASU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "COR": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T04:14:58.561Z",
-    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T17:37:25.796Z",
+    "error": "All 8 attempts failed for COR. Last error: https://overpass-api.de/api/interpreter: fetch failed"
   },
   "MDZ": {
     "status": "rate_limited",
