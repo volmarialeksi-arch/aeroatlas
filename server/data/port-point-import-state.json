@@ -651,11 +651,11 @@
     "error": "All 8 attempts failed for AQP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CUZ": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T05:04:55.445Z",
-    "error": "All 8 attempts failed for CUZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T18:53:26.231Z",
+    "error": "All 8 attempts failed for CUZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ANF": {
     "status": "rate_limited",
