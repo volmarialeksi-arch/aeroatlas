@@ -227,11 +227,10 @@
     "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "MEM": {
-    "status": "rate_limited",
-    "points": 0,
+    "status": "success",
+    "points": 247,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T00:34:17.665Z",
-    "error": "All 8 attempts failed for MEM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T15:10:52.581Z"
   },
   "MSY": {
     "status": "rate_limited",
