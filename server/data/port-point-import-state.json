@@ -679,11 +679,11 @@
     "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMC": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T05:27:21.588Z",
-    "error": "All 8 attempts failed for PMC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T19:10:33.272Z",
+    "error": "All 8 attempts failed for PMC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "LPB": {
     "status": "rate_limited",
