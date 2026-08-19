@@ -769,11 +769,11 @@
     "error": "All 8 attempts failed for ZRH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CPH": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T05:57:09.070Z",
-    "error": "All 8 attempts failed for CPH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T20:03:10.930Z",
+    "error": "All 8 attempts failed for CPH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "OSL": {
     "status": "rate_limited",
