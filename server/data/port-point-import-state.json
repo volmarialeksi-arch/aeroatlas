@@ -1111,11 +1111,11 @@
     "error": "All 8 attempts failed for RAK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALG": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T08:10:13.302Z",
-    "error": "All 8 attempts failed for ALG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T22:56:35.589Z",
+    "error": "All 8 attempts failed for ALG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SSH": {
     "status": "rate_limited",
