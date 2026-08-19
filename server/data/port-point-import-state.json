@@ -810,11 +810,11 @@
     "lastAttempt": "2026-08-18T00:27:58.900Z"
   },
   "WAW": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T06:08:43.308Z",
-    "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T20:27:36.743Z",
+    "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ATH": {
     "status": "rate_limited",
