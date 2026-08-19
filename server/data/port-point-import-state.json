@@ -939,11 +939,11 @@
     "error": "All 8 attempts failed for ALC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BUD": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T07:06:00.552Z",
-    "error": "All 8 attempts failed for BUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T21:37:48.683Z",
+    "error": "All 8 attempts failed for BUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "GVA": {
     "status": "rate_limited",
