@@ -298,7 +298,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T01:08:35.304Z",
+    "lastAttempt": "2026-08-19T15:46:36.496Z",
     "error": "All 8 attempts failed for ANC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "JAX": {
