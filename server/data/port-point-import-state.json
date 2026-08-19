@@ -473,11 +473,11 @@
     "error": "All 8 attempts failed for GYE. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "POA": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T03:27:39.138Z",
-    "error": "All 8 attempts failed for POA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T17:14:42.659Z",
+    "error": "All 8 attempts failed for POA. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CWB": {
     "status": "rate_limited",
