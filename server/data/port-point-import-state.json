@@ -925,11 +925,11 @@
     "lastAttempt": "2026-08-18T17:05:39.146Z"
   },
   "LED": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T07:01:53.062Z",
-    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T21:29:43.869Z",
+    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALC": {
     "status": "rate_limited",
