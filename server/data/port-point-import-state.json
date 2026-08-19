@@ -1118,11 +1118,11 @@
     "error": "All 8 attempts failed for ALG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SSH": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T08:12:16.780Z",
-    "error": "All 8 attempts failed for SSH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T22:58:57.381Z",
+    "error": "All 8 attempts failed for SSH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TUN": {
     "status": "rate_limited",
