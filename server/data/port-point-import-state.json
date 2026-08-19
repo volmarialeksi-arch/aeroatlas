@@ -851,11 +851,11 @@
     "error": "All 8 attempts failed for DUB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "LIS": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T06:22:22.657Z",
-    "error": "All 8 attempts failed for LIS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T20:46:08.064Z",
+    "error": "All 8 attempts failed for LIS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ORY": {
     "status": "rate_limited",
