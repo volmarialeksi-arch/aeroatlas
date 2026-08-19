@@ -844,11 +844,11 @@
     "lastAttempt": "2026-08-18T00:38:15.344Z"
   },
   "DUB": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T06:20:18.013Z",
-    "error": "All 8 attempts failed for DUB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T20:43:00.140Z",
+    "error": "All 8 attempts failed for DUB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "LIS": {
     "status": "rate_limited",
