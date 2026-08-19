@@ -508,11 +508,11 @@
     "error": "All 8 attempts failed for VVI. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CCS": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T04:06:44.642Z",
-    "error": "All 8 attempts failed for CCS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T17:28:02.869Z",
+    "error": "All 8 attempts failed for CCS. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "FLN": {
     "status": "rate_limited",
