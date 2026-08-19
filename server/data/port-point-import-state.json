@@ -543,11 +543,10 @@
     "error": "All 8 attempts failed for COR. Last error: https://overpass-api.de/api/interpreter: fetch failed"
   },
   "MDZ": {
-    "status": "rate_limited",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-19T04:17:01.954Z",
-    "error": "All 8 attempts failed for MDZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "status": "success",
+    "points": 40,
+    "attempts": 5,
+    "lastAttempt": "2026-08-19T17:38:41.497Z"
   },
   "MVD": {
     "status": "rate_limited",
