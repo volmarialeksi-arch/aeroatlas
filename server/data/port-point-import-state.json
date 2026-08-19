@@ -672,11 +672,11 @@
     "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CJC": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T05:25:18.100Z",
-    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T19:06:15.943Z",
+    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMC": {
     "status": "rate_limited",
