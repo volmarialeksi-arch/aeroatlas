@@ -1195,11 +1195,11 @@
     "error": "All 8 attempts failed for ZNZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "EBB": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T09:22:03.829Z",
-    "error": "All 8 attempts failed for EBB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T23:30:30.690Z",
+    "error": "All 8 attempts failed for EBB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ABJ": {
     "status": "rate_limited",
