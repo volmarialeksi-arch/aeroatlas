@@ -932,11 +932,11 @@
     "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALC": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T07:03:56.924Z",
-    "error": "All 8 attempts failed for ALC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-19T21:33:39.823Z",
+    "error": "All 8 attempts failed for ALC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BUD": {
     "status": "rate_limited",
