@@ -886,7 +886,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-18T16:53:14.909Z",
+    "lastAttempt": "2026-08-19T06:28:34.251Z",
     "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "STN": {
