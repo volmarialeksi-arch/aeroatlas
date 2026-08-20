@@ -97,11 +97,11 @@
     "error": "All 8 attempts failed for MCI. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PIT": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T14:09:56.669Z",
-    "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T06:10:01.444Z",
+    "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SLC": {
     "status": "rate_limited",
