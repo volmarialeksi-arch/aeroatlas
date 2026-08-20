@@ -1518,11 +1518,11 @@
     "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FUK": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:27:34.364Z",
-    "error": "All 8 attempts failed for FUK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:02:08.730Z",
+    "error": "All 8 attempts failed for FUK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTS": {
     "status": "rate_limited",
