@@ -1081,8 +1081,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T22:35:30.724Z",
-    "error": "All 8 attempts failed for ADD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T16:55:53.201Z",
+    "error": "All 8 attempts failed for ADD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CMN": {
     "status": "success",
