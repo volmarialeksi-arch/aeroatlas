@@ -1681,7 +1681,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T05:03:05.446Z",
+    "lastAttempt": "2026-08-20T22:45:16.775Z",
     "error": "All 8 attempts failed for NSN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DUD": {
