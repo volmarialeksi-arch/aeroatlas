@@ -111,11 +111,11 @@
     "error": "All 8 attempts failed for SLC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DTW": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T14:17:27.597Z",
-    "error": "All 8 attempts failed for DTW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T06:16:43.519Z",
+    "error": "All 8 attempts failed for DTW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PHL": {
     "status": "rate_limited",
