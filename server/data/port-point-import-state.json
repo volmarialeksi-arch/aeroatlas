@@ -1456,11 +1456,11 @@
     "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "XIY": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:06:49.650Z",
-    "error": "All 8 attempts failed for XIY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T02:22:40.619Z",
+    "error": "All 8 attempts failed for XIY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SHA": {
     "status": "rate_limited",
