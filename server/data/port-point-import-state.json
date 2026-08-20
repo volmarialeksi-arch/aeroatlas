@@ -281,11 +281,11 @@
     "error": "All 8 attempts failed for SAT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FLL": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T15:41:49.205Z",
-    "error": "All 8 attempts failed for FLL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T08:48:23.533Z",
+    "error": "All 8 attempts failed for FLL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "HNL": {
     "status": "rate_limited",
