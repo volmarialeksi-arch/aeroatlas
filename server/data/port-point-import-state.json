@@ -1634,11 +1634,11 @@
     "error": "All 8 attempts failed for CBR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HBA": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:17:14.881Z",
-    "error": "All 8 attempts failed for HBA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:46:43.749Z",
+    "error": "All 8 attempts failed for HBA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ZQN": {
     "status": "success",
