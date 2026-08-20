@@ -1325,11 +1325,11 @@
     "lastAttempt": "2026-08-18T06:13:53.429Z"
   },
   "HAN": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T10:16:57.671Z",
-    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T00:37:59.891Z",
+    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DPS": {
     "status": "rate_limited",
