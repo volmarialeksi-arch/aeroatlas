@@ -566,8 +566,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T17:47:42.816Z",
-    "error": "All 8 attempts failed for VIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T11:36:38.351Z",
+    "error": "All 8 attempts failed for VIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "GYN": {
     "status": "success",
