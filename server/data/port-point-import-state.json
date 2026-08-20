@@ -206,11 +206,11 @@
     "error": "All 8 attempts failed for AUS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IND": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T15:04:40.969Z",
-    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T07:25:41.222Z",
+    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SDF": {
     "status": "rate_limited",
