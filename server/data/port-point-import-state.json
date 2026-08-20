@@ -1465,7 +1465,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T02:24:59.288Z",
+    "lastAttempt": "2026-08-20T21:05:06.417Z",
     "error": "All 8 attempts failed for SHA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "HGH": {
