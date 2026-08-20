@@ -1255,11 +1255,11 @@
     "error": "All 8 attempts failed for RUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "AUH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T00:06:47.371Z",
-    "error": "All 8 attempts failed for AUH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-20T18:51:50.451Z",
+    "error": "All 8 attempts failed for AUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MCT": {
     "status": "timeout",
