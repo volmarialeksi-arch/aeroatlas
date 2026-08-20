@@ -349,11 +349,11 @@
     "error": "All 8 attempts failed for YYC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "YUL": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T16:01:09.518Z",
-    "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T09:29:22.581Z",
+    "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "MEX": {
     "status": "success",
