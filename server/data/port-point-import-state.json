@@ -1305,11 +1305,11 @@
     "error": "All 8 attempts failed for CGK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MNL": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T10:12:51.468Z",
-    "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T00:33:20.897Z",
+    "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BLR": {
     "status": "rate_limited",
