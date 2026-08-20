@@ -1346,11 +1346,11 @@
     "error": "All 8 attempts failed for DAC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "KTM": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T11:14:49.807Z",
-    "error": "All 8 attempts failed for KTM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T00:57:46.972Z",
+    "error": "All 8 attempts failed for KTM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HYD": {
     "status": "success",
