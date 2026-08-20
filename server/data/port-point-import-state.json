@@ -993,7 +993,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T21:51:11.507Z",
+    "lastAttempt": "2026-08-20T16:11:26.412Z",
     "error": "All 8 attempts failed for VKO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "NCE": {
