@@ -1595,7 +1595,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T04:35:04.756Z",
+    "lastAttempt": "2026-08-20T22:13:22.967Z",
     "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CHC": {
