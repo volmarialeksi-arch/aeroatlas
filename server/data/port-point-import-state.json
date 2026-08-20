@@ -1387,11 +1387,10 @@
     "error": "All 8 attempts failed for HKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "NRT": {
-    "status": "rate_limited",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-19T11:45:28.299Z",
-    "error": "All 8 attempts failed for NRT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "status": "success",
+    "points": 722,
+    "attempts": 3,
+    "lastAttempt": "2026-08-20T01:16:16.216Z"
   },
   "HND": {
     "status": "rate_limited",
