@@ -1688,11 +1688,11 @@
     "error": "All 8 attempts failed for NSN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DUD": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:42:13.798Z",
-    "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T05:05:24.376Z",
+    "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MKY": {
     "status": "rate_limited",
