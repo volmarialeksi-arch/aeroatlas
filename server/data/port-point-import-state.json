@@ -1548,7 +1548,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T04:11:24.423Z",
+    "lastAttempt": "2026-08-20T21:54:11.404Z",
     "error": "All 8 attempts failed for PUS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TPE": {
