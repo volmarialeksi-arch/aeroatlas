@@ -901,7 +901,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T21:15:35.423Z",
+    "lastAttempt": "2026-08-20T15:27:54.216Z",
     "error": "All 8 attempts failed for BER. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BRU": {
