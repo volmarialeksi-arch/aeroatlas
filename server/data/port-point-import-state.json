@@ -1660,11 +1660,11 @@
     "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TSV": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:21:21.957Z",
-    "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:56:08.081Z",
+    "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AVV": {
     "status": "rate_limited",
