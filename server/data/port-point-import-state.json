@@ -1277,11 +1277,11 @@
     "error": "All 8 attempts failed for DEL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BOM": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T10:04:36.378Z",
-    "error": "All 8 attempts failed for BOM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T00:19:51.631Z",
+    "error": "All 8 attempts failed for BOM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BKK": {
     "status": "rate_limited",
