@@ -1449,11 +1449,11 @@
     "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CKG": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:04:47.090Z",
-    "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T02:20:21.951Z",
+    "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "XIY": {
     "status": "rate_limited",
