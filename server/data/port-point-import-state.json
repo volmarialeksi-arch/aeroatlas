@@ -721,11 +721,11 @@
     "error": "All 8 attempts failed for CDG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FRA": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T19:33:18.359Z",
-    "error": "All 8 attempts failed for FRA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-20T13:41:52.816Z",
+    "error": "All 8 attempts failed for FRA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AMS": {
     "status": "success",
