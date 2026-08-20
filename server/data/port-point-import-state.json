@@ -487,11 +487,11 @@
     "error": "All 8 attempts failed for CWB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FOR": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T17:19:23.370Z",
-    "error": "All 8 attempts failed for FOR. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-20T10:58:06.548Z",
+    "error": "All 8 attempts failed for FOR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BEL": {
     "status": "network_error",
