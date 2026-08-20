@@ -466,11 +466,11 @@
     "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "GYE": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T17:05:44.114Z",
-    "error": "All 8 attempts failed for GYE. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-20T10:31:39.362Z",
+    "error": "All 8 attempts failed for GYE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "POA": {
     "status": "network_error",
