@@ -1437,7 +1437,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T02:14:34.352Z",
+    "lastAttempt": "2026-08-20T20:46:29.864Z",
     "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "KMG": {
