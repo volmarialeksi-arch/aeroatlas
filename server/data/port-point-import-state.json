@@ -1211,8 +1211,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T23:35:08.436Z",
-    "error": "All 8 attempts failed for ORN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T18:32:08.451Z",
+    "error": "All 8 attempts failed for ORN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DJE": {
     "status": "server_error",
