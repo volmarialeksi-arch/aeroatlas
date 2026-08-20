@@ -1695,11 +1695,11 @@
     "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MKY": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:44:16.823Z",
-    "error": "All 8 attempts failed for MKY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T05:07:43.150Z",
+    "error": "All 8 attempts failed for MKY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "NPE": {
     "status": "rate_limited",
