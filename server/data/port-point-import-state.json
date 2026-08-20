@@ -1188,11 +1188,11 @@
     "error": "All 8 attempts failed for TNG. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "ZNZ": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T23:28:12.100Z",
-    "error": "All 8 attempts failed for ZNZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-20T18:09:21.114Z",
+    "error": "All 8 attempts failed for ZNZ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "EBB": {
     "status": "server_error",
