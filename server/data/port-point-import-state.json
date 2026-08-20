@@ -1300,7 +1300,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T00:31:01.529Z",
+    "lastAttempt": "2026-08-20T19:29:07.025Z",
     "error": "All 8 attempts failed for CGK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MNL": {
