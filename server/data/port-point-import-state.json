@@ -233,11 +233,11 @@
     "lastAttempt": "2026-08-19T15:10:52.581Z"
   },
   "MSY": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T15:29:24.985Z",
-    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T08:06:11.954Z",
+    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BWI": {
     "status": "rate_limited",
