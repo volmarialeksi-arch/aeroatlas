@@ -220,11 +220,11 @@
     "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CVG": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T15:08:49.065Z",
-    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T08:03:46.145Z",
+    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "MEM": {
     "status": "success",
