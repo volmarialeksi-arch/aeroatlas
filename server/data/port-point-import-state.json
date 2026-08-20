@@ -1608,8 +1608,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T04:37:24.268Z",
-    "error": "All 8 attempts failed for OOL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T22:17:21.260Z",
+    "error": "All 8 attempts failed for OOL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "WLG": {
     "status": "server_error",
