@@ -949,7 +949,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T21:41:26.979Z",
+    "lastAttempt": "2026-08-20T16:03:07.026Z",
     "error": "All 8 attempts failed for GVA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PRG": {
