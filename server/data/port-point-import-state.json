@@ -1567,8 +1567,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T04:13:43.073Z",
-    "error": "All 8 attempts failed for MEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T21:56:30.478Z",
+    "error": "All 8 attempts failed for MEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AKL": {
     "status": "server_error",
