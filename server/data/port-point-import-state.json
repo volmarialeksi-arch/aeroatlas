@@ -1667,11 +1667,11 @@
     "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AVV": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:23:25.752Z",
-    "error": "All 8 attempts failed for AVV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:58:27.926Z",
+    "error": "All 8 attempts failed for AVV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "NTL": {
     "status": "rate_limited",
