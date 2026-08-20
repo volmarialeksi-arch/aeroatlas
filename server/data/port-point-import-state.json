@@ -410,11 +410,11 @@
     "error": "All 8 attempts failed for MDE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "AEP": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T16:46:54.420Z",
-    "error": "All 8 attempts failed for AEP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T09:58:33.204Z",
+    "error": "All 8 attempts failed for AEP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BSB": {
     "status": "rate_limited",
