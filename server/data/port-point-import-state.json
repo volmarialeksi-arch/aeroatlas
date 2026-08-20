@@ -1074,7 +1074,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T22:32:05.452Z",
+    "lastAttempt": "2026-08-20T16:51:18.040Z",
     "error": "All 8 attempts failed for NBO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ADD": {
