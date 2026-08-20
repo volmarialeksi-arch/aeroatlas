@@ -854,7 +854,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T20:46:08.064Z",
+    "lastAttempt": "2026-08-20T15:08:54.711Z",
     "error": "All 8 attempts failed for LIS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ORY": {
