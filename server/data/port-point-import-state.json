@@ -1695,7 +1695,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T05:07:43.150Z",
+    "lastAttempt": "2026-08-20T22:49:59.754Z",
     "error": "All 8 attempts failed for MKY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "NPE": {
