@@ -1716,11 +1716,11 @@
     "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMR": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T13:50:26.237Z",
-    "error": "All 8 attempts failed for PMR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T05:27:58.946Z",
+    "error": "All 8 attempts failed for PMR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ROK": {
     "status": "rate_limited",
