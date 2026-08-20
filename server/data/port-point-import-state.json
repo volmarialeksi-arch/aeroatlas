@@ -1688,7 +1688,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T05:05:24.376Z",
+    "lastAttempt": "2026-08-20T22:47:39.855Z",
     "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MKY": {
