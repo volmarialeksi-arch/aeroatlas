@@ -1359,11 +1359,11 @@
     "lastAttempt": "2026-08-18T06:27:48.147Z"
   },
   "DMK": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T11:16:52.809Z",
-    "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T01:01:14.676Z",
+    "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PEK": {
     "status": "rate_limited",
