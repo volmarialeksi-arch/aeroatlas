@@ -1490,11 +1490,11 @@
     "error": "All 8 attempts failed for WUH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TAO": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:19:19.538Z",
-    "error": "All 8 attempts failed for TAO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T02:31:55.634Z",
+    "error": "All 8 attempts failed for TAO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "KIX": {
     "status": "rate_limited",
