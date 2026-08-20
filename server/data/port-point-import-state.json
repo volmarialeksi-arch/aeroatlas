@@ -1262,11 +1262,11 @@
     "error": "All 8 attempts failed for AUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MCT": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T00:10:27.645Z",
-    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-20T18:55:39.841Z",
+    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DEL": {
     "status": "timeout",
