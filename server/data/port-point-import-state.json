@@ -179,11 +179,11 @@
     "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SMF": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T14:58:29.478Z",
-    "error": "All 8 attempts failed for SMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T07:18:41.848Z",
+    "error": "All 8 attempts failed for SMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RDU": {
     "status": "rate_limited",
