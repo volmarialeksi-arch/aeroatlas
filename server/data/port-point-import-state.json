@@ -703,7 +703,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T19:22:14.053Z",
+    "lastAttempt": "2026-08-20T13:11:18.134Z",
     "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "LHR": {
