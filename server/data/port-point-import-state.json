@@ -1532,11 +1532,11 @@
     "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CJU": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:31:41.663Z",
-    "error": "All 8 attempts failed for CJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:06:46.970Z",
+    "error": "All 8 attempts failed for CJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "GMP": {
     "status": "rate_limited",
