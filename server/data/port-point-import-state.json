@@ -1504,11 +1504,11 @@
     "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTU": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:23:26.975Z",
-    "error": "All 8 attempts failed for CTU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T03:10:27.735Z",
+    "error": "All 8 attempts failed for CTU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "NKG": {
     "status": "rate_limited",
