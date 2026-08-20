@@ -1463,11 +1463,11 @@
     "error": "All 8 attempts failed for XIY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SHA": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:08:52.408Z",
-    "error": "All 8 attempts failed for SHA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T02:24:59.288Z",
+    "error": "All 8 attempts failed for SHA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "HGH": {
     "status": "rate_limited",
