@@ -1527,7 +1527,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T04:04:28.297Z",
+    "lastAttempt": "2026-08-20T21:47:12.301Z",
     "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CJU": {
