@@ -1238,8 +1238,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T23:57:25.272Z",
-    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-20T18:43:42.631Z",
+    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "JED": {
     "status": "success",
