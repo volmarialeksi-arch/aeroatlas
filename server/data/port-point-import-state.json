@@ -1565,11 +1565,11 @@
     "lastAttempt": "2026-08-18T21:54:29.313Z"
   },
   "MEL": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-19T12:46:18.741Z",
-    "error": "All 8 attempts failed for MEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-20T04:13:43.073Z",
+    "error": "All 8 attempts failed for MEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AKL": {
     "status": "rate_limited",
