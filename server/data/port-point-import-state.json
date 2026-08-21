@@ -371,8 +371,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T02:28:38.666Z",
-    "error": "All 8 attempts failed for EZE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-21T18:26:06.921Z",
+    "error": "All 8 attempts failed for EZE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BOG": {
     "status": "server_error",
