@@ -999,7 +999,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T16:14:35.877Z",
+    "lastAttempt": "2026-08-21T08:31:30.879Z",
     "error": "All 8 attempts failed for NCE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HAM": {
