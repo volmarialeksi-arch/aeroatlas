@@ -973,7 +973,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T16:07:31.597Z",
+    "lastAttempt": "2026-08-21T08:23:04.515Z",
     "error": "All 8 attempts failed for EDI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "OPO": {
