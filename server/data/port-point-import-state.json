@@ -517,8 +517,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T11:12:25.109Z",
-    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T03:38:57.665Z",
+    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MAO": {
     "status": "timeout",
