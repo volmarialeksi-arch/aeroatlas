@@ -174,7 +174,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T00:16:52.451Z",
+    "lastAttempt": "2026-08-21T16:54:11.567Z",
     "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SMF": {
