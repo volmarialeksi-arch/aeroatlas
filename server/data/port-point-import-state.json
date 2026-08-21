@@ -182,7 +182,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T07:18:41.848Z",
+    "lastAttempt": "2026-08-21T00:20:36.343Z",
     "error": "All 8 attempts failed for SMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RDU": {
