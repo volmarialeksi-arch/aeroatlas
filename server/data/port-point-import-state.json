@@ -1543,11 +1543,11 @@
     "error": "All 8 attempts failed for GMP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PUS": {
-    "status": "server_error",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T21:54:11.404Z",
-    "error": "All 8 attempts failed for PUS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-21T13:58:48.021Z",
+    "error": "All 8 attempts failed for PUS. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
   },
   "TPE": {
     "status": "success",
