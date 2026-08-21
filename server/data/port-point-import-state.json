@@ -535,11 +535,11 @@
     "error": "All 8 attempts failed for ASU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "COR": {
-    "status": "timeout",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T11:25:34.089Z",
-    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T03:45:56.301Z",
+    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "MDZ": {
     "status": "success",
