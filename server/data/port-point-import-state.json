@@ -79,7 +79,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T23:21:23.818Z",
+    "lastAttempt": "2026-08-21T15:43:29.342Z",
     "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "IAD": {
