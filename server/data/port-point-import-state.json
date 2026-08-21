@@ -235,8 +235,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T00:38:55.853Z",
-    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-21T17:19:24.454Z",
+    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BWI": {
     "status": "server_error",
