@@ -754,11 +754,11 @@
     "error": "All 8 attempts failed for IST. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SVO": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T13:54:58.533Z",
-    "error": "All 8 attempts failed for SVO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T05:52:36.835Z",
+    "error": "All 8 attempts failed for SVO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ZRH": {
     "status": "timeout",
