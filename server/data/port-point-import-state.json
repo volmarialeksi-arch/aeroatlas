@@ -364,7 +364,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T02:24:01.659Z",
+    "lastAttempt": "2026-08-21T18:22:43.118Z",
     "error": "All 8 attempts failed for GRU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "EZE": {
