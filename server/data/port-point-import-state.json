@@ -284,7 +284,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T08:48:23.533Z",
+    "lastAttempt": "2026-08-21T01:10:55.436Z",
     "error": "All 8 attempts failed for FLL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "HNL": {
