@@ -623,11 +623,11 @@
     "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SLA": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T12:10:16.274Z",
-    "error": "All 8 attempts failed for SLA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T04:21:13.493Z",
+    "error": "All 8 attempts failed for SLA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BRC": {
     "status": "timeout",
