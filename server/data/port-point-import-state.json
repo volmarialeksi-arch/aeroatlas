@@ -534,11 +534,11 @@
     "error": "All 8 attempts failed for ASU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "COR": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T03:45:56.301Z",
-    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-21T20:37:37.267Z",
+    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "MDZ": {
     "status": "success",
