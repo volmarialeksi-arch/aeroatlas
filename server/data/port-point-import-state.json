@@ -1471,7 +1471,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T21:08:42.450Z",
+    "lastAttempt": "2026-08-21T13:21:35.667Z",
     "error": "All 8 attempts failed for HGH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CGO": {
