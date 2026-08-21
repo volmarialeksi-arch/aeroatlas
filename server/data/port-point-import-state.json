@@ -1502,11 +1502,10 @@
     "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CTU": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-20T21:19:15.815Z",
-    "error": "All 8 attempts failed for CTU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 654,
+    "attempts": 5,
+    "lastAttempt": "2026-08-21T13:37:08.341Z"
   },
   "NKG": {
     "status": "server_error",
