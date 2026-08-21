@@ -447,7 +447,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T10:20:44.073Z",
+    "lastAttempt": "2026-08-21T02:54:26.889Z",
     "error": "All 8 attempts failed for CTG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CLO": {
