@@ -1303,11 +1303,11 @@
     "error": "All 8 attempts failed for CGK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MNL": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T19:33:10.350Z",
-    "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T11:49:15.604Z",
+    "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BLR": {
     "status": "timeout",
