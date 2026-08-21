@@ -131,11 +131,11 @@
     "lastAttempt": "2026-08-18T10:59:59.738Z"
   },
   "MSP": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T23:55:54.380Z",
-    "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T16:13:57.901Z",
+    "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PHX": {
     "status": "timeout",
