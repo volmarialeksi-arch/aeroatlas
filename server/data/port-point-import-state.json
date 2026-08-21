@@ -712,11 +712,11 @@
     "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CDG": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T05:26:41.439Z",
-    "error": "All 8 attempts failed for CDG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T22:10:45.246Z",
+    "error": "All 8 attempts failed for CDG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FRA": {
     "status": "server_error",
