@@ -152,11 +152,11 @@
     "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BOS": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T07:11:42.718Z",
-    "error": "All 8 attempts failed for BOS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T00:08:51.773Z",
+    "error": "All 8 attempts failed for BOS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "EWR": {
     "status": "success",
