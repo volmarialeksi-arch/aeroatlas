@@ -1145,11 +1145,11 @@
     "error": "All 8 attempts failed for DUR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ACC": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T17:34:45.812Z",
-    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T10:10:13.525Z",
+    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AGA": {
     "status": "timeout",
