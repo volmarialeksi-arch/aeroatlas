@@ -341,11 +341,11 @@
     "error": "All 8 attempts failed for YVR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "YYC": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T02:14:19.365Z",
-    "error": "All 8 attempts failed for YYC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T18:14:37.617Z",
+    "error": "All 8 attempts failed for YYC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "YUL": {
     "status": "timeout",
