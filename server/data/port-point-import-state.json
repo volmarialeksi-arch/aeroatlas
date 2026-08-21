@@ -429,11 +429,11 @@
     "error": "All 8 attempts failed for REC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CNF": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T02:49:47.956Z",
-    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-21T19:25:03.246Z",
+    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "SSA": {
     "status": "server_error",
