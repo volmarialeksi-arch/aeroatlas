@@ -256,7 +256,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T00:45:53.942Z",
+    "lastAttempt": "2026-08-21T17:32:49.476Z",
     "error": "All 8 attempts failed for CMH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "STL": {
