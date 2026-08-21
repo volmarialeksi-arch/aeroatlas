@@ -825,7 +825,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T06:46:11.989Z",
+    "lastAttempt": "2026-08-21T23:19:19.219Z",
     "error": "All 8 attempts failed for BCN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MUC": {
