@@ -348,11 +348,11 @@
     "error": "All 8 attempts failed for YYC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "YUL": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T02:19:28.365Z",
-    "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T18:18:53.065Z",
+    "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MEX": {
     "status": "success",
