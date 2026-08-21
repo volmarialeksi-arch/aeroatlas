@@ -138,11 +138,11 @@
     "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PHX": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T06:30:15.010Z",
-    "error": "All 8 attempts failed for PHX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T00:00:07.998Z",
+    "error": "All 8 attempts failed for PHX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DCA": {
     "status": "server_error",
