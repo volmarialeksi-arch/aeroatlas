@@ -611,7 +611,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T04:14:54.438Z",
+    "lastAttempt": "2026-08-21T21:11:35.180Z",
     "error": "All 8 attempts failed for JPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AJU": {
