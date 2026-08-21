@@ -1027,8 +1027,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T16:37:16.779Z",
-    "error": "All 8 attempts failed for KRK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T08:46:05.459Z",
+    "error": "All 8 attempts failed for KRK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTA": {
     "status": "success",
