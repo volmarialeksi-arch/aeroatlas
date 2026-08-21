@@ -706,11 +706,11 @@
     "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "LHR": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T13:15:20.401Z",
-    "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T05:22:17.328Z",
+    "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CDG": {
     "status": "server_error",
