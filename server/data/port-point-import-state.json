@@ -280,11 +280,11 @@
     "error": "All 8 attempts failed for SAT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FLL": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T01:10:55.436Z",
-    "error": "All 8 attempts failed for FLL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-21T17:42:34.563Z",
+    "error": "All 8 attempts failed for FLL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HNL": {
     "status": "timeout",
