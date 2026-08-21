@@ -521,11 +521,11 @@
     "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MAO": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T11:16:08.970Z",
-    "error": "All 8 attempts failed for MAO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T03:41:17.310Z",
+    "error": "All 8 attempts failed for MAO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ASU": {
     "status": "server_error",
