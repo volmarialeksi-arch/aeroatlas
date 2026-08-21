@@ -588,11 +588,11 @@
     "error": "All 8 attempts failed for MCZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BPS": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-20T11:43:15.397Z",
-    "error": "All 8 attempts failed for BPS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-21T04:07:56.232Z",
+    "error": "All 8 attempts failed for BPS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IGU": {
     "status": "timeout",
