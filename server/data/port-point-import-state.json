@@ -412,11 +412,11 @@
     "error": "All 8 attempts failed for AEP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BSB": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T10:31:47.977Z",
-    "error": "All 8 attempts failed for BSB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T23:45:25.003Z",
+    "error": "All 8 attempts failed for BSB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "REC": {
     "status": "timeout",
