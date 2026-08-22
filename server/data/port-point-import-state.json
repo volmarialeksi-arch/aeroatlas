@@ -1429,11 +1429,11 @@
     "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "KMG": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T05:13:43.611Z",
-    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T19:01:38.646Z",
+    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CKG": {
     "status": "network_error",
