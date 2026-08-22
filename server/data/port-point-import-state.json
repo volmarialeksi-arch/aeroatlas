@@ -428,11 +428,11 @@
     "error": "All 8 attempts failed for REC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CNF": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T19:25:03.246Z",
-    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-22T10:41:06.022Z",
+    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SSA": {
     "status": "timeout",
