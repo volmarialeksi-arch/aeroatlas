@@ -253,11 +253,11 @@
     "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CMH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T17:32:49.476Z",
-    "error": "All 8 attempts failed for CMH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-22T09:00:56.482Z",
+    "error": "All 8 attempts failed for CMH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "STL": {
     "status": "server_error",
