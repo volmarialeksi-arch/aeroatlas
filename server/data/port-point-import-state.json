@@ -533,11 +533,10 @@
     "error": "All 8 attempts failed for ASU. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "COR": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-21T20:37:37.267Z",
-    "error": "All 8 attempts failed for COR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "status": "success",
+    "points": 32,
+    "attempts": 3,
+    "lastAttempt": "2026-08-22T11:40:14.795Z"
   },
   "MDZ": {
     "status": "success",
