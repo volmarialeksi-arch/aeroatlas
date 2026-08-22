@@ -1450,11 +1450,10 @@
     "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "XIY": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-21T13:13:58.259Z",
-    "error": "All 8 attempts failed for XIY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 357,
+    "attempts": 3,
+    "lastAttempt": "2026-08-22T05:18:32.945Z"
   },
   "SHA": {
     "status": "server_error",
