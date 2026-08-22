@@ -1268,7 +1268,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T11:16:34.576Z",
+    "lastAttempt": "2026-08-22T03:32:20.475Z",
     "error": "All 8 attempts failed for DEL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BOM": {
