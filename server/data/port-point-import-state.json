@@ -1180,11 +1180,11 @@
     "error": "All 8 attempts failed for TNG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ZNZ": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T02:27:46.437Z",
-    "error": "All 8 attempts failed for ZNZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-22T16:59:30.271Z",
+    "error": "All 8 attempts failed for ZNZ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "EBB": {
     "status": "success",
