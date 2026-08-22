@@ -1267,11 +1267,10 @@
     "error": "All 8 attempts failed for DEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BOM": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-22T03:36:54.061Z",
-    "error": "All 8 attempts failed for BOM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "status": "success",
+    "points": 126,
+    "attempts": 2,
+    "lastAttempt": "2026-08-22T17:40:18.277Z"
   },
   "BKK": {
     "status": "timeout",
