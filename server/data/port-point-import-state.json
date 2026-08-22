@@ -927,11 +927,11 @@
     "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALC": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T00:13:47.863Z",
-    "error": "All 8 attempts failed for ALC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T15:03:45.680Z",
+    "error": "All 8 attempts failed for ALC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BUD": {
     "status": "server_error",
