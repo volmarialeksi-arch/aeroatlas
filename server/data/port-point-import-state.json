@@ -1506,7 +1506,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T05:55:05.140Z",
+    "lastAttempt": "2026-08-22T19:39:29.013Z",
     "error": "All 8 attempts failed for FUK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CTS": {
