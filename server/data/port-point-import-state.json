@@ -771,11 +771,11 @@
     "error": "All 8 attempts failed for CPH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "OSL": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T22:50:06.944Z",
-    "error": "All 8 attempts failed for OSL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T13:54:13.947Z",
+    "error": "All 8 attempts failed for OSL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HEL": {
     "status": "timeout",
