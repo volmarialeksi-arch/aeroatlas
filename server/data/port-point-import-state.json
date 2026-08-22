@@ -1636,7 +1636,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T06:34:05.858Z",
+    "lastAttempt": "2026-08-22T20:24:42.008Z",
     "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "TSV": {
