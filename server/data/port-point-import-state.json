@@ -212,11 +212,11 @@
     "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SDF": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T08:36:19.847Z",
-    "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T22:12:10.452Z",
+    "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CVG": {
     "status": "server_error",
