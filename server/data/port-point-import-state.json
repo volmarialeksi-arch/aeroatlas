@@ -235,7 +235,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T08:43:44.584Z",
+    "lastAttempt": "2026-08-22T22:22:00.416Z",
     "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BWI": {
