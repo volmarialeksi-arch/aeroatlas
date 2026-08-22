@@ -1204,11 +1204,11 @@
     "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ORN": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T10:45:19.677Z",
-    "error": "All 8 attempts failed for ORN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T02:32:25.965Z",
+    "error": "All 8 attempts failed for ORN. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "DJE": {
     "status": "timeout",
