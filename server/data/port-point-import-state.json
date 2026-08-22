@@ -309,7 +309,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T18:00:29.381Z",
+    "lastAttempt": "2026-08-22T09:25:48.559Z",
     "error": "All 8 attempts failed for OKC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ABQ": {
