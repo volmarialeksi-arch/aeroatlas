@@ -1016,11 +1016,11 @@
     "error": "All 8 attempts failed for BHX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "NAP": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T08:42:14.328Z",
-    "error": "All 8 attempts failed for NAP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T00:53:16.128Z",
+    "error": "All 8 attempts failed for NAP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "KRK": {
     "status": "server_error",
