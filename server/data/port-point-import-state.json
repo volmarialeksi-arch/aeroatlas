@@ -1575,11 +1575,11 @@
     "error": "All 8 attempts failed for BNE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PER": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T14:10:31.275Z",
-    "error": "All 8 attempts failed for PER. Last error: https://overpass.private.coffee/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T06:20:44.245Z",
+    "error": "All 8 attempts failed for PER. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ADL": {
     "status": "network_error",
