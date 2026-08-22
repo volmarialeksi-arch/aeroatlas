@@ -313,11 +313,11 @@
     "error": "All 8 attempts failed for OKC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ABQ": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T18:03:42.763Z",
-    "error": "All 8 attempts failed for ABQ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T09:29:16.631Z",
+    "error": "All 8 attempts failed for ABQ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "TUS": {
     "status": "success",
