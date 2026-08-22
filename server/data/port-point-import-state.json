@@ -260,11 +260,11 @@
     "error": "All 8 attempts failed for CMH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "STL": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T09:05:40.771Z",
-    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T22:42:17.787Z",
+    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DAL": {
     "status": "success",
