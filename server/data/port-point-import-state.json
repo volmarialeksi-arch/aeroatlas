@@ -1568,11 +1568,11 @@
     "lastAttempt": "2026-08-21T14:05:06.743Z"
   },
   "BNE": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T14:06:24.080Z",
-    "error": "All 8 attempts failed for BNE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T06:18:25.242Z",
+    "error": "All 8 attempts failed for BNE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PER": {
     "status": "timeout",
