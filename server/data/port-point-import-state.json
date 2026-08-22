@@ -1273,11 +1273,10 @@
     "lastAttempt": "2026-08-22T17:40:18.277Z"
   },
   "BKK": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-22T03:59:21.117Z",
-    "error": "All 8 attempts failed for BKK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 192,
+    "attempts": 2,
+    "lastAttempt": "2026-08-22T17:40:54.946Z"
   },
   "KUL": {
     "status": "server_error",
