@@ -273,11 +273,11 @@
     "lastAttempt": "2026-08-17T20:33:29.420Z"
   },
   "SAT": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T17:39:13.227Z",
-    "error": "All 8 attempts failed for SAT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T09:09:50.830Z",
+    "error": "All 8 attempts failed for SAT. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "FLL": {
     "status": "timeout",
