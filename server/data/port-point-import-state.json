@@ -1163,11 +1163,11 @@
     "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DSS": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T10:25:07.999Z",
-    "error": "All 8 attempts failed for DSS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T02:20:47.010Z",
+    "error": "All 8 attempts failed for DSS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RMF": {
     "status": "timeout",
