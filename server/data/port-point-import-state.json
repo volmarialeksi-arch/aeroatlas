@@ -145,11 +145,11 @@
     "error": "All 8 attempts failed for PHX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DCA": {
-    "status": "network_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T16:20:26.620Z",
-    "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-22T08:06:23.405Z",
+    "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BOS": {
     "status": "success",
