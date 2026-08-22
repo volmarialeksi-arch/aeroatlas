@@ -559,11 +559,10 @@
     "error": "All 8 attempts failed for CGB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "VIX": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-21T20:51:53.644Z",
-    "error": "All 8 attempts failed for VIX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 88,
+    "attempts": 3,
+    "lastAttempt": "2026-08-22T11:49:26.954Z"
   },
   "GYN": {
     "status": "success",
