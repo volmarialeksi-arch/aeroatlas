@@ -1667,11 +1667,10 @@
     "lastAttempt": "2026-08-22T20:43:23.816Z"
   },
   "DUD": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-22T06:46:29.901Z",
-    "error": "All 8 attempts failed for DUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 18,
+    "attempts": 3,
+    "lastAttempt": "2026-08-22T20:45:09.158Z"
   },
   "MKY": {
     "status": "success",
