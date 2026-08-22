@@ -494,7 +494,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T20:09:35.975Z",
+    "lastAttempt": "2026-08-22T11:16:46.066Z",
     "error": "All 8 attempts failed for BEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "VVI": {
