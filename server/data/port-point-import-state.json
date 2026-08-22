@@ -289,7 +289,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T09:17:26.837Z",
+    "lastAttempt": "2026-08-22T22:50:41.537Z",
     "error": "All 8 attempts failed for HNL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ANC": {
