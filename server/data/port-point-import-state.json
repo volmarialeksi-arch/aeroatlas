@@ -1443,11 +1443,11 @@
     "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CKG": {
-    "status": "timeout",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T13:02:49.796Z",
-    "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T05:16:03.107Z",
+    "error": "All 8 attempts failed for CKG. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "XIY": {
     "status": "timeout",
