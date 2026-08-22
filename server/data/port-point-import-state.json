@@ -1575,11 +1575,11 @@
     "error": "All 8 attempts failed for PER. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ADL": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T06:23:03.497Z",
-    "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-22T20:05:09.626Z",
+    "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CHC": {
     "status": "success",
