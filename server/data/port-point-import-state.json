@@ -1200,11 +1200,10 @@
     "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "ORN": {
-    "status": "network_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-22T02:32:25.965Z",
-    "error": "All 8 attempts failed for ORN. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "status": "success",
+    "points": 32,
+    "attempts": 2,
+    "lastAttempt": "2026-08-22T17:07:35.106Z"
   },
   "DJE": {
     "status": "server_error",
