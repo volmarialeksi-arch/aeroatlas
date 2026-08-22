@@ -83,11 +83,11 @@
     "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "IAD": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T15:47:52.002Z",
-    "error": "All 8 attempts failed for IAD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T07:26:11.506Z",
+    "error": "All 8 attempts failed for IAD. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MCI": {
     "status": "server_error",
