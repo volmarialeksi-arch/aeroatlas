@@ -1582,11 +1582,11 @@
     "error": "All 8 attempts failed for PER. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ADL": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T14:16:46.470Z",
-    "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-22T06:23:03.497Z",
+    "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CHC": {
     "status": "success",
