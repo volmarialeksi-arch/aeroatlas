@@ -436,8 +436,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T10:44:26.082Z",
-    "error": "All 8 attempts failed for SSA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-22T23:52:21.262Z",
+    "error": "All 8 attempts failed for SSA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTG": {
     "status": "server_error",
