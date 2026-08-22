@@ -1503,11 +1503,11 @@
     "lastAttempt": "2026-08-21T13:37:08.341Z"
   },
   "NKG": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T13:37:36.148Z",
-    "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T05:52:46.143Z",
+    "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FUK": {
     "status": "timeout",
