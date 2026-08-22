@@ -55,11 +55,11 @@
     "error": "All 8 attempts failed for MIA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "IAH": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-21T15:21:03.213Z",
-    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T07:10:31.186Z",
+    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DEN": {
     "status": "timeout",
