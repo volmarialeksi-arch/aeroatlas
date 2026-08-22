@@ -1300,11 +1300,11 @@
     "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BLR": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T04:17:17.536Z",
-    "error": "All 8 attempts failed for BLR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-22T17:53:09.218Z",
+    "error": "All 8 attempts failed for BLR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SGN": {
     "status": "success",
