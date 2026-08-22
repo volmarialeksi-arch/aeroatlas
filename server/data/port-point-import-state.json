@@ -1520,7 +1520,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T06:00:46.656Z",
+    "lastAttempt": "2026-08-22T19:46:26.747Z",
     "error": "All 8 attempts failed for CJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "GMP": {
