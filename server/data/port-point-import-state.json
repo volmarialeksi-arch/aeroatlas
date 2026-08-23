@@ -802,11 +802,11 @@
     "lastAttempt": "2026-08-18T00:27:58.900Z"
   },
   "WAW": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T14:08:20.103Z",
-    "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T03:33:42.874Z",
+    "error": "All 8 attempts failed for WAW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ATH": {
     "status": "timeout",
