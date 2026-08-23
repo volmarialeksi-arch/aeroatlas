@@ -104,11 +104,10 @@
     "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SLC": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-23T10:10:03.404Z",
-    "error": "All 8 attempts failed for SLC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 124,
+    "attempts": 2,
+    "lastAttempt": "2026-08-23T23:14:35.701Z"
   },
   "DTW": {
     "status": "server_error",
