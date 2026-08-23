@@ -496,11 +496,10 @@
     "error": "All 8 attempts failed for BEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "VVI": {
-    "status": "timeout",
-    "points": 0,
+    "status": "success",
+    "points": 13,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T11:20:00.907Z",
-    "error": "All 8 attempts failed for VVI. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T00:28:32.101Z"
   },
   "CCS": {
     "status": "server_error",
