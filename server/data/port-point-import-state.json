@@ -1649,11 +1649,11 @@
     "lastAttempt": "2026-08-23T09:01:35.650Z"
   },
   "NTL": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T09:05:52.047Z",
-    "error": "All 8 attempts failed for NTL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T22:22:34.404Z",
+    "error": "All 8 attempts failed for NTL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "NSN": {
     "status": "success",
