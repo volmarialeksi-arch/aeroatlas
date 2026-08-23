@@ -1151,7 +1151,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T05:36:46.841Z",
+    "lastAttempt": "2026-08-23T18:49:04.800Z",
     "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DSS": {
