@@ -475,11 +475,11 @@
     "error": "All 8 attempts failed for POA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CWB": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T11:07:41.525Z",
-    "error": "All 8 attempts failed for CWB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T00:07:22.723Z",
+    "error": "All 8 attempts failed for CWB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FOR": {
     "status": "server_error",
