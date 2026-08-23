@@ -997,7 +997,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T04:52:29.531Z",
+    "lastAttempt": "2026-08-23T17:43:22.360Z",
     "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BHX": {
