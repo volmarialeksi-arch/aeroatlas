@@ -904,11 +904,11 @@
     "error": "All 8 attempts failed for BRU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ARN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T04:24:42.448Z",
-    "error": "All 8 attempts failed for ARN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T17:09:07.107Z",
+    "error": "All 8 attempts failed for ARN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DUS": {
     "status": "success",
