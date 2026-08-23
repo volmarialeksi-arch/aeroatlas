@@ -602,11 +602,11 @@
     "error": "All 8 attempts failed for SLZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "JPA": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T12:07:17.754Z",
-    "error": "All 8 attempts failed for JPA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T01:11:44.519Z",
+    "error": "All 8 attempts failed for JPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AJU": {
     "status": "server_error",
