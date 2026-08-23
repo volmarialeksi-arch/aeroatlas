@@ -1496,8 +1496,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T19:31:57.619Z",
-    "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T08:01:30.234Z",
+    "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FUK": {
     "status": "timeout",
