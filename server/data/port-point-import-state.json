@@ -1114,11 +1114,11 @@
     "error": "All 8 attempts failed for SSH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "TUN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T16:19:25.384Z",
-    "error": "All 8 attempts failed for TUN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T05:22:09.613Z",
+    "error": "All 8 attempts failed for TUN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ABV": {
     "status": "timeout",
