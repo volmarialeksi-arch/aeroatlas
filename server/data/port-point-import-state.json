@@ -1345,7 +1345,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T06:36:17.258Z",
+    "lastAttempt": "2026-08-23T20:25:27.950Z",
     "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PEK": {
