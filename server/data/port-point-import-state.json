@@ -1636,11 +1636,11 @@
     "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TSV": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T08:52:41.946Z",
-    "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T22:17:27.749Z",
+    "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "AVV": {
     "status": "success",
