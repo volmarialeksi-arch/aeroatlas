@@ -1629,11 +1629,11 @@
     "lastAttempt": "2026-08-18T09:25:58.810Z"
   },
   "MCY": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T08:49:12.170Z",
-    "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-23T22:13:56.742Z",
+    "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TSV": {
     "status": "server_error",
