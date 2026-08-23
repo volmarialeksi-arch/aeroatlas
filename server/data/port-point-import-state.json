@@ -1190,11 +1190,11 @@
     "lastAttempt": "2026-08-20T18:13:24.874Z"
   },
   "ABJ": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T17:03:51.086Z",
-    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-23T05:59:03.044Z",
+    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ORN": {
     "status": "success",
