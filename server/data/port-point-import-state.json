@@ -1418,11 +1418,11 @@
     "error": "All 8 attempts failed for TFU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PKX": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T07:34:22.098Z",
-    "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T21:02:18.712Z",
+    "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "KMG": {
     "status": "timeout",
