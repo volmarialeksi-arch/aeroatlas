@@ -1500,11 +1500,11 @@
     "error": "All 8 attempts failed for NKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FUK": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T19:39:29.013Z",
-    "error": "All 8 attempts failed for FUK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T08:04:52.111Z",
+    "error": "All 8 attempts failed for FUK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTS": {
     "status": "server_error",
