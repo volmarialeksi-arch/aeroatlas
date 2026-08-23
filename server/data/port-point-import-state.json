@@ -86,7 +86,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T09:58:16.241Z",
+    "lastAttempt": "2026-08-23T23:02:53.400Z",
     "error": "All 8 attempts failed for IAD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MCI": {
