@@ -1349,11 +1349,11 @@
     "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PEK": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T06:50:46.693Z",
-    "error": "All 8 attempts failed for PEK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T20:29:18.151Z",
+    "error": "All 8 attempts failed for PEK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PVG": {
     "status": "timeout",
