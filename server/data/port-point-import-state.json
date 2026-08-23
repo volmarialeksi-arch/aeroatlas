@@ -934,8 +934,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T15:08:30.400Z",
-    "error": "All 8 attempts failed for BUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T04:35:36.826Z",
+    "error": "All 8 attempts failed for BUD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "GVA": {
     "status": "timeout",
