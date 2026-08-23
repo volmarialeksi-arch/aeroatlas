@@ -246,11 +246,11 @@
     "error": "All 8 attempts failed for BWI. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CLE": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T22:31:42.830Z",
-    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T11:21:46.027Z",
+    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CMH": {
     "status": "timeout",
