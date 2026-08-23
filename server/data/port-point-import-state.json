@@ -650,11 +650,11 @@
     "error": "All 8 attempts failed for CUZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ANF": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T02:15:36.786Z",
-    "error": "All 8 attempts failed for ANF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T14:48:13.361Z",
+    "error": "All 8 attempts failed for ANF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CCP": {
     "status": "timeout",
