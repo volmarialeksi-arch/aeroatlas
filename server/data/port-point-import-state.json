@@ -890,11 +890,11 @@
     "lastAttempt": "2026-08-19T06:32:41.168Z"
   },
   "BER": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T04:11:20.440Z",
-    "error": "All 8 attempts failed for BER. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T17:02:21.750Z",
+    "error": "All 8 attempts failed for BER. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BRU": {
     "status": "timeout",
