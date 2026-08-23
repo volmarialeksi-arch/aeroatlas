@@ -1357,11 +1357,11 @@
     "error": "All 8 attempts failed for PEK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PVG": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T18:16:49.566Z",
-    "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-23T06:55:51.648Z",
+    "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HKG": {
     "status": "timeout",
