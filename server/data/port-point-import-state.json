@@ -1364,11 +1364,11 @@
     "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HKG": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T18:19:17.523Z",
-    "error": "All 8 attempts failed for HKG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T07:00:55.136Z",
+    "error": "All 8 attempts failed for HKG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "NRT": {
     "status": "success",
