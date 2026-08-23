@@ -1253,7 +1253,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T17:32:38.681Z",
+    "lastAttempt": "2026-08-23T06:12:53.356Z",
     "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DEL": {
