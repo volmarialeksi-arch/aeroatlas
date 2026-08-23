@@ -1604,11 +1604,11 @@
     "lastAttempt": "2026-08-20T22:23:12.322Z"
   },
   "CBR": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T20:17:43.264Z",
-    "error": "All 8 attempts failed for CBR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T08:41:34.890Z",
+    "error": "All 8 attempts failed for CBR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HBA": {
     "status": "timeout",
