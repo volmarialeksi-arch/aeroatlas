@@ -217,11 +217,11 @@
     "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CVG": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T11:04:46.431Z",
-    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-23T23:53:34.140Z",
+    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "MEM": {
     "status": "success",
