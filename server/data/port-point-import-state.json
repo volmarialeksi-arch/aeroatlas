@@ -609,11 +609,11 @@
     "error": "All 8 attempts failed for JPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AJU": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T01:14:03.135Z",
-    "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-23T14:27:05.997Z",
+    "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SLA": {
     "status": "server_error",
