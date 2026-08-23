@@ -309,7 +309,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-22T22:58:50.660Z",
+    "lastAttempt": "2026-08-23T11:49:23.393Z",
     "error": "All 8 attempts failed for OKC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ABQ": {
