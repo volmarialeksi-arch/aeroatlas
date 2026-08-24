@@ -144,11 +144,11 @@
     "error": "All 8 attempts failed for PHX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DCA": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T23:29:01.121Z",
-    "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T13:52:38.447Z",
+    "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BOS": {
     "status": "success",
