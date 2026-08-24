@@ -801,11 +801,11 @@
     "lastAttempt": "2026-08-24T05:15:16.375Z"
   },
   "ATH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T05:19:19.831Z",
-    "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T19:51:10.497Z",
+    "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BCN": {
     "status": "server_error",
