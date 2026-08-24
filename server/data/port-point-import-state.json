@@ -809,11 +809,11 @@
     "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BCN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T16:24:26.578Z",
-    "error": "All 8 attempts failed for BCN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T05:23:09.735Z",
+    "error": "All 8 attempts failed for BCN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MUC": {
     "status": "server_error",
