@@ -1184,7 +1184,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T08:26:57.488Z",
+    "lastAttempt": "2026-08-24T22:48:42.907Z",
     "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ORN": {
