@@ -1072,11 +1072,11 @@
     "lastAttempt": "2026-08-18T04:36:39.212Z"
   },
   "HRG": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T06:44:59.505Z",
-    "error": "All 8 attempts failed for HRG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T21:55:19.409Z",
+    "error": "All 8 attempts failed for HRG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CPT": {
     "status": "success",
