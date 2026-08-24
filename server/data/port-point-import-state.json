@@ -1004,7 +1004,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T17:50:54.009Z",
+    "lastAttempt": "2026-08-24T06:23:18.144Z",
     "error": "All 8 attempts failed for NAP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "KRK": {
