@@ -657,11 +657,11 @@
     "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CJC": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T03:50:05.791Z",
-    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T17:53:48.238Z",
+    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PMC": {
     "status": "timeout",
