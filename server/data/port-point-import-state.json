@@ -1120,11 +1120,11 @@
     "error": "All 8 attempts failed for ABV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DUR": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T18:37:25.047Z",
-    "error": "All 8 attempts failed for DUR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T07:34:29.820Z",
+    "error": "All 8 attempts failed for DUR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ACC": {
     "status": "timeout",
