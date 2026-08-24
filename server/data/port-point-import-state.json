@@ -1300,11 +1300,11 @@
     "lastAttempt": "2026-08-18T06:13:53.429Z"
   },
   "HAN": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T09:46:43.704Z",
-    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T23:40:58.339Z",
+    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DPS": {
     "status": "server_error",
