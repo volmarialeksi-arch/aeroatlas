@@ -1028,7 +1028,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T06:25:37.932Z",
+    "lastAttempt": "2026-08-24T21:17:19.173Z",
     "error": "All 8 attempts failed for VLC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "JNB": {
