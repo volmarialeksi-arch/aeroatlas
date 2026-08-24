@@ -343,11 +343,10 @@
     "lastAttempt": "2026-08-22T23:20:58.254Z"
   },
   "YUL": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-23T12:08:35.413Z",
-    "error": "All 8 attempts failed for YUL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 287,
+    "attempts": 2,
+    "lastAttempt": "2026-08-24T00:38:42.028Z"
   },
   "MEX": {
     "status": "success",
