@@ -819,8 +819,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T16:28:48.607Z",
-    "error": "All 8 attempts failed for MUC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T05:25:30.174Z",
+    "error": "All 8 attempts failed for MUC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "LGW": {
     "status": "success",
