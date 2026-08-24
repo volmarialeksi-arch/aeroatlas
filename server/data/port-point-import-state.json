@@ -862,11 +862,11 @@
     "lastAttempt": "2026-08-18T01:03:36.014Z"
   },
   "MXP": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T05:37:07.157Z",
-    "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T20:24:23.127Z",
+    "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "STN": {
     "status": "server_error",
