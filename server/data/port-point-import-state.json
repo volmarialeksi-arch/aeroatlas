@@ -1335,11 +1335,11 @@
     "lastAttempt": "2026-08-18T06:27:48.147Z"
   },
   "DMK": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T20:25:27.950Z",
-    "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T10:20:56.970Z",
+    "error": "All 8 attempts failed for DMK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PEK": {
     "status": "server_error",
