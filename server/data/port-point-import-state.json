@@ -849,11 +849,11 @@
     "error": "All 8 attempts failed for ORY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PMI": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T05:34:47.818Z",
-    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T20:16:47.652Z",
+    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "MAN": {
     "status": "success",
