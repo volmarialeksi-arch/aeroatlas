@@ -1099,11 +1099,11 @@
     "lastAttempt": "2026-08-22T02:02:19.085Z"
   },
   "SSH": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T18:23:54.956Z",
-    "error": "All 8 attempts failed for SSH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T06:51:22.261Z",
+    "error": "All 8 attempts failed for SSH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "TUN": {
     "status": "server_error",
