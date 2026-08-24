@@ -1464,11 +1464,11 @@
     "error": "All 8 attempts failed for WUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TAO": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T21:19:42.139Z",
-    "error": "All 8 attempts failed for TAO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T11:28:10.663Z",
+    "error": "All 8 attempts failed for TAO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "KIX": {
     "status": "server_error",
