@@ -1576,11 +1576,11 @@
     "lastAttempt": "2026-08-18T09:02:34.391Z"
   },
   "OOL": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T22:01:34.871Z",
-    "error": "All 8 attempts failed for OOL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T12:19:22.007Z",
+    "error": "All 8 attempts failed for OOL. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "WLG": {
     "status": "success",
