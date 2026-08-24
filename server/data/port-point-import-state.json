@@ -450,11 +450,11 @@
     "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "UIO": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T13:07:17.459Z",
-    "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T02:09:10.066Z",
+    "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "GYE": {
     "status": "server_error",
