@@ -872,7 +872,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T05:39:26.807Z",
+    "lastAttempt": "2026-08-24T20:29:17.184Z",
     "error": "All 8 attempts failed for STN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AGP": {
