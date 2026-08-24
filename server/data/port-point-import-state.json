@@ -1314,11 +1314,10 @@
     "error": "All 8 attempts failed for DPS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DAC": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-24T09:53:10.424Z",
-    "error": "All 8 attempts failed for DAC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 64,
+    "attempts": 2,
+    "lastAttempt": "2026-08-24T23:48:52.586Z"
   },
   "KTM": {
     "status": "no_osm_data",
