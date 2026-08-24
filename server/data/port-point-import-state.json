@@ -1245,7 +1245,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T19:42:17.655Z",
+    "lastAttempt": "2026-08-24T08:50:39.832Z",
     "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DEL": {
