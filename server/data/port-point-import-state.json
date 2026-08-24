@@ -196,11 +196,11 @@
     "lastAttempt": "2026-08-18T23:56:03.539Z"
   },
   "AUS": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T23:46:37.893Z",
-    "error": "All 8 attempts failed for AUS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T14:08:09.083Z",
+    "error": "All 8 attempts failed for AUS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "IND": {
     "status": "server_error",
