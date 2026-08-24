@@ -651,11 +651,11 @@
     "error": "All 8 attempts failed for ANF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CCP": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T14:52:10.692Z",
-    "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T03:45:47.890Z",
+    "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CJC": {
     "status": "server_error",
