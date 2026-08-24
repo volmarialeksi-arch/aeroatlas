@@ -48,11 +48,11 @@
     "lastAttempt": "2026-08-17T05:31:28.247Z"
   },
   "MIA": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T22:44:17.170Z",
-    "error": "All 8 attempts failed for MIA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T13:01:40.588Z",
+    "error": "All 8 attempts failed for MIA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "IAH": {
     "status": "timeout",
