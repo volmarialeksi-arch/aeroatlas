@@ -1141,11 +1141,11 @@
     "error": "All 8 attempts failed for AGA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DAR": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T18:49:04.800Z",
-    "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T07:47:44.698Z",
+    "error": "All 8 attempts failed for DAR. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
   },
   "DSS": {
     "status": "timeout",
