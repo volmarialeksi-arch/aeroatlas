@@ -291,11 +291,11 @@
     "error": "All 8 attempts failed for HNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ANC": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T11:45:00.891Z",
-    "error": "All 8 attempts failed for ANC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T00:12:33.632Z",
+    "error": "All 8 attempts failed for ANC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "JAX": {
     "status": "success",
