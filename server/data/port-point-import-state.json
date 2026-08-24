@@ -1290,8 +1290,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T09:43:36.499Z",
-    "error": "All 8 attempts failed for BLR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T23:37:09.110Z",
+    "error": "All 8 attempts failed for BLR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SGN": {
     "status": "success",
