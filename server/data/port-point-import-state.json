@@ -1137,7 +1137,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T18:45:27.686Z",
+    "lastAttempt": "2026-08-24T07:42:41.902Z",
     "error": "All 8 attempts failed for AGA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DAR": {
