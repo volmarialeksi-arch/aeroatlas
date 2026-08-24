@@ -686,11 +686,11 @@
     "error": "All 8 attempts failed for GIG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SCL": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T15:09:49.404Z",
-    "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T04:07:42.868Z",
+    "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "LHR": {
     "status": "server_error",
