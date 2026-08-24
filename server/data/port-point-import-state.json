@@ -909,11 +909,11 @@
     "lastAttempt": "2026-08-18T17:05:39.146Z"
   },
   "LED": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T06:02:37.196Z",
-    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T20:44:15.646Z",
+    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ALC": {
     "status": "no_osm_data",
