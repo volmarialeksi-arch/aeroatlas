@@ -1227,11 +1227,10 @@
     "lastAttempt": "2026-08-20T00:00:00.262Z"
   },
   "RUH": {
-    "status": "timeout",
+    "status": "no_osm_data",
     "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-24T08:43:20.928Z",
-    "error": "All 8 attempts failed for RUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "attempts": 7,
+    "lastAttempt": "2026-08-24T23:11:40.212Z"
   },
   "AUH": {
     "status": "server_error",
