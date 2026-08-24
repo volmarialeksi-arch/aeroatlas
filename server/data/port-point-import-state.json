@@ -1676,7 +1676,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T22:30:14.795Z",
+    "lastAttempt": "2026-08-24T12:47:24.399Z",
     "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PMR": {
