@@ -672,11 +672,11 @@
     "error": "All 8 attempts failed for PMC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "LPB": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T15:02:07.493Z",
-    "error": "All 8 attempts failed for LPB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T03:58:41.638Z",
+    "error": "All 8 attempts failed for LPB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GIG": {
     "status": "server_error",
