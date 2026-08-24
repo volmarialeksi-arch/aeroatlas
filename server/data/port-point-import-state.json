@@ -1214,11 +1214,11 @@
     "error": "All 8 attempts failed for DXB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DOH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T08:39:36.300Z",
-    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-24T23:06:34.287Z",
+    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "JED": {
     "status": "success",
