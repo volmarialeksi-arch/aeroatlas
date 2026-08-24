@@ -1396,11 +1396,11 @@
     "error": "All 8 attempts failed for CAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SZX": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T20:57:41.260Z",
-    "error": "All 8 attempts failed for SZX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-24T10:56:20.153Z",
+    "error": "All 8 attempts failed for SZX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TFU": {
     "status": "server_error",
