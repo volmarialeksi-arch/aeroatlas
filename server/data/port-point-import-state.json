@@ -870,11 +870,11 @@
     "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "STN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-23T16:57:54.257Z",
-    "error": "All 8 attempts failed for STN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-24T05:39:26.807Z",
+    "error": "All 8 attempts failed for STN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "AGP": {
     "status": "success",
