@@ -109,11 +109,11 @@
     "lastAttempt": "2026-08-23T23:14:35.701Z"
   },
   "DTW": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T03:33:45.140Z",
-    "error": "All 8 attempts failed for DTW. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-25T17:08:50.176Z",
+    "error": "All 8 attempts failed for DTW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PHL": {
     "status": "server_error",
