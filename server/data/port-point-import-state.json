@@ -928,11 +928,11 @@
     "error": "All 8 attempts failed for BUD. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GVA": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T20:50:53.112Z",
-    "error": "All 8 attempts failed for GVA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-25T11:13:06.172Z",
+    "error": "All 8 attempts failed for GVA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PRG": {
     "status": "success",
