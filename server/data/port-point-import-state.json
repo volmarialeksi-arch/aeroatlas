@@ -212,7 +212,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T04:12:12.362Z",
+    "lastAttempt": "2026-08-25T17:54:02.008Z",
     "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CVG": {
