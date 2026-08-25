@@ -840,11 +840,11 @@
     "error": "All 8 attempts failed for LIS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ORY": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T10:33:30.547Z",
-    "error": "All 8 attempts failed for ORY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T23:30:44.991Z",
+    "error": "All 8 attempts failed for ORY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMI": {
     "status": "timeout",
