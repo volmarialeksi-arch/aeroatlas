@@ -898,7 +898,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T20:41:26.449Z",
+    "lastAttempt": "2026-08-25T11:02:54.080Z",
     "error": "All 8 attempts failed for ARN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DUS": {
