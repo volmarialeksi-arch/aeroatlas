@@ -592,7 +592,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T07:46:53.792Z",
+    "lastAttempt": "2026-08-25T21:26:54.198Z",
     "error": "All 8 attempts failed for SLZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "JPA": {
