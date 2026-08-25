@@ -728,8 +728,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T19:02:55.427Z",
-    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T09:32:15.452Z",
+    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IST": {
     "status": "timeout",
