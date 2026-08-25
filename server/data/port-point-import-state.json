@@ -147,7 +147,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T13:52:38.447Z",
+    "lastAttempt": "2026-08-25T03:46:44.731Z",
     "error": "All 8 attempts failed for DCA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BOS": {
