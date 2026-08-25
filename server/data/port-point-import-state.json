@@ -1346,11 +1346,11 @@
     "error": "All 8 attempts failed for PEK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PVG": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T10:27:35.000Z",
-    "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-24T23:58:36.659Z",
+    "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HKG": {
     "status": "success",
