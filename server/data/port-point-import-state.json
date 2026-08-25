@@ -206,7 +206,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T14:12:12.557Z",
+    "lastAttempt": "2026-08-25T04:09:03.255Z",
     "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SDF": {
