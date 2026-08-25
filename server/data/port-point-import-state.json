@@ -1509,11 +1509,11 @@
     "error": "All 8 attempts failed for CJU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GMP": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T12:02:04.720Z",
-    "error": "All 8 attempts failed for GMP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T01:26:14.545Z",
+    "error": "All 8 attempts failed for GMP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PUS": {
     "status": "success",
