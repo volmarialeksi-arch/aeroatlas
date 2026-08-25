@@ -1591,8 +1591,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T02:16:15.684Z",
-    "error": "All 8 attempts failed for CBR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T15:43:17.033Z",
+    "error": "All 8 attempts failed for CBR. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
   },
   "HBA": {
     "status": "timeout",
