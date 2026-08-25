@@ -1492,11 +1492,11 @@
     "error": "All 8 attempts failed for FUK. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
   },
   "CTS": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T01:17:31.771Z",
-    "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T15:21:17.818Z",
+    "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CJU": {
     "status": "timeout",
