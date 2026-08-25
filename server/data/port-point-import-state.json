@@ -1658,11 +1658,11 @@
     "lastAttempt": "2026-08-22T06:50:07.896Z"
   },
   "NPE": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T02:36:52.309Z",
-    "error": "All 8 attempts failed for NPE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T16:09:06.763Z",
+    "error": "All 8 attempts failed for NPE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CFS": {
     "status": "timeout",
