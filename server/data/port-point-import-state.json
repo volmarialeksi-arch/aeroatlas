@@ -452,7 +452,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T06:18:46.239Z",
+    "lastAttempt": "2026-08-25T20:08:28.191Z",
     "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GYE": {
