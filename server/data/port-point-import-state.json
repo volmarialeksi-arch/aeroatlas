@@ -1417,8 +1417,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T11:10:15.641Z",
-    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T00:35:44.690Z",
+    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CKG": {
     "status": "server_error",
