@@ -1563,7 +1563,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T12:12:47.360Z",
+    "lastAttempt": "2026-08-25T02:08:33.621Z",
     "error": "All 8 attempts failed for ADL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CHC": {
