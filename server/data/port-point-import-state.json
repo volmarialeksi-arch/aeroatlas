@@ -773,11 +773,11 @@
     "error": "All 8 attempts failed for HEL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "REK": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T10:05:52.748Z",
-    "error": "All 8 attempts failed for REK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T22:59:40.145Z",
+    "error": "All 8 attempts failed for REK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DME": {
     "status": "server_error",
