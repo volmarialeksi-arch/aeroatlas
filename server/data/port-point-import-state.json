@@ -202,11 +202,11 @@
     "error": "All 8 attempts failed for AUS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IND": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T04:09:03.255Z",
-    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T17:49:08.153Z",
+    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SDF": {
     "status": "timeout",
