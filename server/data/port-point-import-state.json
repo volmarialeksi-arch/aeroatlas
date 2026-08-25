@@ -732,11 +732,11 @@
     "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IST": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T19:06:34.370Z",
-    "error": "All 8 attempts failed for IST. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T09:36:46.075Z",
+    "error": "All 8 attempts failed for IST. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SVO": {
     "status": "server_error",
