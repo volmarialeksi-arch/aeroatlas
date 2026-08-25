@@ -390,8 +390,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T15:23:38.414Z",
-    "error": "All 8 attempts failed for VCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T05:33:55.721Z",
+    "error": "All 8 attempts failed for VCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MDE": {
     "status": "timeout",
