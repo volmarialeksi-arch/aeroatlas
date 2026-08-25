@@ -540,7 +540,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T07:32:43.782Z",
+    "lastAttempt": "2026-08-25T21:07:05.499Z",
     "error": "All 8 attempts failed for MVD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CGB": {
