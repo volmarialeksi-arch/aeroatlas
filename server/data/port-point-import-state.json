@@ -505,11 +505,11 @@
     "error": "All 8 attempts failed for CCS. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "FLN": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T16:48:42.194Z",
-    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T07:00:20.962Z",
+    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MAO": {
     "status": "server_error",
