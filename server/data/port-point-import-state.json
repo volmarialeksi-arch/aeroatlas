@@ -456,11 +456,11 @@
     "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GYE": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T06:38:21.173Z",
-    "error": "All 8 attempts failed for GYE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T20:12:41.021Z",
+    "error": "All 8 attempts failed for GYE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "POA": {
     "status": "timeout",
