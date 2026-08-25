@@ -1364,11 +1364,11 @@
     "lastAttempt": "2026-08-20T01:16:16.216Z"
   },
   "HND": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T00:00:55.617Z",
-    "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-25T14:12:40.092Z",
+    "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ICN": {
     "status": "server_error",
