@@ -120,8 +120,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T13:42:55.665Z",
-    "error": "All 8 attempts failed for PHL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T03:36:04.336Z",
+    "error": "All 8 attempts failed for PHL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CLT": {
     "status": "success",
