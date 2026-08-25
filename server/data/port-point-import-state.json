@@ -48,11 +48,10 @@
     "lastAttempt": "2026-08-17T05:31:28.247Z"
   },
   "MIA": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-25T03:15:40.970Z",
-    "error": "All 8 attempts failed for MIA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 494,
+    "attempts": 5,
+    "lastAttempt": "2026-08-25T16:29:09.699Z"
   },
   "IAH": {
     "status": "server_error",
