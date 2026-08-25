@@ -672,7 +672,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T08:38:41.610Z",
+    "lastAttempt": "2026-08-25T21:57:10.133Z",
     "error": "All 8 attempts failed for LPB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "GIG": {
