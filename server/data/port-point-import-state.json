@@ -864,7 +864,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T20:24:23.127Z",
+    "lastAttempt": "2026-08-25T10:41:00.757Z",
     "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "STN": {
