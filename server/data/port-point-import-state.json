@@ -130,11 +130,11 @@
     "lastAttempt": "2026-08-18T10:59:59.738Z"
   },
   "MSP": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T13:45:25.546Z",
-    "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-25T03:39:55.527Z",
+    "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "PHX": {
     "status": "rate_limited",
