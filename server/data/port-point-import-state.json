@@ -1687,7 +1687,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-24T12:54:09.480Z",
+    "lastAttempt": "2026-08-25T02:49:12.220Z",
     "error": "All 8 attempts failed for ROK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   }
 }
