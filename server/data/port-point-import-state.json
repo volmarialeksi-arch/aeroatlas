@@ -442,11 +442,11 @@
     "error": "All 8 attempts failed for CTG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CLO": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T06:13:47.551Z",
-    "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-25T20:04:13.177Z",
+    "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "UIO": {
     "status": "timeout",
