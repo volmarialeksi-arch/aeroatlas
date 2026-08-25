@@ -1614,11 +1614,10 @@
     "lastAttempt": "2026-08-18T09:25:58.810Z"
   },
   "MCY": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-25T02:24:49.703Z",
-    "error": "All 8 attempts failed for MCY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 65,
+    "attempts": 6,
+    "lastAttempt": "2026-08-25T16:00:26.788Z"
   },
   "TSV": {
     "status": "timeout",
