@@ -693,7 +693,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T09:18:16.974Z",
+    "lastAttempt": "2026-08-25T22:06:50.938Z",
     "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CDG": {
