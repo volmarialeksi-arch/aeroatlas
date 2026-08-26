@@ -722,11 +722,11 @@
     "error": "All 8 attempts failed for MAD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "FCO": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T22:27:35.042Z",
-    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T13:19:16.799Z",
+    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IST": {
     "status": "timeout",
