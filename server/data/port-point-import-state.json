@@ -68,11 +68,11 @@
     "error": "All 8 attempts failed for DEN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "LAS": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T16:34:54.601Z",
-    "error": "All 8 attempts failed for LAS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T05:54:38.534Z",
+    "error": "All 8 attempts failed for LAS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RSW": {
     "status": "timeout",
