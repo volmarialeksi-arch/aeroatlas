@@ -353,11 +353,11 @@
     "lastAttempt": "2026-08-19T16:03:14.096Z"
   },
   "GRU": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T19:16:41.612Z",
-    "error": "All 8 attempts failed for GRU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T08:40:49.890Z",
+    "error": "All 8 attempts failed for GRU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "EZE": {
     "status": "server_error",
