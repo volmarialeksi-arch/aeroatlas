@@ -681,11 +681,11 @@
     "error": "All 8 attempts failed for GIG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SCL": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T22:03:21.163Z",
-    "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T12:13:01.788Z",
+    "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "LHR": {
     "status": "server_error",
