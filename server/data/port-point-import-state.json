@@ -1300,8 +1300,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T13:49:56.766Z",
-    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T02:57:28.940Z",
+    "error": "All 8 attempts failed for HAN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DPS": {
     "status": "server_error",
