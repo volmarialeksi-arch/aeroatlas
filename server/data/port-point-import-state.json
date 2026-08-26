@@ -1346,7 +1346,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T14:08:56.045Z",
+    "lastAttempt": "2026-08-26T03:26:24.755Z",
     "error": "All 8 attempts failed for PVG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HKG": {
