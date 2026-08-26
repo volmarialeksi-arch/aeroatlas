@@ -245,7 +245,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T18:12:20.692Z",
+    "lastAttempt": "2026-08-26T07:47:17.697Z",
     "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CMH": {
