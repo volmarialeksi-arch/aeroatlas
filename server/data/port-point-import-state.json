@@ -1187,11 +1187,10 @@
     "lastAttempt": "2026-08-22T17:07:35.106Z"
   },
   "DJE": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-26T02:24:18.398Z",
-    "error": "All 8 attempts failed for DJE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 56,
+    "attempts": 6,
+    "lastAttempt": "2026-08-26T22:02:58.901Z"
   },
   "RBA": {
     "status": "success",
