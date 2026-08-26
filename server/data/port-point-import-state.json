@@ -1266,8 +1266,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T13:36:56.523Z",
-    "error": "All 8 attempts failed for KUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T02:44:57.759Z",
+    "error": "All 8 attempts failed for KUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CGK": {
     "status": "server_error",
