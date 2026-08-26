@@ -1411,11 +1411,11 @@
     "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "KMG": {
-    "status": "network_error",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T14:42:25.348Z",
-    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-26T03:54:42.752Z",
+    "error": "All 8 attempts failed for KMG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CKG": {
     "status": "success",
