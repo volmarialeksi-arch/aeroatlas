@@ -1466,8 +1466,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T15:12:43.166Z",
-    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T04:04:01.405Z",
+    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CTU": {
     "status": "success",
