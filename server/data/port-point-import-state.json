@@ -479,8 +479,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T20:23:00.317Z",
-    "error": "All 8 attempts failed for FOR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-26T10:24:09.496Z",
+    "error": "All 8 attempts failed for FOR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "BEL": {
     "status": "timeout",
