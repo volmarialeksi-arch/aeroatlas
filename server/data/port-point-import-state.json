@@ -448,11 +448,11 @@
     "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "UIO": {
-    "status": "timeout",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T20:08:28.191Z",
-    "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T10:08:39.845Z",
+    "error": "All 8 attempts failed for UIO. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "GYE": {
     "status": "server_error",
