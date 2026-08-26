@@ -580,11 +580,11 @@
     "error": "All 8 attempts failed for BPS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "IGU": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T21:18:54.500Z",
-    "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T11:04:17.568Z",
+    "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SLZ": {
     "status": "server_error",
