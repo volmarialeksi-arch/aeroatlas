@@ -75,11 +75,11 @@
     "error": "All 8 attempts failed for LAS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RSW": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T16:38:43.362Z",
-    "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T05:56:58.051Z",
+    "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IAD": {
     "status": "timeout",
