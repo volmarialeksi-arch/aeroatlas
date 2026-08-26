@@ -385,11 +385,11 @@
     "lastAttempt": "2026-08-21T02:34:35.594Z"
   },
   "VCP": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T19:25:42.650Z",
-    "error": "All 8 attempts failed for VCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-26T08:49:47.076Z",
+    "error": "All 8 attempts failed for VCP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MDE": {
     "status": "server_error",
