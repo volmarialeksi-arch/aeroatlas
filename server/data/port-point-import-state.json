@@ -1147,11 +1147,11 @@
     "error": "All 8 attempts failed for DSS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "RMF": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T02:11:00.533Z",
-    "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T21:48:49.228Z",
+    "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "TNG": {
     "status": "rate_limited",
