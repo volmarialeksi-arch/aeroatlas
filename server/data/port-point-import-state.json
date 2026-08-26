@@ -891,11 +891,11 @@
     "error": "All 8 attempts failed for BRU. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "ARN": {
-    "status": "timeout",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T23:55:47.363Z",
-    "error": "All 8 attempts failed for ARN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T16:09:37.511Z",
+    "error": "All 8 attempts failed for ARN. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "DUS": {
     "status": "success",
