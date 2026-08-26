@@ -136,11 +136,11 @@
     "error": "All 8 attempts failed for MSP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "PHX": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-25T17:17:21.423Z",
-    "error": "All 8 attempts failed for PHX. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-08-26T06:43:54.858Z",
+    "error": "All 8 attempts failed for PHX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DCA": {
     "status": "rate_limited",
