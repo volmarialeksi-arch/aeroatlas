@@ -1019,11 +1019,11 @@
     "lastAttempt": "2026-08-18T03:21:43.165Z"
   },
   "VLC": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T00:36:49.217Z",
-    "error": "All 8 attempts failed for VLC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-26T17:01:11.909Z",
+    "error": "All 8 attempts failed for VLC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "JNB": {
     "status": "server_error",
