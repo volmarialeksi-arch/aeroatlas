@@ -1272,11 +1272,10 @@
     "error": "All 8 attempts failed for CGK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MNL": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-26T02:49:35.983Z",
-    "error": "All 8 attempts failed for MNL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 228,
+    "attempts": 2,
+    "lastAttempt": "2026-08-27T01:27:53.911Z"
   },
   "BLR": {
     "status": "server_error",
