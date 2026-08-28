@@ -1501,7 +1501,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T04:47:57.376Z",
+    "lastAttempt": "2026-08-28T05:49:57.145Z",
     "error": "All 8 attempts failed for GMP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PUS": {
