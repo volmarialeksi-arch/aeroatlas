@@ -162,11 +162,11 @@
     "lastAttempt": "2026-08-19T14:29:50.695Z"
   },
   "TPA": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T06:51:49.952Z",
-    "error": "All 8 attempts failed for TPA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-29T08:03:10.682Z",
+    "error": "All 8 attempts failed for TPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PDX": {
     "status": "timeout",
