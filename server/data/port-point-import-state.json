@@ -169,11 +169,11 @@
     "error": "All 8 attempts failed for TPA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PDX": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T06:56:54.764Z",
-    "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-29T08:05:30.253Z",
+    "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SMF": {
     "status": "success",
