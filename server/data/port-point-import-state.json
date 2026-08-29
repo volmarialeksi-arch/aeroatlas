@@ -71,7 +71,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T05:54:38.534Z",
+    "lastAttempt": "2026-08-29T01:34:27.205Z",
     "error": "All 8 attempts failed for LAS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "RSW": {
