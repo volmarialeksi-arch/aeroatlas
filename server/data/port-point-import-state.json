@@ -604,7 +604,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T11:17:18.119Z",
+    "lastAttempt": "2026-08-29T22:11:29.237Z",
     "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SLA": {
