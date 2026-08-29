@@ -472,7 +472,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T10:19:48.441Z",
+    "lastAttempt": "2026-08-29T17:45:53.635Z",
     "error": "All 8 attempts failed for CWB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "FOR": {
