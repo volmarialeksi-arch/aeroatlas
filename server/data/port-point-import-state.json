@@ -503,11 +503,11 @@
     "error": "All 8 attempts failed for CCS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "FLN": {
-    "status": "network_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T10:34:31.662Z",
-    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
+    "lastAttempt": "2026-08-29T19:58:14.534Z",
+    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MAO": {
     "status": "success",
