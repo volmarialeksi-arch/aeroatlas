@@ -228,11 +228,11 @@
     "lastAttempt": "2026-08-19T15:10:52.581Z"
   },
   "MSY": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T07:40:44.836Z",
-    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-29T08:25:44.097Z",
+    "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BWI": {
     "status": "server_error",
