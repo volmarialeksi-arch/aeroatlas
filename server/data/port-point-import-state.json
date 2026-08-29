@@ -705,7 +705,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T12:25:18.601Z",
+    "lastAttempt": "2026-08-29T22:57:49.384Z",
     "error": "All 8 attempts failed for FRA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "AMS": {
