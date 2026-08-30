@@ -1173,11 +1173,11 @@
     "lastAttempt": "2026-08-20T18:13:24.874Z"
   },
   "ABJ": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T21:59:44.267Z",
-    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T15:17:13.919Z",
+    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ORN": {
     "status": "success",
