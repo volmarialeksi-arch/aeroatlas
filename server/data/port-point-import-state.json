@@ -1132,11 +1132,11 @@
     "error": "All 8 attempts failed for AGA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DAR": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T21:40:25.173Z",
-    "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T11:25:51.059Z",
+    "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DSS": {
     "status": "timeout",
