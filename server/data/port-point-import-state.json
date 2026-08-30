@@ -979,11 +979,11 @@
     "error": "All 8 attempts failed for NCE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "HAM": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T16:48:57.044Z",
-    "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T10:45:52.524Z",
+    "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BHX": {
     "status": "server_error",
