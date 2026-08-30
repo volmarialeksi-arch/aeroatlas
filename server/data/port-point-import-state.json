@@ -1442,11 +1442,11 @@
     "lastAttempt": "2026-08-18T07:46:17.338Z"
   },
   "WUH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-27T21:32:34.853Z",
-    "error": "All 8 attempts failed for WUH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-30T21:43:15.484Z",
+    "error": "All 8 attempts failed for WUH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "TAO": {
     "status": "server_error",
