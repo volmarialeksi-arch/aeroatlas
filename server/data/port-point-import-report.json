@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:48:16.660Z",
+  "generatedAt": "2026-08-30T21:53:43.645Z",
   "importerVersion": "2026-08-16.state-file-v1",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
@@ -1335,7 +1335,7 @@
       "status": "server_error",
       "points": 0,
       "attempts": 8,
-      "lastAttempt": "2026-08-28T05:27:08.594Z"
+      "lastAttempt": "2026-08-30T21:49:50.089Z"
     },
     "KIX": {
       "status": "timeout",
