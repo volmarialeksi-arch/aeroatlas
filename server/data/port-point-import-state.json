@@ -864,11 +864,10 @@
     "error": "All 8 attempts failed for MXP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "STN": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-26T15:58:38.848Z",
-    "error": "All 8 attempts failed for STN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 165,
+    "attempts": 6,
+    "lastAttempt": "2026-08-30T05:49:07.978Z"
   },
   "AGP": {
     "status": "success",
