@@ -1496,11 +1496,11 @@
     "lastAttempt": "2026-08-30T22:09:50.147Z"
   },
   "GMP": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-28T05:49:57.145Z",
-    "error": "All 8 attempts failed for GMP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T22:13:48.069Z",
+    "error": "All 8 attempts failed for GMP. Last error: https://overpass-api.de/api/interpreter returned HTTP 406"
   },
   "PUS": {
     "status": "success",
