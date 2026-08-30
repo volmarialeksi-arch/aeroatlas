@@ -1041,8 +1041,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T17:07:36.774Z",
-    "error": "All 8 attempts failed for LOS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-08-30T10:58:58.171Z",
+    "error": "All 8 attempts failed for LOS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "NBO": {
     "status": "success",
