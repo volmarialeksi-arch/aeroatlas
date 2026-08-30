@@ -1456,11 +1456,11 @@
     "error": "All 8 attempts failed for TAO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "KIX": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-28T05:30:06.391Z",
-    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T21:53:45.107Z",
+    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "CTU": {
     "status": "success",
