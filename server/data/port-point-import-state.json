@@ -1077,11 +1077,11 @@
     "lastAttempt": "2026-08-19T22:42:35.515Z"
   },
   "RAK": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T19:02:32.444Z",
-    "error": "All 8 attempts failed for RAK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T11:07:12.033Z",
+    "error": "All 8 attempts failed for RAK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "ALG": {
     "status": "success",
