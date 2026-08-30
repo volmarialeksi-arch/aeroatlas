@@ -947,11 +947,11 @@
     "lastAttempt": "2026-08-18T17:26:46.075Z"
   },
   "EDI": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-26T16:21:25.519Z",
-    "error": "All 8 attempts failed for EDI. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-30T06:02:08.791Z",
+    "error": "All 8 attempts failed for EDI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "OPO": {
     "status": "success",
