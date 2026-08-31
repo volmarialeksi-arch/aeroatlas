@@ -206,11 +206,11 @@
     "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SDF": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T08:17:29.180Z",
-    "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-31T05:47:17.367Z",
+    "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CVG": {
     "status": "timeout",
