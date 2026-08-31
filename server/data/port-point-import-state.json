@@ -78,7 +78,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T01:37:59.915Z",
+    "lastAttempt": "2026-08-31T00:21:39.997Z",
     "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "IAD": {
