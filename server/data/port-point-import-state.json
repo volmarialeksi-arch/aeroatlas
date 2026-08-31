@@ -92,7 +92,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T01:42:37.777Z",
+    "lastAttempt": "2026-08-31T00:26:18.128Z",
     "error": "All 8 attempts failed for MCI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PIT": {
