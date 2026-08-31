@@ -358,11 +358,11 @@
     "error": "All 8 attempts failed for GRU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "EZE": {
-    "status": "server_error",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T13:52:33.669Z",
-    "error": "All 8 attempts failed for EZE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-31T12:31:41.148Z",
+    "error": "All 8 attempts failed for EZE. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "BOG": {
     "status": "success",
