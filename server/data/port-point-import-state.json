@@ -320,11 +320,11 @@
     "lastAttempt": "2026-08-17T20:52:09.630Z"
   },
   "YYZ": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T13:40:52.932Z",
-    "error": "All 8 attempts failed for YYZ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-31T08:09:18.697Z",
+    "error": "All 8 attempts failed for YYZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "YVR": {
     "status": "success",
