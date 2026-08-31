@@ -1653,11 +1653,11 @@
     "lastAttempt": "2026-08-31T00:01:42.035Z"
   },
   "CFS": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-28T18:09:22.181Z",
-    "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-08-31T00:04:03.710Z",
+    "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMR": {
     "status": "timeout",
