@@ -383,11 +383,10 @@
     "lastAttempt": "2026-08-21T02:34:35.594Z"
   },
   "VCP": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-29T13:56:48.089Z",
-    "error": "All 8 attempts failed for VCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 259,
+    "attempts": 2,
+    "lastAttempt": "2026-08-31T12:35:53.790Z"
   },
   "MDE": {
     "status": "timeout",
