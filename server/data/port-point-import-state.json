@@ -719,11 +719,11 @@
     "error": "All 8 attempts failed for MAD. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "FCO": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T00:22:42.659Z",
-    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-08-31T23:39:18.959Z",
+    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "IST": {
     "status": "server_error",
