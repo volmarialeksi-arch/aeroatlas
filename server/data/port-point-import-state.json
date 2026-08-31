@@ -462,7 +462,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-29T17:40:53.968Z",
+    "lastAttempt": "2026-08-31T15:48:53.942Z",
     "error": "All 8 attempts failed for POA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CWB": {
