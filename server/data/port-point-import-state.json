@@ -1423,7 +1423,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T21:38:25.791Z",
+    "lastAttempt": "2026-09-01T17:21:44.911Z",
     "error": "All 8 attempts failed for SHA. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "HGH": {
