@@ -797,7 +797,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T00:44:07.873Z",
+    "lastAttempt": "2026-09-01T00:53:37.315Z",
     "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BCN": {
