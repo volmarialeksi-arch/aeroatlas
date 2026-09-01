@@ -1653,7 +1653,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T00:04:03.710Z",
+    "lastAttempt": "2026-09-01T19:57:33.990Z",
     "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "PMR": {
