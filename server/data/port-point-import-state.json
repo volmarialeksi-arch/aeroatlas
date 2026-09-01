@@ -1359,11 +1359,11 @@
     "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ICN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T18:59:59.287Z",
-    "error": "All 8 attempts failed for ICN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-01T16:53:41.404Z",
+    "error": "All 8 attempts failed for ICN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SIN": {
     "status": "server_error",
