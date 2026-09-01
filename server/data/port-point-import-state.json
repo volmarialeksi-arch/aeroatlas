@@ -183,7 +183,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T05:42:35.538Z",
+    "lastAttempt": "2026-09-01T22:32:00.520Z",
     "error": "All 8 attempts failed for RDU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "BNA": {
