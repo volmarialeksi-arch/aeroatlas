@@ -804,7 +804,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T00:46:27.041Z",
+    "lastAttempt": "2026-09-01T01:51:04.134Z",
     "error": "All 8 attempts failed for BCN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MUC": {
