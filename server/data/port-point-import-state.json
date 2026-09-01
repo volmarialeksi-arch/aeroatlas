@@ -54,11 +54,11 @@
     "lastAttempt": "2026-08-25T16:29:09.699Z"
   },
   "IAH": {
-    "status": "server_error",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T00:14:42.616Z",
-    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-09-01T21:16:25.499Z",
+    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DEN": {
     "status": "server_error",
