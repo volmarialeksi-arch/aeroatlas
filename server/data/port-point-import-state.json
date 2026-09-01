@@ -1231,8 +1231,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T15:27:01.793Z",
-    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-09-01T12:55:39.929Z",
+    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DEL": {
     "status": "server_error",
