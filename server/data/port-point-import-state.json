@@ -1297,7 +1297,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T18:38:27.401Z",
+    "lastAttempt": "2026-09-01T15:18:12.157Z",
     "error": "All 8 attempts failed for DPS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "DAC": {
