@@ -1097,7 +1097,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T11:11:53.588Z",
+    "lastAttempt": "2026-09-01T07:26:48.972Z",
     "error": "All 8 attempts failed for TUN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ABV": {
