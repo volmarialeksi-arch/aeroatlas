@@ -903,8 +903,8 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T05:57:30.553Z",
-    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-09-01T05:38:00.306Z",
+    "error": "All 8 attempts failed for LED. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "ALC": {
     "status": "no_osm_data",
