@@ -778,7 +778,7 @@
     "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-30T00:41:48.850Z",
+    "lastAttempt": "2026-09-01T00:51:17.527Z",
     "error": "All 8 attempts failed for DME. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "VIE": {
