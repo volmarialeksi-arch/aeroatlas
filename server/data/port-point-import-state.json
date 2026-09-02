@@ -417,11 +417,11 @@
     "error": "All 8 attempts failed for REC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CNF": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T12:51:18.257Z",
-    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-02T01:06:30.996Z",
+    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SSA": {
     "status": "timeout",
