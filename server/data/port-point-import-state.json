@@ -839,11 +839,11 @@
     "error": "All 8 attempts failed for ORY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PMI": {
-    "status": "server_error",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-01T02:00:24.323Z",
-    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-09-02T18:10:30.402Z",
+    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "MAN": {
     "status": "success",
