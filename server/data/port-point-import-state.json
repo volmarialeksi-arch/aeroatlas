@@ -647,7 +647,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T21:21:23.641Z",
+    "lastAttempt": "2026-09-02T09:41:25.980Z",
     "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CJC": {
