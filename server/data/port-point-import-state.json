@@ -671,11 +671,11 @@
     "error": "All 8 attempts failed for LPB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "GIG": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T23:13:42.971Z",
-    "error": "All 8 attempts failed for GIG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-02T09:53:26.362Z",
+    "error": "All 8 attempts failed for GIG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
   },
   "SCL": {
     "status": "server_error",
