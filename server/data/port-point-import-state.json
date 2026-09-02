@@ -623,11 +623,11 @@
     "lastAttempt": "2026-08-17T10:34:42.966Z"
   },
   "AQP": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T21:11:27.842Z",
-    "error": "All 8 attempts failed for AQP. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-02T06:02:08.569Z",
+    "error": "All 8 attempts failed for AQP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "CUZ": {
     "status": "server_error",
