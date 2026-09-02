@@ -719,11 +719,10 @@
     "error": "All 8 attempts failed for MAD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "FCO": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-08-31T23:39:18.959Z",
-    "error": "All 8 attempts failed for FCO. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 194,
+    "attempts": 6,
+    "lastAttempt": "2026-09-02T14:03:54.324Z"
   },
   "IST": {
     "status": "timeout",
