@@ -500,11 +500,11 @@
     "error": "All 8 attempts failed for CCS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "FLN": {
-    "status": "timeout",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-08-31T19:17:55.812Z",
-    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-02T05:11:49.172Z",
+    "error": "All 8 attempts failed for FLN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "MAO": {
     "status": "success",
