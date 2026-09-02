@@ -915,11 +915,11 @@
     "lastAttempt": "2026-08-26T00:04:53.293Z"
   },
   "GVA": {
-    "status": "server_error",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-01T05:40:19.330Z",
-    "error": "All 8 attempts failed for GVA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "lastAttempt": "2026-09-02T20:17:24.555Z",
+    "error": "All 8 attempts failed for GVA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PRG": {
     "status": "success",
