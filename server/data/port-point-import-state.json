@@ -1600,11 +1600,10 @@
     "lastAttempt": "2026-08-25T16:00:26.788Z"
   },
   "TSV": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-01T19:52:50.851Z",
-    "error": "All 8 attempts failed for TSV. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 34,
+    "attempts": 2,
+    "lastAttempt": "2026-09-03T09:24:19.794Z"
   },
   "AVV": {
     "status": "success",
