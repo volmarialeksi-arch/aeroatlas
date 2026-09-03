@@ -1388,11 +1388,11 @@
     "lastAttempt": "2026-09-03T05:02:36.072Z"
   },
   "PKX": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-01T17:13:16.472Z",
-    "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-03T05:02:47.526Z",
+    "error": "All 8 attempts failed for PKX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "KMG": {
     "status": "timeout",
