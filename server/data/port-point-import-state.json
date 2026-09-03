@@ -1197,11 +1197,11 @@
     "error": "All 8 attempts failed for DXB. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DOH": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-01T12:47:34.859Z",
-    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-03T00:38:52.973Z",
+    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "JED": {
     "status": "success",
