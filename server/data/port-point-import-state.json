@@ -1354,11 +1354,11 @@
     "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ICN": {
-    "status": "server_error",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-01T16:53:41.404Z",
-    "error": "All 8 attempts failed for ICN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "lastAttempt": "2026-09-03T01:07:17.070Z",
+    "error": "All 8 attempts failed for ICN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SIN": {
     "status": "server_error",
