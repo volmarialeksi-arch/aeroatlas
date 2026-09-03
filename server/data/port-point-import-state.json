@@ -206,11 +206,10 @@
     "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SDF": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-01T22:36:39.519Z",
-    "error": "All 8 attempts failed for SDF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
+    "status": "success",
+    "points": 29,
+    "attempts": 6,
+    "lastAttempt": "2026-09-03T13:58:05.161Z"
   },
   "CVG": {
     "status": "server_error",
