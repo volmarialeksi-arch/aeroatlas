@@ -1382,11 +1382,10 @@
     "error": "All 8 attempts failed for SZX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "TFU": {
-    "status": "server_error",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-01T17:09:43.260Z",
-    "error": "All 8 attempts failed for TFU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 502"
+    "status": "success",
+    "points": 327,
+    "attempts": 2,
+    "lastAttempt": "2026-09-03T05:02:36.072Z"
   },
   "PKX": {
     "status": "timeout",
