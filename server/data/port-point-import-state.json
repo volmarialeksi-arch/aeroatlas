@@ -1158,11 +1158,11 @@
     "lastAttempt": "2026-08-20T18:13:24.874Z"
   },
   "ABJ": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-02T23:03:55.982Z",
-    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
+    "lastAttempt": "2026-09-04T06:09:16.891Z",
+    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ORN": {
     "status": "success",
