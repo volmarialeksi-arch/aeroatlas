@@ -212,11 +212,11 @@
     "lastAttempt": "2026-09-03T13:58:05.161Z"
   },
   "CVG": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-03T13:59:44.122Z",
-    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-04T18:24:31.333Z",
+    "error": "All 8 attempts failed for CVG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MEM": {
     "status": "success",
