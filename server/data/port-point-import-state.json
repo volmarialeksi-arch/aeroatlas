@@ -581,11 +581,11 @@
     "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SLZ": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-03T21:05:43.506Z",
-    "error": "All 8 attempts failed for SLZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-05T00:45:31.938Z",
+    "error": "All 8 attempts failed for SLZ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "JPA": {
     "status": "rate_limited",
