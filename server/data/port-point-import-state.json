@@ -1356,7 +1356,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-04T11:04:36.129Z",
+    "lastAttempt": "2026-09-05T21:44:28.470Z",
     "error": "All 8 attempts failed for SIN. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CAN": {
