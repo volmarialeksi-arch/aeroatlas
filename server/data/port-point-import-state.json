@@ -77,7 +77,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-04T15:22:16.505Z",
+    "lastAttempt": "2026-09-06T01:15:00.341Z",
     "error": "All 8 attempts failed for RSW. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "IAD": {
