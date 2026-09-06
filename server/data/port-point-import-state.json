@@ -229,11 +229,11 @@
     "error": "All 8 attempts failed for MSY. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BWI": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-04T18:29:23.576Z",
-    "error": "All 8 attempts failed for BWI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-06T06:06:18.252Z",
+    "error": "All 8 attempts failed for BWI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "CLE": {
     "status": "rate_limited",
