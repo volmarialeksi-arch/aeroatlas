@@ -89,7 +89,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-06T05:26:15.889Z",
+    "lastAttempt": "2026-09-07T04:50:06.944Z",
     "error": "All 8 attempts failed for MCI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PIT": {
