@@ -868,7 +868,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-07T22:24:59.477Z",
+    "lastAttempt": "2026-09-08T23:38:49.072Z",
     "error": "All 8 attempts failed for BRU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ARN": {
