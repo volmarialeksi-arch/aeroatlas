@@ -235,11 +235,11 @@
     "error": "All 8 attempts failed for BWI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CLE": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-07T05:23:03.289Z",
-    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-08T14:11:23.921Z",
+    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CMH": {
     "status": "rate_limited",
