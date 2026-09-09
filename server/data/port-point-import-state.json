@@ -1201,11 +1201,11 @@
     "error": "All 8 attempts failed for AUH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "MCT": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-08T00:58:50.410Z",
-    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
+    "lastAttempt": "2026-09-09T06:44:24.065Z",
+    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DEL": {
     "status": "rate_limited",
