@@ -1445,7 +1445,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-09T12:02:29.219Z",
+    "lastAttempt": "2026-09-10T12:54:24.855Z",
     "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CJU": {
