@@ -588,7 +588,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-09T22:35:37.103Z",
+    "lastAttempt": "2026-09-10T23:38:51.850Z",
     "error": "All 8 attempts failed for AJU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SLA": {
