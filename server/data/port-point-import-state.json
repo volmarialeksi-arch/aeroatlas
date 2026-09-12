@@ -1603,11 +1603,10 @@
     "lastAttempt": "2026-08-31T00:01:42.035Z"
   },
   "CFS": {
-    "status": "rate_limited",
+    "status": "no_osm_data",
     "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-11T21:15:48.424Z",
-    "error": "All 8 attempts failed for CFS. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "attempts": 2,
+    "lastAttempt": "2026-09-12T17:20:22.934Z"
   },
   "PMR": {
     "status": "rate_limited",
