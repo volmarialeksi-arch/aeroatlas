@@ -744,11 +744,11 @@
     "error": "All 8 attempts failed for REK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DME": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-13T00:17:16.922Z",
-    "error": "All 8 attempts failed for DME. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-13T21:20:03.351Z",
+    "error": "All 8 attempts failed for DME. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "VIE": {
     "status": "success",
