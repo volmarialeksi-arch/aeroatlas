@@ -1109,11 +1109,11 @@
     "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "TNG": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-12T13:06:27.014Z",
-    "error": "All 8 attempts failed for TNG. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-13T05:02:30.005Z",
+    "error": "All 8 attempts failed for TNG. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ZNZ": {
     "status": "success",
