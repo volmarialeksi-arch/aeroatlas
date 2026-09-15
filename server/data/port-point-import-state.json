@@ -404,11 +404,11 @@
     "error": "All 8 attempts failed for REC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CNF": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-14T22:11:14.552Z",
-    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-15T22:32:18.915Z",
+    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "SSA": {
     "status": "rate_limited",
