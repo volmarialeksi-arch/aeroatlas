@@ -1180,11 +1180,11 @@
     "lastAttempt": "2026-09-14T01:21:03.452Z"
   },
   "MCT": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-14T01:21:08.378Z",
-    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-15T11:03:50.740Z",
+    "error": "All 8 attempts failed for MCT. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DEL": {
     "status": "success",
