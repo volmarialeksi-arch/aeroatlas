@@ -660,11 +660,11 @@
     "error": "All 8 attempts failed for SCL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "LHR": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-13T21:09:45.574Z",
-    "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-15T00:55:50.255Z",
+    "error": "All 8 attempts failed for LHR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "CDG": {
     "status": "success",
