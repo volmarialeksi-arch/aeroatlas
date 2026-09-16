@@ -941,7 +941,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-15T05:57:54.743Z",
+    "lastAttempt": "2026-09-16T14:33:38.238Z",
     "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BHX": {
