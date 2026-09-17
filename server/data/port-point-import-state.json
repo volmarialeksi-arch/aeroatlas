@@ -1156,7 +1156,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-16T14:57:30.600Z",
+    "lastAttempt": "2026-09-17T18:35:26.779Z",
     "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "JED": {
