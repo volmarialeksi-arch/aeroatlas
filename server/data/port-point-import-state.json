@@ -194,11 +194,11 @@
     "lastAttempt": "2026-08-26T07:05:20.474Z"
   },
   "IND": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-15T19:19:35.920Z",
-    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-17T02:04:14.271Z",
+    "error": "All 8 attempts failed for IND. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SDF": {
     "status": "success",
