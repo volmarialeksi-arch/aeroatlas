@@ -1493,11 +1493,10 @@
     "lastAttempt": "2026-08-18T09:02:34.391Z"
   },
   "OOL": {
-    "status": "rate_limited",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-16T23:59:29.563Z",
-    "error": "All 8 attempts failed for OOL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "status": "success",
+    "points": 88,
+    "attempts": 6,
+    "lastAttempt": "2026-09-17T21:46:58.174Z"
   },
   "WLG": {
     "status": "success",
