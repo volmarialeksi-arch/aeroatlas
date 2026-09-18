@@ -1391,11 +1391,11 @@
     "lastAttempt": "2026-09-05T23:16:20.291Z"
   },
   "KIX": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-17T20:12:47.369Z",
-    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-18T16:45:04.861Z",
+    "error": "All 8 attempts failed for KIX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CTU": {
     "status": "success",
