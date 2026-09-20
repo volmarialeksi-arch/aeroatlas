@@ -553,11 +553,10 @@
     "lastAttempt": "2026-09-16T00:39:16.173Z"
   },
   "IGU": {
-    "status": "timeout",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-20T07:08:56.781Z",
-    "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "status": "success",
+    "points": 34,
+    "attempts": 6,
+    "lastAttempt": "2026-09-20T22:16:49.936Z"
   },
   "SLZ": {
     "status": "success",
