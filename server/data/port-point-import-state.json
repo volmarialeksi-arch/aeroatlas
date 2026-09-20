@@ -247,11 +247,11 @@
     "error": "All 8 attempts failed for CMH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "STL": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-20T01:54:19.465Z",
-    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-20T19:56:28.759Z",
+    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DAL": {
     "status": "success",
