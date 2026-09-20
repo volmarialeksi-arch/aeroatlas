@@ -1093,7 +1093,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-19T21:10:54.799Z",
+    "lastAttempt": "2026-09-20T14:23:51.722Z",
     "error": "All 8 attempts failed for RMF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "TNG": {
