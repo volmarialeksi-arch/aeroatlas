@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T07:08:54.405Z",
+  "generatedAt": "2026-09-20T07:11:43.273Z",
   "importerVersion": "2026-08-16.state-file-v1",
   "source": "OpenStreetMap / Overpass",
   "osmTag": "aeroway=parking_position",
@@ -7,9 +7,9 @@
   "totalAirports": 254,
   "successful": 171,
   "noOsmData": 8,
-  "rateLimited": 75,
-  "networkFailures": 0,
-  "timeout": 0,
+  "rateLimited": 74,
+  "networkFailures": 1,
+  "timeout": 1,
   "networkError": 0,
   "serverError": 0,
   "remaining": 75,
@@ -546,10 +546,10 @@
       "lastAttempt": "2026-09-16T00:39:16.173Z"
     },
     "IGU": {
-      "status": "rate_limited",
+      "status": "timeout",
       "points": 0,
       "attempts": 8,
-      "lastAttempt": "2026-09-19T17:36:43.698Z"
+      "lastAttempt": "2026-09-20T07:08:56.781Z"
     },
     "SLZ": {
       "status": "success",

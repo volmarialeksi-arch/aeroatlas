@@ -554,11 +554,11 @@
     "lastAttempt": "2026-09-16T00:39:16.173Z"
   },
   "IGU": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-19T17:36:43.698Z",
-    "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-20T07:08:56.781Z",
+    "error": "All 8 attempts failed for IGU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SLZ": {
     "status": "success",
