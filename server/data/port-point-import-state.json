@@ -896,11 +896,10 @@
     "lastAttempt": "2026-08-18T17:26:46.075Z"
   },
   "EDI": {
-    "status": "rate_limited",
-    "points": 0,
-    "attempts": 8,
-    "lastAttempt": "2026-09-22T17:49:45.257Z",
-    "error": "All 8 attempts failed for EDI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "status": "success",
+    "points": 153,
+    "attempts": 3,
+    "lastAttempt": "2026-09-23T07:29:15.662Z"
   },
   "OPO": {
     "status": "success",
