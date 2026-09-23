@@ -622,7 +622,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-22T13:49:20.355Z",
+    "lastAttempt": "2026-09-23T05:09:37.488Z",
     "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "PMC": {
