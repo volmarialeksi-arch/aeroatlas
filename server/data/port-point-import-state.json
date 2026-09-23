@@ -511,7 +511,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-23T01:58:23.414Z",
+    "lastAttempt": "2026-09-23T21:54:32.848Z",
     "error": "All 8 attempts failed for MVD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CGB": {
