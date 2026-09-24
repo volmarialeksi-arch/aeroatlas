@@ -54,11 +54,11 @@
     "lastAttempt": "2026-08-25T16:29:09.699Z"
   },
   "IAH": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-23T17:48:10.453Z",
-    "error": "All 8 attempts failed for IAH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-24T06:56:46.616Z",
+    "error": "All 8 attempts failed for IAH. Last error: https://overpass.private.coffee/api/interpreter: This operation was aborted"
   },
   "DEN": {
     "status": "success",
