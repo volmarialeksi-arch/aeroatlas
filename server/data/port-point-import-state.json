@@ -754,7 +754,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-23T23:30:51.524Z",
+    "lastAttempt": "2026-09-24T17:41:29.357Z",
     "error": "All 8 attempts failed for ATH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BCN": {
