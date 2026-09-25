@@ -1067,11 +1067,11 @@
     "error": "All 8 attempts failed for AGA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DAR": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-24T20:49:07.939Z",
-    "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-25T14:27:22.335Z",
+    "error": "All 8 attempts failed for DAR. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DSS": {
     "status": "success",
