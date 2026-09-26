@@ -936,8 +936,8 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-25T10:09:40.557Z",
-    "error": "All 8 attempts failed for NAP. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-26T09:52:34.341Z",
+    "error": "All 8 attempts failed for NAP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "KRK": {
     "status": "success",
