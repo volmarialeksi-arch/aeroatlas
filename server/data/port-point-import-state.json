@@ -259,7 +259,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-26T00:20:10.628Z",
+    "lastAttempt": "2026-09-26T17:30:50.516Z",
     "error": "All 8 attempts failed for SAT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "FLL": {
