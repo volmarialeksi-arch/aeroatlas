@@ -1132,11 +1132,11 @@
     "lastAttempt": "2026-09-08T00:52:37.658Z"
   },
   "DOH": {
-    "status": "timeout",
+    "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-26T23:01:44.660Z",
-    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
+    "lastAttempt": "2026-09-27T13:28:50.176Z",
+    "error": "All 8 attempts failed for DOH. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "JED": {
     "status": "success",
