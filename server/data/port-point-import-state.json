@@ -916,11 +916,11 @@
     "error": "All 8 attempts failed for NCE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "HAM": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-29T13:07:41.499Z",
-    "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-09-30T03:48:53.001Z",
+    "error": "All 8 attempts failed for HAM. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BHX": {
     "status": "rate_limited",
