@@ -605,11 +605,10 @@
     "lastAttempt": "2026-09-12T01:44:59.154Z"
   },
   "CCP": {
-    "status": "rate_limited",
+    "status": "no_osm_data",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-09-30T18:44:13.803Z",
-    "error": "All 8 attempts failed for CCP. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-01T07:52:29.688Z"
   },
   "CJC": {
     "status": "rate_limited",
