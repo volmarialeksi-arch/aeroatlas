@@ -387,7 +387,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-02T23:46:47.615Z",
+    "lastAttempt": "2026-10-03T23:07:27.080Z",
     "error": "All 8 attempts failed for BSB. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "REC": {
