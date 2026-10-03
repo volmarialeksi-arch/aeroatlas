@@ -162,7 +162,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-02T23:26:23.836Z",
+    "lastAttempt": "2026-10-03T20:10:40.474Z",
     "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SMF": {
