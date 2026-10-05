@@ -1523,8 +1523,8 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-05T00:13:40.190Z",
-    "error": "All 8 attempts failed for NTL. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-05T21:51:21.900Z",
+    "error": "All 8 attempts failed for NTL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "NSN": {
     "status": "success",
