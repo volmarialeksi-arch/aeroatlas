@@ -611,11 +611,11 @@
     "lastAttempt": "2026-10-01T07:52:29.688Z"
   },
   "CJC": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-07T13:39:59.383Z",
-    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-08T09:44:11.330Z",
+    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "PMC": {
     "status": "success",
