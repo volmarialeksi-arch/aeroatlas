@@ -417,11 +417,11 @@
     "lastAttempt": "2026-09-25T05:00:00.282Z"
   },
   "CLO": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-07T13:35:52.142Z",
-    "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-08T09:39:33.313Z",
+    "error": "All 8 attempts failed for CLO. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "UIO": {
     "status": "success",
