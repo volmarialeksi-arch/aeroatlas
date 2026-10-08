@@ -502,11 +502,11 @@
     "lastAttempt": "2026-08-19T17:38:41.497Z"
   },
   "MVD": {
-    "status": "rate_limited",
+    "status": "network_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-07T13:37:55.824Z",
-    "error": "All 8 attempts failed for MVD. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-08T09:41:52.236Z",
+    "error": "All 8 attempts failed for MVD. Last error: https://overpass.kumi.systems/api/interpreter: fetch failed"
   },
   "CGB": {
     "status": "success",
