@@ -1051,7 +1051,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-09T03:07:42.045Z",
+    "lastAttempt": "2026-10-09T21:49:09.590Z",
     "error": "All 8 attempts failed for AGA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "DAR": {
