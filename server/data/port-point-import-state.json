@@ -1040,11 +1040,11 @@
     "lastAttempt": "2026-09-04T01:37:41.737Z"
   },
   "ACC": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-09T21:47:06.594Z",
-    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-10T09:22:56.591Z",
+    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "AGA": {
     "status": "rate_limited",
