@@ -1565,7 +1565,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-09T10:23:13.004Z",
+    "lastAttempt": "2026-10-10T01:33:38.262Z",
     "error": "All 8 attempts failed for ROK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   }
 }
