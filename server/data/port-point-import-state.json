@@ -95,7 +95,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-10T18:46:31.217Z",
+    "lastAttempt": "2026-10-11T01:35:37.835Z",
     "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "SLC": {
