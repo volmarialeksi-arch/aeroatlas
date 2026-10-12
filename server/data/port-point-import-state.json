@@ -243,11 +243,11 @@
     "lastAttempt": "2026-09-25T03:10:58.803Z"
   },
   "STL": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-11T07:28:19.830Z",
-    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-12T01:54:38.405Z",
+    "error": "All 8 attempts failed for STL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "DAL": {
     "status": "success",
