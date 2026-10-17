@@ -91,11 +91,11 @@
     "lastAttempt": "2026-09-13T14:02:42.812Z"
   },
   "PIT": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-16T21:28:52.626Z",
-    "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-17T01:44:36.681Z",
+    "error": "All 8 attempts failed for PIT. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SLC": {
     "status": "success",
