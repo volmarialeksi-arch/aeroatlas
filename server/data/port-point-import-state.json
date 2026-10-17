@@ -395,11 +395,11 @@
     "lastAttempt": "2026-09-20T21:44:20.744Z"
   },
   "CNF": {
-    "status": "rate_limited",
+    "status": "server_error",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-17T14:02:45.348Z",
-    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-17T18:58:16.311Z",
+    "error": "All 8 attempts failed for CNF. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 500"
   },
   "SSA": {
     "status": "success",
