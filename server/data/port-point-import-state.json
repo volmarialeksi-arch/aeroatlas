@@ -173,8 +173,8 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-18T01:16:13.317Z",
-    "error": "All 8 attempts failed for RDU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-18T10:04:15.571Z",
+    "error": "All 8 attempts failed for RDU. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BNA": {
     "status": "success",
