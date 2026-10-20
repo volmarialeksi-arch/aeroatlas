@@ -226,11 +226,11 @@
     "lastAttempt": "2026-09-11T23:16:09.560Z"
   },
   "CLE": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-20T07:50:13.168Z",
-    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-20T17:23:00.341Z",
+    "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CMH": {
     "status": "success",
