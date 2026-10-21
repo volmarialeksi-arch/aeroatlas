@@ -338,8 +338,8 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-20T21:10:38.677Z",
-    "error": "All 8 attempts failed for EZE. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-21T00:07:15.230Z",
+    "error": "All 8 attempts failed for EZE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "BOG": {
     "status": "success",
