@@ -773,11 +773,11 @@
     "lastAttempt": "2026-10-13T01:27:53.723Z"
   },
   "PMI": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-23T00:13:38.841Z",
-    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-23T06:11:45.793Z",
+    "error": "All 8 attempts failed for PMI. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "MAN": {
     "status": "success",
