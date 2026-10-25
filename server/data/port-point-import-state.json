@@ -1246,7 +1246,7 @@
     "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-25T06:16:23.151Z",
+    "lastAttempt": "2026-10-25T11:41:49.587Z",
     "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ICN": {
