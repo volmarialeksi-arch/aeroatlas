@@ -704,11 +704,11 @@
     "lastAttempt": "2026-09-02T14:15:46.209Z"
   },
   "REK": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-25T15:07:35.898Z",
-    "error": "All 8 attempts failed for REK. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-25T18:34:36.223Z",
+    "error": "All 8 attempts failed for REK. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "DME": {
     "status": "success",
