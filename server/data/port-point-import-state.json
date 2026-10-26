@@ -1152,11 +1152,11 @@
     "lastAttempt": "2026-08-22T17:40:54.946Z"
   },
   "KUL": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-26T13:04:59.497Z",
-    "error": "All 8 attempts failed for KUL. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-26T19:25:38.391Z",
+    "error": "All 8 attempts failed for KUL. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CGK": {
     "status": "success",
