@@ -1246,7 +1246,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-28T08:21:12.683Z",
+    "lastAttempt": "2026-10-28T15:20:38.834Z",
     "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ICN": {
