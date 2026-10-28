@@ -1073,11 +1073,11 @@
     "lastAttempt": "2026-08-20T18:13:24.874Z"
   },
   "ABJ": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-27T22:50:20.791Z",
-    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-28T08:16:20.387Z",
+    "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "ORN": {
     "status": "success",
