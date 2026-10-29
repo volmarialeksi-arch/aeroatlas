@@ -599,11 +599,11 @@
     "lastAttempt": "2026-10-01T07:52:29.688Z"
   },
   "CJC": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-29T00:06:35.404Z",
-    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-29T05:59:30.346Z",
+    "error": "All 8 attempts failed for CJC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "PMC": {
     "status": "success",
