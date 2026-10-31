@@ -1023,11 +1023,11 @@
     "lastAttempt": "2026-09-04T01:37:41.737Z"
   },
   "ACC": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-10-31T10:08:13.172Z",
-    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-10-31T15:47:34.072Z",
+    "error": "All 8 attempts failed for ACC. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "AGA": {
     "status": "success",
