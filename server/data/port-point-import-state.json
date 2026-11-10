@@ -1075,7 +1075,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-09T22:55:25.798Z",
+    "lastAttempt": "2026-11-10T04:35:44.955Z",
     "error": "All 8 attempts failed for ABJ. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "ORN": {
