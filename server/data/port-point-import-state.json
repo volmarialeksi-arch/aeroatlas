@@ -156,11 +156,11 @@
     "lastAttempt": "2026-09-25T21:59:37.542Z"
   },
   "PDX": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-11T22:01:52.098Z",
-    "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-11-12T02:45:28.466Z",
+    "error": "All 8 attempts failed for PDX. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "SMF": {
     "status": "success",
