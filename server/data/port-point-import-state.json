@@ -1360,11 +1360,11 @@
     "lastAttempt": "2026-10-01T01:28:58.431Z"
   },
   "CTS": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-12T18:27:22.595Z",
-    "error": "All 8 attempts failed for CTS. Last error: https://overpass.private.coffee/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-11-12T23:53:17.439Z",
+    "error": "All 8 attempts failed for CTS. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "CJU": {
     "status": "success",
