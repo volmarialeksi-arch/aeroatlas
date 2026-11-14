@@ -228,7 +228,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-13T18:39:37.766Z",
+    "lastAttempt": "2026-11-14T04:34:54.415Z",
     "error": "All 8 attempts failed for CLE. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "CMH": {
