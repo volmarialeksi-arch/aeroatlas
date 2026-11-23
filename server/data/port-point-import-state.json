@@ -168,11 +168,11 @@
     "lastAttempt": "2026-08-23T23:43:46.322Z"
   },
   "RDU": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-23T02:01:31.838Z",
-    "error": "All 8 attempts failed for RDU. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-11-23T03:08:53.146Z",
+    "error": "All 8 attempts failed for RDU. Last error: https://overpass.kumi.systems/api/interpreter: This operation was aborted"
   },
   "BNA": {
     "status": "success",
