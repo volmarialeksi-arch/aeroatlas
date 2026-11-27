@@ -1239,11 +1239,11 @@
     "lastAttempt": "2026-08-20T01:16:16.216Z"
   },
   "HND": {
-    "status": "rate_limited",
+    "status": "timeout",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-27T14:25:39.293Z",
-    "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
+    "lastAttempt": "2026-11-27T22:48:04.377Z",
+    "error": "All 8 attempts failed for HND. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 504 (gateway timeout)"
   },
   "ICN": {
     "status": "success",
