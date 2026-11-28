@@ -1305,7 +1305,7 @@
     "status": "rate_limited",
     "points": 0,
     "attempts": 8,
-    "lastAttempt": "2026-11-27T22:54:45.124Z",
+    "lastAttempt": "2026-11-28T04:30:27.419Z",
     "error": "All 8 attempts failed for SHA. Last error: https://overpass.kumi.systems/api/interpreter returned HTTP 429 (rate limited)"
   },
   "HGH": {
